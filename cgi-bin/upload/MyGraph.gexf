@@ -1,0 +1,2546 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="BorgerligVision" label="BorgerligVision" />
+      <node id="SandinMichael" label="SandinMichael" />
+      <node id="GuyNomore" label="GuyNomore" />
+      <node id="Leffus" label="Leffus" />
+      <node id="pelle47holm" label="pelle47holm" />
+      <node id="inge_vidare" label="inge_vidare" />
+      <node id="MXCartoons" label="MXCartoons" />
+      <node id="larsibacken" label="larsibacken" />
+      <node id="megamescalito" label="megamescalito" />
+      <node id="janonway" label="janonway" />
+      <node id="Orreborreknorre" label="Orreborreknorre" />
+      <node id="mikaelgrev" label="mikaelgrev" />
+      <node id="antiikkia" label="antiikkia" />
+      <node id="PAAL4444" label="PAAL4444" />
+      <node id="ragingspringer" label="ragingspringer" />
+      <node id="ErikHallb" label="ErikHallb" />
+      <node id="EHavlova" label="EHavlova" />
+      <node id="Kalsuparna" label="Kalsuparna" />
+      <node id="IngemarNilsson_" label="IngemarNilsson_" />
+      <node id="TittiSchnbeck" label="TittiSchnbeck" />
+      <node id="HHH9999" label="HHH9999" />
+      <node id="tyckochbok" label="tyckochbok" />
+      <node id="BarbEUfel" label="BarbEUfel" />
+      <node id="pnn72" label="pnn72" />
+      <node id="janhanss" label="janhanss" />
+      <node id="DanDmb68" label="DanDmb68" />
+      <node id="jens_kittel" label="jens_kittel" />
+      <node id="MatsgSthlm" label="MatsgSthlm" />
+      <node id="ericthelemming" label="ericthelemming" />
+      <node id="bmt76sthlm" label="bmt76sthlm" />
+      <node id="Andersisback" label="Andersisback" />
+      <node id="perguttorm" label="perguttorm" />
+      <node id="Spelevinken" label="Spelevinken" />
+      <node id="MikaelAntal" label="MikaelAntal" />
+      <node id="Caninen" label="Caninen" />
+      <node id="AllanAkerberg" label="AllanAkerberg" />
+      <node id="Stolproten" label="Stolproten" />
+      <node id="Ziko_Zajka" label="Ziko_Zajka" />
+      <node id="dahl17" label="dahl17" />
+      <node id="pogi_miguel2" label="pogi_miguel2" />
+      <node id="robbis7004" label="robbis7004" />
+      <node id="rixstep" label="rixstep" />
+      <node id="teamgodheten" label="teamgodheten" />
+      <node id="ingridcarlqvist" label="ingridcarlqvist" />
+      <node id="KurtKenley5" label="KurtKenley5" />
+      <node id="mrdnaru" label="mrdnaru" />
+      <node id="AnnikaMollstrom" label="AnnikaMollstrom" />
+      <node id="maria_socnav" label="maria_socnav" />
+      <node id="TutuncuDeniz" label="TutuncuDeniz" />
+      <node id="tseidemann" label="tseidemann" />
+      <node id="Moonjadeed" label="Moonjadeed" />
+      <node id="Kektoplasma" label="Kektoplasma" />
+      <node id="758f548f689440f" label="758f548f689440f" />
+      <node id="CallousCarolean" label="CallousCarolean" />
+      <node id="Joachimsa" label="Joachimsa" />
+      <node id="christianhog70" label="christianhog70" />
+      <node id="emilrsm" label="emilrsm" />
+      <node id="FredborgJhn" label="FredborgJhn" />
+      <node id="benny_guldfot" label="benny_guldfot" />
+      <node id="Dan_Glimne" label="Dan_Glimne" />
+      <node id="CarstenAnderss3" label="CarstenAnderss3" />
+      <node id="jockekarlsson73" label="jockekarlsson73" />
+      <node id="bedarandebarn65" label="bedarandebarn65" />
+      <node id="EllaGron" label="EllaGron" />
+      <node id="hysterisk65" label="hysterisk65" />
+      <node id="sagansapostel" label="sagansapostel" />
+      <node id="quetaquenya" label="quetaquenya" />
+      <node id="klchho" label="klchho" />
+      <node id="KarlssonHkan" label="KarlssonHkan" />
+      <node id="Pergite_Pie" label="Pergite_Pie" />
+      <node id="mixxmexx" label="mixxmexx" />
+      <node id="socialdep" label="socialdep" />
+      <node id="parvulescu_k" label="parvulescu_k" />
+      <node id="sessan51" label="sessan51" />
+      <node id="NylanderMicke" label="NylanderMicke" />
+      <node id="hellberg_j" label="hellberg_j" />
+      <node id="mickef5000" label="mickef5000" />
+      <node id="virre777" label="virre777" />
+      <node id="AndersAbris" label="AndersAbris" />
+      <node id="PevPro" label="PevPro" />
+      <node id="Coinneachusa" label="Coinneachusa" />
+      <node id="thetribbiani" label="thetribbiani" />
+      <node id="mikee_swe" label="mikee_swe" />
+      <node id="IntellFusion" label="IntellFusion" />
+      <node id="gorgus65" label="gorgus65" />
+      <node id="BogdanBorysko" label="BogdanBorysko" />
+      <node id="ungciv" label="ungciv" />
+      <node id="PayamMoula" label="PayamMoula" />
+      <node id="Bengt1963" label="Bengt1963" />
+      <node id="devilsmeantwin" label="devilsmeantwin" />
+      <node id="jingezon" label="jingezon" />
+      <node id="JornstedtDoina" label="JornstedtDoina" />
+      <node id="Floppsy5" label="Floppsy5" />
+      <node id="JOBalinen" label="JOBalinen" />
+      <node id="RipSverige" label="RipSverige" />
+      <node id="Svenska777" label="Svenska777" />
+      <node id="20Vasse" label="20Vasse" />
+      <node id="ZagrosHama" label="ZagrosHama" />
+      <node id="ricci_davide77" label="ricci_davide77" />
+      <node id="nolltoleransen" label="nolltoleransen" />
+      <node id="swe_perlan" label="swe_perlan" />
+      <node id="AnnaNel59480274" label="AnnaNel59480274" />
+      <node id="Stoffe_swe" label="Stoffe_swe" />
+      <node id="a91st0" label="a91st0" />
+      <node id="JoachimHansson2" label="JoachimHansson2" />
+      <node id="VstsvenskaNyhet" label="VstsvenskaNyhet" />
+      <node id="ErikSvensk" label="ErikSvensk" />
+      <node id="carroopsahl" label="carroopsahl" />
+      <node id="gustbee" label="gustbee" />
+      <node id="borg_rosebud" label="borg_rosebud" />
+      <node id="b_devalagotti" label="b_devalagotti" />
+      <node id="rundkvadrat" label="rundkvadrat" />
+      <node id="Fishleg69" label="Fishleg69" />
+      <node id="ellategsten" label="ellategsten" />
+      <node id="RexAdis" label="RexAdis" />
+      <node id="kidahl" label="kidahl" />
+      <node id="i_affekt" label="i_affekt" />
+      <node id="Maskinentrepren" label="Maskinentrepren" />
+      <node id="UWilio" label="UWilio" />
+      <node id="Onlysofia" label="Onlysofia" />
+      <node id="patriotjennifer" label="patriotjennifer" />
+      <node id="MatsC1965" label="MatsC1965" />
+      <node id="patrickreslow" label="patrickreslow" />
+      <node id="PiaClerte" label="PiaClerte" />
+      <node id="MaximilianMaxi8" label="MaximilianMaxi8" />
+      <node id="cptjenniferal" label="cptjenniferal" />
+      <node id="halvboj" label="halvboj" />
+      <node id="nemeth95" label="nemeth95" />
+      <node id="Pogo_Pedagog1" label="Pogo_Pedagog1" />
+      <node id="trollministern" label="trollministern" />
+      <node id="illerbrand" label="illerbrand" />
+      <node id="mikaelfeldbaum" label="mikaelfeldbaum" />
+      <node id="minipower_90" label="minipower_90" />
+      <node id="storspiken" label="storspiken" />
+      <node id="roberthubinette" label="roberthubinette" />
+      <node id="maijasvensson" label="maijasvensson" />
+      <node id="GranLgb" label="GranLgb" />
+      <node id="Callevestman" label="Callevestman" />
+      <node id="ma_grundstrom" label="ma_grundstrom" />
+      <node id="andreasostgote" label="andreasostgote" />
+      <node id="Lennart_B_sund" label="Lennart_B_sund" />
+      <node id="claesatme" label="claesatme" />
+      <node id="danibenlev" label="danibenlev" />
+      <node id="GunnarBernst" label="GunnarBernst" />
+      <node id="dickaldordavid" label="dickaldordavid" />
+      <node id="AnitaWallsten" label="AnitaWallsten" />
+      <node id="bikerhogg" label="bikerhogg" />
+      <node id="Engstrom_PP" label="Engstrom_PP" />
+      <node id="af_dahl" label="af_dahl" />
+      <node id="FemmeFataleSwe" label="FemmeFataleSwe" />
+      <node id="Tallgren" label="Tallgren" />
+      <node id="christergsson" label="christergsson" />
+      <node id="Nitramsteig" label="Nitramsteig" />
+      <node id="MrWaternooze" label="MrWaternooze" />
+      <node id="pissedfather666" label="pissedfather666" />
+      <node id="RAWSURREAL" label="RAWSURREAL" />
+      <node id="7tongubbar" label="7tongubbar" />
+      <node id="sedanast" label="sedanast" />
+      <node id="247Boras" label="247Boras" />
+      <node id="CesarHjelm" label="CesarHjelm" />
+      <node id="leif_w" label="leif_w" />
+      <node id="hellgrenmarie" label="hellgrenmarie" />
+      <node id="btp001" label="btp001" />
+      <node id="helena_nordwall" label="helena_nordwall" />
+      <node id="HrGaznil" label="HrGaznil" />
+      <node id="Alfstweets1" label="Alfstweets1" />
+      <node id="robertklemedss1" label="robertklemedss1" />
+      <node id="Rebeckalemoine" label="Rebeckalemoine" />
+      <node id="SVTOpinion" label="SVTOpinion" />
+      <node id="AlbinBerlin" label="AlbinBerlin" />
+      <node id="GranBengtsson" label="GranBengtsson" />
+      <node id="foraretaffel" label="foraretaffel" />
+      <node id="Hochenberg" label="Hochenberg" />
+      <node id="dykbcg" label="dykbcg" />
+      <node id="lawi03" label="lawi03" />
+      <node id="xhertx" label="xhertx" />
+      <node id="realMarcWest" label="realMarcWest" />
+      <node id="Fantom_bilden" label="Fantom_bilden" />
+      <node id="andreas_roma" label="andreas_roma" />
+      <node id="Oisaren" label="Oisaren" />
+      <node id="pedge_" label="pedge_" />
+      <node id="tistel" label="tistel" />
+      <node id="AleksKraj" label="AleksKraj" />
+      <node id="Sprucan" label="Sprucan" />
+      <node id="yadid_y" label="yadid_y" />
+      <node id="carpehallkaften" label="carpehallkaften" />
+      <node id="WiggSE" label="WiggSE" />
+      <node id="LarsErikRyd" label="LarsErikRyd" />
+      <node id="mberglun" label="mberglun" />
+      <node id="Danne42889610" label="Danne42889610" />
+      <node id="Nygren_Magnus" label="Nygren_Magnus" />
+      <node id="Mitt_Beslut" label="Mitt_Beslut" />
+      <node id="doffsingen" label="doffsingen" />
+      <node id="poutunranta" label="poutunranta" />
+      <node id="Cornubot" label="Cornubot" />
+      <node id="MarkEstyn" label="MarkEstyn" />
+      <node id="Junabacka" label="Junabacka" />
+      <node id="rookieuserIm" label="rookieuserIm" />
+      <node id="palladiumpallen" label="palladiumpallen" />
+      <node id="gumman99" label="gumman99" />
+      <node id="Quantsofie" label="Quantsofie" />
+      <node id="HPheebs" label="HPheebs" />
+      <node id="AesgSjberg" label="AesgSjberg" />
+      <node id="MagnusArvidsso2" label="MagnusArvidsso2" />
+      <node id="mattiasskarin" label="mattiasskarin" />
+      <node id="pudeltanten" label="pudeltanten" />
+      <node id="realGustaf" label="realGustaf" />
+      <node id="Viperbane" label="Viperbane" />
+      <node id="pan_ryba" label="pan_ryba" />
+      <node id="Jens1Sorensen" label="Jens1Sorensen" />
+      <node id="jacobzetterman" label="jacobzetterman" />
+      <node id="AnnelieGbg" label="AnnelieGbg" />
+      <node id="vrakplundrare" label="vrakplundrare" />
+      <node id="hawkeye_211" label="hawkeye_211" />
+      <node id="Allanballan1984" label="Allanballan1984" />
+      <node id="save_sweden" label="save_sweden" />
+      <node id="Budoarstamning" label="Budoarstamning" />
+      <node id="vltse" label="vltse" />
+      <node id="Bobbymangee" label="Bobbymangee" />
+      <node id="pete_phellgreen" label="pete_phellgreen" />
+      <node id="ludvigeh" label="ludvigeh" />
+      <node id="baboom_bd" label="baboom_bd" />
+      <node id="VictorAndreason" label="VictorAndreason" />
+      <node id="abjohansson" label="abjohansson" />
+      <node id="Swedenfiles" label="Swedenfiles" />
+      <node id="Herclueless" label="Herclueless" />
+      <node id="Gullintanne" label="Gullintanne" />
+      <node id="ero1661" label="ero1661" />
+      <node id="enkritiskfan" label="enkritiskfan" />
+      <node id="cpkonsulten" label="cpkonsulten" />
+      <node id="martaobminska" label="martaobminska" />
+      <node id="Ondskapt" label="Ondskapt" />
+      <node id="ZoranaVuk" label="ZoranaVuk" />
+      <node id="ayanjamil1" label="ayanjamil1" />
+      <node id="mavagu14" label="mavagu14" />
+      <node id="MonikaBeiring" label="MonikaBeiring" />
+      <node id="Hallvaethor" label="Hallvaethor" />
+      <node id="BingoButler" label="BingoButler" />
+      <node id="AlexanderZeBoom" label="AlexanderZeBoom" />
+      <node id="1nt3rmflash" label="1nt3rmflash" />
+      <node id="agerup_magnus" label="agerup_magnus" />
+      <node id="Gustavahlen" label="Gustavahlen" />
+      <node id="gaxatjejen1" label="gaxatjejen1" />
+      <node id="DogGhostdog56" label="DogGhostdog56" />
+      <node id="davids_of" label="davids_of" />
+      <node id="KarinMomma" label="KarinMomma" />
+      <node id="olofdissident" label="olofdissident" />
+      <node id="MotgiftNu" label="MotgiftNu" />
+      <node id="Fingerpullaren" label="Fingerpullaren" />
+      <node id="CallTheDarkSide" label="CallTheDarkSide" />
+      <node id="DinSkugga" label="DinSkugga" />
+      <node id="a_rekoj" label="a_rekoj" />
+      <node id="ISvenonius" label="ISvenonius" />
+      <node id="UlfJohansson1" label="UlfJohansson1" />
+      <node id="Go_Talibananas" label="Go_Talibananas" />
+      <node id="M_Sundbyberg" label="M_Sundbyberg" />
+      <node id="mr_nost" label="mr_nost" />
+      <node id="pkerwien" label="pkerwien" />
+      <node id="stroemsten" label="stroemsten" />
+      <node id="KlingsporC" label="KlingsporC" />
+      <node id="AntiAvsan" label="AntiAvsan" />
+      <node id="JohnnyLUHG" label="JohnnyLUHG" />
+      <node id="DalenMia" label="DalenMia" />
+      <node id="GuLinden" label="GuLinden" />
+      <node id="NyaDagbladet" label="NyaDagbladet" />
+      <node id="XEdit6666" label="XEdit6666" />
+      <node id="daccraft" label="daccraft" />
+      <node id="MickeG76" label="MickeG76" />
+      <node id="jonbo679" label="jonbo679" />
+      <node id="mseid" label="mseid" />
+      <node id="jaguaren5" label="jaguaren5" />
+      <node id="presskinka" label="presskinka" />
+      <node id="frodrak" label="frodrak" />
+      <node id="Fbjorkkvist" label="Fbjorkkvist" />
+      <node id="kadett16" label="kadett16" />
+      <node id="MThel1" label="MThel1" />
+      <node id="Juliet777777" label="Juliet777777" />
+      <node id="NisseNyfiken" label="NisseNyfiken" />
+      <node id="RisbergStig" label="RisbergStig" />
+      <node id="Swede456" label="Swede456" />
+      <node id="IamNemain" label="IamNemain" />
+      <node id="platfus125" label="platfus125" />
+      <node id="magnus_maldini" label="magnus_maldini" />
+      <node id="LeenaKSAN" label="LeenaKSAN" />
+      <node id="metakosmisk" label="metakosmisk" />
+      <node id="backiback28" label="backiback28" />
+      <node id="mkliae" label="mkliae" />
+      <node id="TwoOutsNoProbs" label="TwoOutsNoProbs" />
+      <node id="MHoegman" label="MHoegman" />
+      <node id="utan_namn" label="utan_namn" />
+      <node id="Vizzel1" label="Vizzel1" />
+      <node id="CimmerianFB" label="CimmerianFB" />
+      <node id="cbxen" label="cbxen" />
+      <node id="Whitesolution81" label="Whitesolution81" />
+      <node id="Papsenen" label="Papsenen" />
+      <node id="simontrbojevic" label="simontrbojevic" />
+      <node id="ComJacquet" label="ComJacquet" />
+      <node id="StefanAllemyr" label="StefanAllemyr" />
+      <node id="WorldfriendsW" label="WorldfriendsW" />
+      <node id="motvalls1" label="motvalls1" />
+      <node id="BreikaBeiba" label="BreikaBeiba" />
+      <node id="Scanhiboslav" label="Scanhiboslav" />
+      <node id="annasjoholm80" label="annasjoholm80" />
+      <node id="pkfientlig" label="pkfientlig" />
+      <node id="snicksnackSWE" label="snicksnackSWE" />
+      <node id="Mr_Knet_" label="Mr_Knet_" />
+      <node id="Msfastbrain" label="Msfastbrain" />
+      <node id="Sakpol_SE" label="Sakpol_SE" />
+      <node id="patrik0070000" label="patrik0070000" />
+      <node id="YttraYttra2" label="YttraYttra2" />
+      <node id="CORCAS_AUTONOMY" label="CORCAS_AUTONOMY" />
+      <node id="patrikoksanen" label="patrikoksanen" />
+      <node id="carlwyckman" label="carlwyckman" />
+      <node id="Magic1X2" label="Magic1X2" />
+      <node id="aktietinna" label="aktietinna" />
+      <node id="wallenas" label="wallenas" />
+      <node id="MarkusBertheim" label="MarkusBertheim" />
+      <node id="edvinalam" label="edvinalam" />
+      <node id="SvanteNybyggars" label="SvanteNybyggars" />
+      <node id="lovetomyloops" label="lovetomyloops" />
+      <node id="Nissepsson" label="Nissepsson" />
+      <node id="JonasChr88" label="JonasChr88" />
+      <node id="bassebirgersson" label="bassebirgersson" />
+      <node id="gunnar_a" label="gunnar_a" />
+      <node id="AlexanderBoman" label="AlexanderBoman" />
+      <node id="VJarflod" label="VJarflod" />
+      <node id="voxlinThegreat" label="voxlinThegreat" />
+      <node id="EvaHillen" label="EvaHillen" />
+      <node id="joelsh" label="joelsh" />
+      <node id="ChristerSchale" label="ChristerSchale" />
+      <node id="JacobssonStefan" label="JacobssonStefan" />
+      <node id="BergqvistSofie" label="BergqvistSofie" />
+      <node id="Zwepol" label="Zwepol" />
+      <node id="FruZiethen" label="FruZiethen" />
+      <node id="dagenssamhalle" label="dagenssamhalle" />
+      <node id="ErucolindoT" label="ErucolindoT" />
+      <node id="danneljunkan" label="danneljunkan" />
+      <node id="bedjei" label="bedjei" />
+      <node id="Gargamel081" label="Gargamel081" />
+      <node id="ThordMolander" label="ThordMolander" />
+      <node id="CarlMelin" label="CarlMelin" />
+      <node id="QvintusJohan" label="QvintusJohan" />
+      <node id="TomasGradin" label="TomasGradin" />
+      <node id="JanAndreas87" label="JanAndreas87" />
+      <node id="centerhelena" label="centerhelena" />
+      <node id="veryinformative" label="veryinformative" />
+      <node id="AEGolm" label="AEGolm" />
+      <node id="kaklunen" label="kaklunen" />
+      <node id="TomasLindgren5" label="TomasLindgren5" />
+      <node id="StefanJ00814622" label="StefanJ00814622" />
+      <node id="MiaVest66" label="MiaVest66" />
+      <node id="birgerrhenman" label="birgerrhenman" />
+      <node id="Vapenkontroll" label="Vapenkontroll" />
+      <node id="palbergstrom" label="palbergstrom" />
+      <node id="annareb" label="annareb" />
+      <node id="Davidsson1891" label="Davidsson1891" />
+      <node id="GunnarLidell" label="GunnarLidell" />
+      <node id="Carl_I_Dagman" label="Carl_I_Dagman" />
+      <node id="Archimedes02" label="Archimedes02" />
+      <node id="HerrTalman" label="HerrTalman" />
+      <node id="Barbara_Theo" label="Barbara_Theo" />
+      <node id="JuliaCaesar08" label="JuliaCaesar08" />
+      <node id="charlieafnord" label="charlieafnord" />
+      <node id="ingran_m" label="ingran_m" />
+      <node id="68Dexter" label="68Dexter" />
+      <node id="ROGSAHL" label="ROGSAHL" />
+      <node id="Arbetsvarlden" label="Arbetsvarlden" />
+      <node id="Eeeeericcccc" label="Eeeeericcccc" />
+      <node id="TobiasGustavs" label="TobiasGustavs" />
+      <node id="Orianalind" label="Orianalind" />
+      <node id="CeciliaMagnuss1" label="CeciliaMagnuss1" />
+      <node id="PcDoktorn" label="PcDoktorn" />
+      <node id="slay3r82" label="slay3r82" />
+      <node id="Nyhetsmorgon" label="Nyhetsmorgon" />
+      <node id="attcom12" label="attcom12" />
+      <node id="MariaStenergard" label="MariaStenergard" />
+      <node id="StinalinaLin" label="StinalinaLin" />
+      <node id="BlottGott" label="BlottGott" />
+      <node id="nordicfoldy" label="nordicfoldy" />
+      <node id="Dawn_Raine" label="Dawn_Raine" />
+      <node id="Hajk" label="Hajk" />
+      <node id="JonasMichanek" label="JonasMichanek" />
+      <node id="Divine_baal" label="Divine_baal" />
+      <node id="handklaver" label="handklaver" />
+      <node id="beckmansasikter" label="beckmansasikter" />
+      <node id="LuckyAmori" label="LuckyAmori" />
+      <node id="miafialotta" label="miafialotta" />
+      <node id="peter_sundlof" label="peter_sundlof" />
+      <node id="AKaWe6" label="AKaWe6" />
+      <node id="hundsnus" label="hundsnus" />
+      <node id="speedoaw" label="speedoaw" />
+      <node id="Tompa75" label="Tompa75" />
+      <node id="pursvensk" label="pursvensk" />
+      <node id="ambrowoll" label="ambrowoll" />
+      <node id="kreisky" label="kreisky" />
+      <node id="bananaoserios" label="bananaoserios" />
+      <node id="alliansenater" label="alliansenater" />
+      <node id="MrTeaSmoker" label="MrTeaSmoker" />
+      <node id="GA_X58A" label="GA_X58A" />
+      <node id="SpjLuv" label="SpjLuv" />
+      <node id="Vikezor" label="Vikezor" />
+      <node id="HansCJohansson" label="HansCJohansson" />
+      <node id="ZeenBox" label="ZeenBox" />
+      <node id="abbeasdf" label="abbeasdf" />
+      <node id="MINUHE" label="MINUHE" />
+      <node id="NilssonPM" label="NilssonPM" />
+      <node id="BlazejLukasik" label="BlazejLukasik" />
+      <node id="Sherwode_Forest" label="Sherwode_Forest" />
+      <node id="SistLara" label="SistLara" />
+      <node id="KristianGson" label="KristianGson" />
+      <node id="wiljander" label="wiljander" />
+      <node id="AngelikaBoman" label="AngelikaBoman" />
+      <node id="mahesomajnh" label="mahesomajnh" />
+      <node id="ChristerChgson" label="ChristerChgson" />
+      <node id="3GunCompetitor" label="3GunCompetitor" />
+      <node id="uisgy" label="uisgy" />
+      <node id="plankandersson" label="plankandersson" />
+      <node id="KARLBERG_H" label="KARLBERG_H" />
+      <node id="clindblom69" label="clindblom69" />
+      <node id="MMaandi" label="MMaandi" />
+      <node id="forefter" label="forefter" />
+      <node id="PNygren1" label="PNygren1" />
+      <node id="andreashamrin" label="andreashamrin" />
+      <node id="sfalktorp" label="sfalktorp" />
+      <node id="Unschlagbar1" label="Unschlagbar1" />
+      <node id="WallinChrister" label="WallinChrister" />
+      <node id="quid_vis" label="quid_vis" />
+      <node id="olleludvigsson" label="olleludvigsson" />
+      <node id="FossilFreeSWE" label="FossilFreeSWE" />
+      <node id="GustavSderback" label="GustavSderback" />
+      <node id="OlaTelby" label="OlaTelby" />
+      <node id="ppccchampion" label="ppccchampion" />
+      <node id="erikgson" label="erikgson" />
+      <node id="Peter_667" label="Peter_667" />
+      <node id="LAgreus" label="LAgreus" />
+      <node id="LeifKjellin" label="LeifKjellin" />
+      <node id="SwedeNews" label="SwedeNews" />
+      <node id="AjoAloner" label="AjoAloner" />
+      <node id="JohanNordgren" label="JohanNordgren" />
+      <node id="bohuslaningen" label="bohuslaningen" />
+      <node id="ErikRojalist782" label="ErikRojalist782" />
+      <node id="helixparadox" label="helixparadox" />
+      <node id="N0RDFR0ST" label="N0RDFR0ST" />
+      <node id="lawcarp" label="lawcarp" />
+      <node id="Alienna3" label="Alienna3" />
+      <node id="macksp86" label="macksp86" />
+      <node id="camilobellom" label="camilobellom" />
+      <node id="tovamaria" label="tovamaria" />
+      <node id="BuddhaTwist1" label="BuddhaTwist1" />
+      <node id="jonasjacobsson" label="jonasjacobsson" />
+      <node id="LPSwardh" label="LPSwardh" />
+      <node id="Nebosa" label="Nebosa" />
+      <node id="Hanna__Lindholm" label="Hanna__Lindholm" />
+      <node id="midmus" label="midmus" />
+      <node id="erlhel" label="erlhel" />
+      <node id="ordolib" label="ordolib" />
+      <node id="medicinarn" label="medicinarn" />
+      <node id="Manda_O" label="Manda_O" />
+      <node id="Mustalainen1" label="Mustalainen1" />
+      <node id="Borg123holm" label="Borg123holm" />
+      <node id="StefanVilumsons" label="StefanVilumsons" />
+      <node id="Miss_Bildad" label="Miss_Bildad" />
+      <node id="matsknutson" label="matsknutson" />
+      <node id="BengtNilsson16" label="BengtNilsson16" />
+      <node id="PHWLL" label="PHWLL" />
+      <node id="Gluggen777" label="Gluggen777" />
+      <node id="IZINKITBA" label="IZINKITBA" />
+      <node id="loksoppan" label="loksoppan" />
+      <node id="AaFriis" label="AaFriis" />
+      <node id="KroghLisbeth" label="KroghLisbeth" />
+      <node id="LindgrenBjorn" label="LindgrenBjorn" />
+      <node id="afroturken" label="afroturken" />
+      <node id="eve_sweden" label="eve_sweden" />
+      <node id="ThisGoyimKnows" label="ThisGoyimKnows" />
+      <node id="JustusKrecker" label="JustusKrecker" />
+      <node id="1svenskhistoria" label="1svenskhistoria" />
+      <node id="kabalissima" label="kabalissima" />
+      <node id="fuut_ruud" label="fuut_ruud" />
+      <node id="PerericJ" label="PerericJ" />
+      <node id="crapidile" label="crapidile" />
+      <node id="HellstromElina" label="HellstromElina" />
+      <node id="lindgren66" label="lindgren66" />
+      <node id="mackloh" label="mackloh" />
+      <node id="Maria61264754" label="Maria61264754" />
+      <node id="nn1684" label="nn1684" />
+      <node id="mats_rytther" label="mats_rytther" />
+      <node id="Foorssa_80" label="Foorssa_80" />
+      <node id="K1200R_Jan" label="K1200R_Jan" />
+      <node id="Cameloparadlis" label="Cameloparadlis" />
+      <node id="100_fornybart" label="100_fornybart" />
+      <node id="agnesdag" label="agnesdag" />
+      <node id="Tellevinken" label="Tellevinken" />
+      <node id="Nivodius" label="Nivodius" />
+      <node id="micke6712" label="micke6712" />
+      <node id="oliv917" label="oliv917" />
+      <node id="MissMacadam" label="MissMacadam" />
+      <node id="LOSverige" label="LOSverige" />
+      <node id="AnnaDanieli" label="AnnaDanieli" />
+      <node id="SVpappers" label="SVpappers" />
+      <node id="jenssen_jonas" label="jenssen_jonas" />
+      <node id="filangen" label="filangen" />
+      <node id="von_Freeden" label="von_Freeden" />
+      <node id="Ingvar_Eriksson" label="Ingvar_Eriksson" />
+      <node id="Hamnviken" label="Hamnviken" />
+      <node id="Mariastockhaus" label="Mariastockhaus" />
+      <node id="Fotograf_CS" label="Fotograf_CS" />
+      <node id="Herrtidning" label="Herrtidning" />
+      <node id="IudiciumAd" label="IudiciumAd" />
+      <node id="RM_IPSC" label="RM_IPSC" />
+      <node id="Keepcalm_234" label="Keepcalm_234" />
+      <node id="Norddah" label="Norddah" />
+      <node id="NiklasBergq" label="NiklasBergq" />
+      <node id="energycoin" label="energycoin" />
+      <node id="Weird_Beard99" label="Weird_Beard99" />
+      <node id="uffe_r" label="uffe_r" />
+      <node id="garimelda" label="garimelda" />
+      <node id="konsensuseliten" label="konsensuseliten" />
+      <node id="humanitarmakt" label="humanitarmakt" />
+      <node id="LionMedic" label="LionMedic" />
+      <node id="C_Nordmark" label="C_Nordmark" />
+      <node id="cckid7" label="cckid7" />
+      <node id="LindemannUlrika" label="LindemannUlrika" />
+      <node id="ormvrak" label="ormvrak" />
+      <node id="Jerlerup" label="Jerlerup" />
+      <node id="akademssr" label="akademssr" />
+      <node id="Snabelapa" label="Snabelapa" />
+      <node id="liberalurbanist" label="liberalurbanist" />
+      <node id="Birgitt68549318" label="Birgitt68549318" />
+      <node id="izdrottning" label="izdrottning" />
+      <node id="tuija_tuijam" label="tuija_tuijam" />
+      <node id="bjornb5" label="bjornb5" />
+      <node id="Piggatorparn" label="Piggatorparn" />
+      <node id="JillJansson68" label="JillJansson68" />
+      <node id="MNordevall" label="MNordevall" />
+      <node id="kronskog" label="kronskog" />
+      <node id="benke2" label="benke2" />
+      <node id="SedatGumus10" label="SedatGumus10" />
+      <node id="Diledare" label="Diledare" />
+      <node id="torwah" label="torwah" />
+      <node id="Lobuz1" label="Lobuz1" />
+      <node id="swedalarna" label="swedalarna" />
+      <node id="JohnnyBrottom9" label="JohnnyBrottom9" />
+      <node id="Allmanbildaren" label="Allmanbildaren" />
+      <node id="LisaDahlin2" label="LisaDahlin2" />
+      <node id="Jonna_A" label="Jonna_A" />
+      <node id="Ninnis_tankar" label="Ninnis_tankar" />
+      <node id="JakobWallgren" label="JakobWallgren" />
+      <node id="AlotOfN0thing" label="AlotOfN0thing" />
+      <node id="Flodan_78" label="Flodan_78" />
+      <node id="KarlJohanViktor" label="KarlJohanViktor" />
+      <node id="VansterNtnellt" label="VansterNtnellt" />
+      <node id="Diodens" label="Diodens" />
+      <node id="Olle_Sundgren" label="Olle_Sundgren" />
+      <node id="ThoreThowik" label="ThoreThowik" />
+      <node id="SverigeBilder" label="SverigeBilder" />
+      <node id="hg_till_vp" label="hg_till_vp" />
+      <node id="tor_li" label="tor_li" />
+      <node id="snskunskap" label="snskunskap" />
+      <node id="pzfabbe" label="pzfabbe" />
+      <node id="StaffanG_son" label="StaffanG_son" />
+      <node id="Sharps_Wagner" label="Sharps_Wagner" />
+      <node id="RoaJuanPablo" label="RoaJuanPablo" />
+      <node id="mSaleemJaved" label="mSaleemJaved" />
+      <node id="Qeruiem" label="Qeruiem" />
+      <node id="Svenskiutlandet" label="Svenskiutlandet" />
+      <node id="Christian_anv" label="Christian_anv" />
+      <node id="JFredHenriksson" label="JFredHenriksson" />
+      <node id="BoSundin" label="BoSundin" />
+      <node id="Adolphus_Magnus" label="Adolphus_Magnus" />
+      <node id="HanssonLars" label="HanssonLars" />
+      <node id="0censurerat" label="0censurerat" />
+      <node id="Dempaslotteborn" label="Dempaslotteborn" />
+      <node id="PatrikHed" label="PatrikHed" />
+      <node id="treamigos" label="treamigos" />
+      <node id="liberalerna" label="liberalerna" />
+      <node id="danielwimhed" label="danielwimhed" />
+      <node id="talybonton" label="talybonton" />
+      <node id="CooperSverige" label="CooperSverige" />
+      <node id="waterconflict" label="waterconflict" />
+      <node id="cajsa123" label="cajsa123" />
+      <node id="malinka_p" label="malinka_p" />
+      <node id="nya_moderaterna" label="nya_moderaterna" />
+      <node id="dolf371" label="dolf371" />
+      <node id="SvayBhag" label="SvayBhag" />
+      <node id="FruViol" label="FruViol" />
+      <node id="Annika9999perss" label="Annika9999perss" />
+      <node id="draganist" label="draganist" />
+      <node id="idagoraSE" label="idagoraSE" />
+      <node id="karlastrid59" label="karlastrid59" />
+      <node id="hakansonnora" label="hakansonnora" />
+      <node id="profnos" label="profnos" />
+      <node id="TiredPessimist" label="TiredPessimist" />
+      <node id="Tiazzen" label="Tiazzen" />
+      <node id="MagnusStyrbjorn" label="MagnusStyrbjorn" />
+      <node id="lennart71724777" label="lennart71724777" />
+      <node id="WeAreDalarna" label="WeAreDalarna" />
+      <node id="soslundin" label="soslundin" />
+      <node id="CB_onUkrRu" label="CB_onUkrRu" />
+      <node id="LJHallgren" label="LJHallgren" />
+      <node id="SolrosP" label="SolrosP" />
+      <node id="ekaker2" label="ekaker2" />
+      <node id="CSelius" label="CSelius" />
+      <node id="PerSKamperin" label="PerSKamperin" />
+      <node id="Cardeenio" label="Cardeenio" />
+      <node id="stklas" label="stklas" />
+      <node id="Provokatoren" label="Provokatoren" />
+      <node id="Saerintresse" label="Saerintresse" />
+      <node id="brottsregering" label="brottsregering" />
+      <node id="MikaZack" label="MikaZack" />
+      <node id="man_kan64" label="man_kan64" />
+      <node id="preacher51" label="preacher51" />
+      <node id="Charles_SE" label="Charles_SE" />
+      <node id="Ingrid_Helander" label="Ingrid_Helander" />
+      <node id="Par_Sjogren" label="Par_Sjogren" />
+      <node id="ZAPZAF" label="ZAPZAF" />
+      <node id="SweDeplorables" label="SweDeplorables" />
+      <node id="perraponken" label="perraponken" />
+      <node id="ja72nielsen" label="ja72nielsen" />
+      <node id="Wexio2Good" label="Wexio2Good" />
+      <node id="PlagueofProgs" label="PlagueofProgs" />
+      <node id="Javabonan" label="Javabonan" />
+      <node id="SkolombudAutism" label="SkolombudAutism" />
+      <node id="BengtVOL" label="BengtVOL" />
+      <node id="hans_vesterberg" label="hans_vesterberg" />
+      <node id="swe_foreigner" label="swe_foreigner" />
+      <node id="PKkontroll" label="PKkontroll" />
+      <node id="AnneSkantz" label="AnneSkantz" />
+      <node id="fredrik19769543" label="fredrik19769543" />
+      <node id="lidingohulken" label="lidingohulken" />
+      <node id="Mattias_K" label="Mattias_K" />
+      <node id="HenningMunk" label="HenningMunk" />
+      <node id="tobiasekelin" label="tobiasekelin" />
+      <node id="LojjsanW" label="LojjsanW" />
+      <node id="Maria_Haglund" label="Maria_Haglund" />
+      <node id="jozzipp" label="jozzipp" />
+      <node id="etabori" label="etabori" />
+      <node id="mydlystrgl" label="mydlystrgl" />
+      <node id="Benefactom" label="Benefactom" />
+      <node id="StefanK_Gbg" label="StefanK_Gbg" />
+      <node id="TEXOTX" label="TEXOTX" />
+      <node id="Markus_Klasson" label="Markus_Klasson" />
+      <node id="urban_scott" label="urban_scott" />
+      <node id="WaltherHubbot" label="WaltherHubbot" />
+      <node id="JohanErnelind" label="JohanErnelind" />
+      <node id="MEdnarsson" label="MEdnarsson" />
+      <node id="JimmyKarlberg" label="JimmyKarlberg" />
+      <node id="thomasmoller64" label="thomasmoller64" />
+      <node id="bjorkman83" label="bjorkman83" />
+      <node id="Dodgeman2ever" label="Dodgeman2ever" />
+      <node id="gostaceasar" label="gostaceasar" />
+      <node id="SDTobbe" label="SDTobbe" />
+      <node id="LenaHansson130" label="LenaHansson130" />
+      <node id="PerEHallin" label="PerEHallin" />
+      <node id="PeterOlsson" label="PeterOlsson" />
+      <node id="Ogisslen" label="Ogisslen" />
+      <node id="Korpkvadet" label="Korpkvadet" />
+      <node id="felstavatt" label="felstavatt" />
+      <node id="henriksson808" label="henriksson808" />
+      <node id="svartedalingen" label="svartedalingen" />
+      <node id="clarkkent63" label="clarkkent63" />
+      <node id="Kollan66" label="Kollan66" />
+      <node id="ChristelNilsso1" label="ChristelNilsso1" />
+      <node id="RoteGn" label="RoteGn" />
+      <node id="Kvasern" label="Kvasern" />
+      <node id="martin_inglot" label="martin_inglot" />
+      <node id="BorenNon" label="BorenNon" />
+      <node id="Sumatra00598695" label="Sumatra00598695" />
+      <node id="gringocranko" label="gringocranko" />
+      <node id="abb77777" label="abb77777" />
+      <node id="Sarahgbg" label="Sarahgbg" />
+      <node id="Monknr1" label="Monknr1" />
+      <node id="fredriklidby" label="fredriklidby" />
+      <node id="glennabrahamsso" label="glennabrahamsso" />
+      <node id="MabubeHansson" label="MabubeHansson" />
+      <node id="magnushasa" label="magnushasa" />
+      <node id="poa_karlsson" label="poa_karlsson" />
+      <node id="PaulinaGunnardo" label="PaulinaGunnardo" />
+      <node id="starbuzzed75" label="starbuzzed75" />
+      <node id="widarandersson" label="widarandersson" />
+      <node id="Tervald" label="Tervald" />
+      <node id="pizzedof" label="pizzedof" />
+      <node id="polyrath" label="polyrath" />
+      <node id="storahagen" label="storahagen" />
+      <node id="SkarinAndreas" label="SkarinAndreas" />
+      <node id="EliasMastimaki" label="EliasMastimaki" />
+      <node id="erikeriksson15" label="erikeriksson15" />
+      <node id="BeleGunnar" label="BeleGunnar" />
+      <node id="vadmenadedu" label="vadmenadedu" />
+      <node id="MonicaMorath" label="MonicaMorath" />
+      <node id="Joistein" label="Joistein" />
+      <node id="ZublH" label="ZublH" />
+      <node id="Matilda_Sved3n" label="Matilda_Sved3n" />
+      <node id="Ipse_Cogita" label="Ipse_Cogita" />
+      <node id="mmsoxford" label="mmsoxford" />
+      <node id="KettilsMead" label="KettilsMead" />
+      <node id="Gravdyrkare" label="Gravdyrkare" />
+      <node id="jorand75" label="jorand75" />
+      <node id="UlfSvahn" label="UlfSvahn" />
+      <node id="jnse78" label="jnse78" />
+      <node id="AnnaCarenS" label="AnnaCarenS" />
+      <node id="WolfNilsson" label="WolfNilsson" />
+      <node id="utanord" label="utanord" />
+      <node id="kalle_anon" label="kalle_anon" />
+      <node id="nijinskyforever" label="nijinskyforever" />
+      <node id="PeterZethraeus" label="PeterZethraeus" />
+      <node id="EKogsta" label="EKogsta" />
+      <node id="OlofRostin" label="OlofRostin" />
+      <node id="logiktack" label="logiktack" />
+      <node id="Harriet_Sthlm" label="Harriet_Sthlm" />
+      <node id="PeORehnquist" label="PeORehnquist" />
+      <node id="Tuxmania" label="Tuxmania" />
+      <node id="Cosmic_Legion" label="Cosmic_Legion" />
+      <node id="IdaCarling" label="IdaCarling" />
+      <node id="edahlin" label="edahlin" />
+      <node id="bockfot" label="bockfot" />
+      <node id="kallapadet" label="kallapadet" />
+      <node id="Rabiaandrea" label="Rabiaandrea" />
+      <node id="jimmyedkvist" label="jimmyedkvist" />
+      <node id="LippeLippes" label="LippeLippes" />
+      <node id="medborgsamling" label="medborgsamling" />
+      <node id="Jacob_Arnesson" label="Jacob_Arnesson" />
+      <node id="bhn_debatt" label="bhn_debatt" />
+      <node id="MFRSverige" label="MFRSverige" />
+      <node id="JonssonYvette" label="JonssonYvette" />
+      <node id="janake1953" label="janake1953" />
+      <node id="sdeuparlamentet" label="sdeuparlamentet" />
+      <node id="Smygprepper_SE" label="Smygprepper_SE" />
+      <node id="AgnetaBlomqvist" label="AgnetaBlomqvist" />
+      <node id="HLunsan" label="HLunsan" />
+      <node id="veronicaliedber" label="veronicaliedber" />
+      <node id="stig_alterback" label="stig_alterback" />
+      <node id="GPDebatt" label="GPDebatt" />
+      <node id="elwee2" label="elwee2" />
+      <node id="KerstinSvanberg" label="KerstinSvanberg" />
+      <node id="hansimalmo" label="hansimalmo" />
+      <node id="KjellRautio" label="KjellRautio" />
+      <node id="MrsTP1" label="MrsTP1" />
+      <node id="magnusbonnevier" label="magnusbonnevier" />
+      <node id="julioab65194116" label="julioab65194116" />
+      <node id="FiaHippie" label="FiaHippie" />
+      <node id="UAehlman" label="UAehlman" />
+      <node id="frokensverige" label="frokensverige" />
+      <node id="brunsaas" label="brunsaas" />
+      <node id="tant58" label="tant58" />
+      <node id="kansligatankar" label="kansligatankar" />
+      <node id="samhallsnytt" label="samhallsnytt" />
+      <node id="katarina_J_J" label="katarina_J_J" />
+      <node id="angelaolsson1" label="angelaolsson1" />
+      <node id="Grejbeard" label="Grejbeard" />
+      <node id="CarroDalle" label="CarroDalle" />
+      <node id="sdriks" label="sdriks" />
+      <node id="Stabsassistent" label="Stabsassistent" />
+      <node id="99JFS" label="99JFS" />
+      <node id="torinalex" label="torinalex" />
+      <node id="SalaQ80" label="SalaQ80" />
+      <node id="eternointer1908" label="eternointer1908" />
+      <node id="redmoon_micael" label="redmoon_micael" />
+      <node id="mr__quake" label="mr__quake" />
+      <node id="Wmorhan" label="Wmorhan" />
+      <node id="Philipsten" label="Philipsten" />
+      <node id="PdlSrLS" label="PdlSrLS" />
+      <node id="agneta_m" label="agneta_m" />
+      <node id="SailaQ" label="SailaQ" />
+      <node id="Adde77" label="Adde77" />
+      <node id="Hammid" label="Hammid" />
+      <node id="stjartan" label="stjartan" />
+      <node id="RolfHultman" label="RolfHultman" />
+      <node id="fryd_ns" label="fryd_ns" />
+      <node id="Andromake000" label="Andromake000" />
+      <node id="ALomander" label="ALomander" />
+      <node id="kickilina2009" label="kickilina2009" />
+      <node id="TeBites" label="TeBites" />
+      <node id="pafa75" label="pafa75" />
+      <node id="18dPl" label="18dPl" />
+      <node id="PrWallin3" label="PrWallin3" />
+      <node id="cinaed77" label="cinaed77" />
+      <node id="EngDvd" label="EngDvd" />
+      <node id="Claes_Nordmark" label="Claes_Nordmark" />
+      <node id="Frihetssmedjan" label="Frihetssmedjan" />
+      <node id="FmarskHorn" label="FmarskHorn" />
+      <node id="marie_marias" label="marie_marias" />
+      <node id="GeekBasher" label="GeekBasher" />
+      <node id="moodyrowdy" label="moodyrowdy" />
+      <node id="komagnusson" label="komagnusson" />
+      <node id="Zeilon" label="Zeilon" />
+      <node id="enderspel" label="enderspel" />
+      <node id="r_daniel_j" label="r_daniel_j" />
+      <node id="otkaznik" label="otkaznik" />
+      <node id="CrackySmiles" label="CrackySmiles" />
+      <node id="carl70andersson" label="carl70andersson" />
+      <node id="ErikNasmark" label="ErikNasmark" />
+      <node id="frokenbjork" label="frokenbjork" />
+      <node id="Neder_Bird" label="Neder_Bird" />
+      <node id="spanarlid" label="spanarlid" />
+      <node id="kallestrokirk" label="kallestrokirk" />
+      <node id="skatteprocess" label="skatteprocess" />
+      <node id="katjanouch" label="katjanouch" />
+      <node id="TheSwedishRhino" label="TheSwedishRhino" />
+      <node id="hackelius" label="hackelius" />
+      <node id="55durkass" label="55durkass" />
+      <node id="joakimpolsson1" label="joakimpolsson1" />
+      <node id="BergWaara" label="BergWaara" />
+      <node id="bjorkel" label="bjorkel" />
+      <node id="ramo_kai" label="ramo_kai" />
+      <node id="Christos5802" label="Christos5802" />
+      <node id="R10Arian" label="R10Arian" />
+      <node id="mikelevandi" label="mikelevandi" />
+      <node id="SimonsBjornE" label="SimonsBjornE" />
+      <node id="JesperSkalberg" label="JesperSkalberg" />
+      <node id="kollarp" label="kollarp" />
+      <node id="didefer" label="didefer" />
+      <node id="ThomasSndbk" label="ThomasSndbk" />
+      <node id="Ratchaburi555" label="Ratchaburi555" />
+      <node id="IsabellaSvenss3" label="IsabellaSvenss3" />
+      <node id="kattaB4" label="kattaB4" />
+      <node id="eeklavenes" label="eeklavenes" />
+      <node id="1donkeyShot" label="1donkeyShot" />
+      <node id="EgorPutilov" label="EgorPutilov" />
+      <node id="jqvarnen" label="jqvarnen" />
+      <node id="ProjektMorpheus" label="ProjektMorpheus" />
+      <node id="libertas_tidskr" label="libertas_tidskr" />
+      <node id="AAC_Terry" label="AAC_Terry" />
+      <node id="MickeK69" label="MickeK69" />
+      <node id="JJonsson1" label="JJonsson1" />
+      <node id="awpodd" label="awpodd" />
+      <node id="latterino" label="latterino" />
+      <node id="am_cyberspace" label="am_cyberspace" />
+      <node id="Mollgan_osynlig" label="Mollgan_osynlig" />
+      <node id="andreasnurbo" label="andreasnurbo" />
+      <node id="AndersSchildt" label="AndersSchildt" />
+      <node id="Roger_Falk" label="Roger_Falk" />
+      <node id="DickHead2016" label="DickHead2016" />
+      <node id="Dagen" label="Dagen" />
+      <node id="idreamautumn" label="idreamautumn" />
+      <node id="advmikael" label="advmikael" />
+      <node id="EndastLogik" label="EndastLogik" />
+      <node id="BrorssonPeter" label="BrorssonPeter" />
+      <node id="Viktormarsson" label="Viktormarsson" />
+      <node id="larsarnehagman" label="larsarnehagman" />
+      <node id="sandberg_johan" label="sandberg_johan" />
+      <node id="PuttePearl" label="PuttePearl" />
+      <node id="johanbuser" label="johanbuser" />
+      <node id="aspekterna" label="aspekterna" />
+      <node id="Dravshh" label="Dravshh" />
+      <node id="PatrikStroem" label="PatrikStroem" />
+      <node id="silla8" label="silla8" />
+      <node id="TobiasWikstrom" label="TobiasWikstrom" />
+      <node id="THEFILADOR" label="THEFILADOR" />
+      <node id="PeterssonKent" label="PeterssonKent" />
+      <node id="LaurentiusBoman" label="LaurentiusBoman" />
+      <node id="micblo63" label="micblo63" />
+      <node id="vosjerf" label="vosjerf" />
+      <node id="Ruski_Bratva" label="Ruski_Bratva" />
+      <node id="SilverPhilharmo" label="SilverPhilharmo" />
+      <node id="polishview" label="polishview" />
+      <node id="Ville_inte" label="Ville_inte" />
+      <node id="Luscum70" label="Luscum70" />
+      <node id="HALLONSA" label="HALLONSA" />
+      <node id="victorrundqvist" label="victorrundqvist" />
+      <node id="ByDamnation" label="ByDamnation" />
+      <node id="uwe_se" label="uwe_se" />
+      <node id="bratten" label="bratten" />
+      <node id="ToreSerrander" label="ToreSerrander" />
+      <node id="samhallskalops" label="samhallskalops" />
+      <node id="Annoula64" label="Annoula64" />
+      <node id="Natsecjeff" label="Natsecjeff" />
+      <node id="Carl_Anders_77" label="Carl_Anders_77" />
+      <node id="kristian_000001" label="kristian_000001" />
+      <node id="dagensindustri" label="dagensindustri" />
+      <node id="hansrothenberg" label="hansrothenberg" />
+      <node id="i_ingela" label="i_ingela" />
+      <node id="DruKerstin" label="DruKerstin" />
+      <node id="papphammar2000" label="papphammar2000" />
+      <node id="bengt_emil" label="bengt_emil" />
+      <node id="NinjaRico" label="NinjaRico" />
+      <node id="b_borgen" label="b_borgen" />
+      <node id="hback200" label="hback200" />
+      <node id="BoerjeBrandt" label="BoerjeBrandt" />
+      <node id="fidde284" label="fidde284" />
+      <node id="sixuniform" label="sixuniform" />
+      <node id="AssRendOn" label="AssRendOn" />
+      <node id="EdvinTilly" label="EdvinTilly" />
+      <node id="WALLSTAM" label="WALLSTAM" />
+      <node id="kurt_johansson" label="kurt_johansson" />
+      <node id="SVTHolmberg" label="SVTHolmberg" />
+      <node id="sodra" label="sodra" />
+      <node id="mattiasdahlpoli" label="mattiasdahlpoli" />
+      <node id="ithiliwen" label="ithiliwen" />
+      <node id="JohanNissinen" label="JohanNissinen" />
+      <node id="sister756" label="sister756" />
+      <node id="LindaBMagnusson" label="LindaBMagnusson" />
+      <node id="svenskhistoria" label="svenskhistoria" />
+      <node id="BjuhrEva" label="BjuhrEva" />
+      <node id="CommandrCalzone" label="CommandrCalzone" />
+      <node id="vigdhomoman" label="vigdhomoman" />
+      <node id="HjalmarSand" label="HjalmarSand" />
+      <node id="GoranPerssonPM" label="GoranPerssonPM" />
+      <node id="RichardHerrey" label="RichardHerrey" />
+      <node id="prwbg" label="prwbg" />
+      <node id="KTorbjrn" label="KTorbjrn" />
+      <node id="erixon_leif" label="erixon_leif" />
+      <node id="OlleElofsson" label="OlleElofsson" />
+      <node id="OlssonJohannes" label="OlssonJohannes" />
+      <node id="TeslaKatten" label="TeslaKatten" />
+      <node id="ElisabetEnell1" label="ElisabetEnell1" />
+      <node id="Borgisen" label="Borgisen" />
+      <node id="arbetet1" label="arbetet1" />
+      <node id="FredSwe" label="FredSwe" />
+      <node id="enzo4235" label="enzo4235" />
+      <node id="okkes_tutkum" label="okkes_tutkum" />
+      <node id="27kislev5719" label="27kislev5719" />
+      <node id="ccpointcc" label="ccpointcc" />
+      <node id="HumblePie1971" label="HumblePie1971" />
+      <node id="barakabbel" label="barakabbel" />
+      <node id="Milkbonde" label="Milkbonde" />
+      <node id="MobergsR" label="MobergsR" />
+      <node id="sannarayman" label="sannarayman" />
+      <node id="Gr8mjuzic" label="Gr8mjuzic" />
+      <node id="AnnaTSL" label="AnnaTSL" />
+      <node id="sofipetersson" label="sofipetersson" />
+      <node id="EkblomJan" label="EkblomJan" />
+      <node id="MariaCMaric" label="MariaCMaric" />
+      <node id="postsjuan" label="postsjuan" />
+      <node id="pedofeten" label="pedofeten" />
+      <node id="fluxc80" label="fluxc80" />
+      <node id="christerstolt" label="christerstolt" />
+      <node id="HallanderEva" label="HallanderEva" />
+      <node id="qantiFi" label="qantiFi" />
+      <node id="SailerMade" label="SailerMade" />
+      <node id="onthemove247" label="onthemove247" />
+      <node id="zetterbergskan" label="zetterbergskan" />
+      <node id="Erlendkw" label="Erlendkw" />
+      <node id="wedholmen" label="wedholmen" />
+      <node id="Jeff_Ahl" label="Jeff_Ahl" />
+      <node id="GlennSjogren" label="GlennSjogren" />
+      <node id="joab66" label="joab66" />
+      <node id="Krimmarn" label="Krimmarn" />
+      <node id="Nordfront" label="Nordfront" />
+      <node id="valdemarstenmar" label="valdemarstenmar" />
+      <node id="ninasvensson" label="ninasvensson" />
+      <node id="BjorklundVictor" label="BjorklundVictor" />
+      <node id="sundstrompeter" label="sundstrompeter" />
+      <node id="svenakepe" label="svenakepe" />
+      <node id="Dude25L" label="Dude25L" />
+      <node id="I_am_Lothbrok" label="I_am_Lothbrok" />
+      <node id="RobertMosbach" label="RobertMosbach" />
+      <node id="fembarnsfarsan" label="fembarnsfarsan" />
+      <node id="annatekla" label="annatekla" />
+      <node id="DagLovold" label="DagLovold" />
+      <node id="Svartlufsen" label="Svartlufsen" />
+      <node id="ToraTeng1" label="ToraTeng1" />
+      <node id="Amin_Aras" label="Amin_Aras" />
+      <node id="chrwallg" label="chrwallg" />
+      <node id="_Bohman_" label="_Bohman_" />
+      <node id="DenEpiskeOden" label="DenEpiskeOden" />
+      <node id="viktorjohan" label="viktorjohan" />
+      <node id="KatrinFriberg" label="KatrinFriberg" />
+      <node id="MedborgarenM" label="MedborgarenM" />
+      <node id="HeikeErkers" label="HeikeErkers" />
+      <node id="EddieBo57" label="EddieBo57" />
+      <node id="gvonsydow" label="gvonsydow" />
+      <node id="JMalmqvist" label="JMalmqvist" />
+      <node id="WalhallaWachter" label="WalhallaWachter" />
+      <node id="L1stn" label="L1stn" />
+      <node id="myHBCUinterview" label="myHBCUinterview" />
+      <node id="PssiP" label="PssiP" />
+      <node id="Jonny_bullaren" label="Jonny_bullaren" />
+      <node id="bladetledare" label="bladetledare" />
+      <node id="OddsVokal" label="OddsVokal" />
+      <node id="massutmaning" label="massutmaning" />
+      <node id="hyugta" label="hyugta" />
+      <node id="HGullby" label="HGullby" />
+      <node id="ThereseBostrom" label="ThereseBostrom" />
+      <node id="nixstalin" label="nixstalin" />
+      <node id="marcoackerman" label="marcoackerman" />
+      <node id="BenjaminDousa" label="BenjaminDousa" />
+      <node id="Kingfis00529659" label="Kingfis00529659" />
+      <node id="Farmand14" label="Farmand14" />
+      <node id="malmobon" label="malmobon" />
+      <node id="patrikgolsson" label="patrikgolsson" />
+      <node id="jonsson_goran" label="jonsson_goran" />
+      <node id="torpartjejen1" label="torpartjejen1" />
+      <node id="LmVarlden" label="LmVarlden" />
+      <node id="spiderbeam" label="spiderbeam" />
+      <node id="BDjup" label="BDjup" />
+      <node id="TommyFunebo" label="TommyFunebo" />
+      <node id="SheilaGmar" label="SheilaGmar" />
+      <node id="booredx" label="booredx" />
+      <node id="Hawkeyewatching" label="Hawkeyewatching" />
+      <node id="nievsyrneh" label="nievsyrneh" />
+      <node id="samtalsamhallet" label="samtalsamhallet" />
+      <node id="JuliaBahner" label="JuliaBahner" />
+      <node id="SweKek" label="SweKek" />
+      <node id="ganralf7" label="ganralf7" />
+      <node id="marcusjunh" label="marcusjunh" />
+      <node id="Samtidens" label="Samtidens" />
+      <node id="Sussie5" label="Sussie5" />
+      <node id="citronpoet1" label="citronpoet1" />
+      <node id="HansELundblad" label="HansELundblad" />
+      <node id="indpist" label="indpist" />
+      <node id="DamnedNewSweden" label="DamnedNewSweden" />
+      <node id="dieselvodo" label="dieselvodo" />
+      <node id="Fjordman1" label="Fjordman1" />
+      <node id="CyberZeke_" label="CyberZeke_" />
+      <node id="Stingbase" label="Stingbase" />
+      <node id="ollewass" label="ollewass" />
+      <node id="scandinavius" label="scandinavius" />
+      <node id="SVerkstad" label="SVerkstad" />
+      <node id="OdoLagery" label="OdoLagery" />
+      <node id="RogerHaddadLib" label="RogerHaddadLib" />
+      <node id="Jari64Topi" label="Jari64Topi" />
+      <node id="Kjell_999" label="Kjell_999" />
+      <node id="verkligheten_sv" label="verkligheten_sv" />
+      <node id="Tidn_Kollega" label="Tidn_Kollega" />
+      <node id="Pojken_Ade" label="Pojken_Ade" />
+    </nodes>
+    <edges>
+      <edge id="0" source="BorgerligVision" target="nya_moderaterna" />
+      <edge id="1" source="SandinMichael" target="sdeuparlamentet" />
+      <edge id="2" source="SandinMichael" target="mikaelgrev" />
+      <edge id="3" source="SandinMichael" target="attcom12" />
+      <edge id="4" source="GuyNomore" target="daccraft" />
+      <edge id="5" source="Leffus" target="ZagrosHama" />
+      <edge id="6" source="Leffus" target="katjanouch" />
+      <edge id="7" source="pelle47holm" target="Carl_I_Dagman" />
+      <edge id="8" source="pelle47holm" target="AnnikaMollstrom" />
+      <edge id="9" source="pelle47holm" target="LaurentiusBoman" />
+      <edge id="10" source="pelle47holm" target="IntellFusion" />
+      <edge id="11" source="inge_vidare" target="ROGSAHL" />
+      <edge id="12" source="inge_vidare" target="katjanouch" />
+      <edge id="13" source="inge_vidare" target="Sharps_Wagner" />
+      <edge id="14" source="MXCartoons" target="Herrtidning" />
+      <edge id="15" source="MXCartoons" target="katjanouch" />
+      <edge id="16" source="MXCartoons" target="borg_rosebud" />
+      <edge id="17" source="MXCartoons" target="daccraft" />
+      <edge id="18" source="MXCartoons" target="martin_inglot" />
+      <edge id="19" source="MXCartoons" target="CallousCarolean" />
+      <edge id="20" source="MXCartoons" target="MXCartoons" />
+      <edge id="21" source="larsibacken" target="MonikaBeiring" />
+      <edge id="22" source="larsibacken" target="KurtKenley5" />
+      <edge id="23" source="janonway" target="MaximilianMaxi8" />
+      <edge id="24" source="janonway" target="RAWSURREAL" />
+      <edge id="25" source="Orreborreknorre" target="Herrtidning" />
+      <edge id="26" source="Orreborreknorre" target="katjanouch" />
+      <edge id="27" source="antiikkia" target="ROGSAHL" />
+      <edge id="28" source="antiikkia" target="katjanouch" />
+      <edge id="29" source="PAAL4444" target="nya_moderaterna" />
+      <edge id="30" source="ragingspringer" target="IntellFusion" />
+      <edge id="31" source="ErikHallb" target="mikaelgrev" />
+      <edge id="32" source="HHH9999" target="mikaelgrev" />
+      <edge id="33" source="tyckochbok" target="awpodd" />
+      <edge id="34" source="BarbEUfel" target="ROGSAHL" />
+      <edge id="35" source="BarbEUfel" target="katjanouch" />
+      <edge id="36" source="pnn72" target="katjanouch" />
+      <edge id="37" source="pnn72" target="SwedeNews" />
+      <edge id="38" source="janhanss" target="katjanouch" />
+      <edge id="39" source="janhanss" target="EgorPutilov" />
+      <edge id="40" source="DanDmb68" target="JonasChr88" />
+      <edge id="41" source="jens_kittel" target="LuckyAmori" />
+      <edge id="42" source="jens_kittel" target="katjanouch" />
+      <edge id="43" source="MatsgSthlm" target="Sharps_Wagner" />
+      <edge id="44" source="ericthelemming" target="FossilFreeSWE" />
+      <edge id="45" source="bmt76sthlm" target="EgorPutilov" />
+      <edge id="46" source="bmt76sthlm" target="AlotOfN0thing" />
+      <edge id="47" source="Andersisback" target="dagensindustri" />
+      <edge id="48" source="perguttorm" target="katjanouch" />
+      <edge id="49" source="Spelevinken" target="EngDvd" />
+      <edge id="50" source="Spelevinken" target="Magic1X2" />
+      <edge id="51" source="MikaelAntal" target="medborgsamling" />
+      <edge id="52" source="Caninen" target="medborgsamling" />
+      <edge id="53" source="AllanAkerberg" target="Maria61264754" />
+      <edge id="54" source="Stolproten" target="katjanouch" />
+      <edge id="55" source="Stolproten" target="Sharps_Wagner" />
+      <edge id="56" source="Ziko_Zajka" target="FemmeFataleSwe" />
+      <edge id="57" source="Ziko_Zajka" target="Kalsuparna" />
+      <edge id="58" source="dahl17" target="katjanouch" />
+      <edge id="59" source="pogi_miguel2" target="LuckyAmori" />
+      <edge id="60" source="pogi_miguel2" target="katjanouch" />
+      <edge id="61" source="robbis7004" target="MotgiftNu" />
+      <edge id="62" source="rixstep" target="katjanouch" />
+      <edge id="63" source="teamgodheten" target="katjanouch" />
+      <edge id="64" source="ingridcarlqvist" target="kallestrokirk" />
+      <edge id="65" source="KurtKenley5" target="sdeuparlamentet" />
+      <edge id="66" source="KurtKenley5" target="nn1684" />
+      <edge id="67" source="KurtKenley5" target="Sharps_Wagner" />
+      <edge id="68" source="mrdnaru" target="Herrtidning" />
+      <edge id="69" source="mrdnaru" target="katjanouch" />
+      <edge id="70" source="mrdnaru" target="lovetomyloops" />
+      <edge id="71" source="mrdnaru" target="daccraft" />
+      <edge id="72" source="mrdnaru" target="mikaelgrev" />
+      <edge id="73" source="mrdnaru" target="MickeK69" />
+      <edge id="74" source="mrdnaru" target="MatsC1965" />
+      <edge id="75" source="mrdnaru" target="medborgsamling" />
+      <edge id="76" source="maria_socnav" target="PaulinaGunnardo" />
+      <edge id="77" source="TutuncuDeniz" target="FossilFreeSWE" />
+      <edge id="78" source="tseidemann" target="CORCAS_AUTONOMY" />
+      <edge id="79" source="Moonjadeed" target="katjanouch" />
+      <edge id="80" source="Kektoplasma" target="Maria61264754" />
+      <edge id="81" source="758f548f689440f" target="EgorPutilov" />
+      <edge id="82" source="CallousCarolean" target="Sharps_Wagner" />
+      <edge id="83" source="Joachimsa" target="medborgsamling" />
+      <edge id="84" source="christianhog70" target="katjanouch" />
+      <edge id="85" source="FredborgJhn" target="katjanouch" />
+      <edge id="86" source="FredborgJhn" target="MickeK69" />
+      <edge id="87" source="benny_guldfot" target="katjanouch" />
+      <edge id="88" source="benny_guldfot" target="thomasmoller64" />
+      <edge id="89" source="Dan_Glimne" target="ZagrosHama" />
+      <edge id="90" source="Dan_Glimne" target="katjanouch" />
+      <edge id="91" source="Dan_Glimne" target="dagenssamhalle" />
+      <edge id="92" source="Dan_Glimne" target="medborgsamling" />
+      <edge id="93" source="Dan_Glimne" target="MXCartoons" />
+      <edge id="94" source="CarstenAnderss3" target="LuckyAmori" />
+      <edge id="95" source="jockekarlsson73" target="PayamMoula" />
+      <edge id="96" source="bedarandebarn65" target="ROGSAHL" />
+      <edge id="97" source="bedarandebarn65" target="medborgsamling" />
+      <edge id="98" source="EllaGron" target="spanarlid" />
+      <edge id="99" source="hysterisk65" target="LuckyAmori" />
+      <edge id="100" source="hysterisk65" target="katjanouch" />
+      <edge id="101" source="hysterisk65" target="ToraTeng1" />
+      <edge id="102" source="sagansapostel" target="katjanouch" />
+      <edge id="103" source="quetaquenya" target="sdriks" />
+      <edge id="104" source="klchho" target="nya_moderaterna" />
+      <edge id="105" source="KarlssonHkan" target="kallestrokirk" />
+      <edge id="106" source="KarlssonHkan" target="katjanouch" />
+      <edge id="107" source="KarlssonHkan" target="pete_phellgreen" />
+      <edge id="108" source="KarlssonHkan" target="samhallsnytt" />
+      <edge id="109" source="KarlssonHkan" target="MaximilianMaxi8" />
+      <edge id="110" source="KarlssonHkan" target="marcoackerman" />
+      <edge id="111" source="KarlssonHkan" target="attcom12" />
+      <edge id="112" source="KarlssonHkan" target="KARLBERG_H" />
+      <edge id="113" source="KarlssonHkan" target="mikaelgrev" />
+      <edge id="114" source="KarlssonHkan" target="swedalarna" />
+      <edge id="115" source="KarlssonHkan" target="Sharps_Wagner" />
+      <edge id="116" source="KarlssonHkan" target="MickeK69" />
+      <edge id="117" source="Pergite_Pie" target="LuckyAmori" />
+      <edge id="118" source="mixxmexx" target="dagensindustri" />
+      <edge id="119" source="parvulescu_k" target="MaximilianMaxi8" />
+      <edge id="120" source="parvulescu_k" target="EHavlova" />
+      <edge id="121" source="parvulescu_k" target="MXCartoons" />
+      <edge id="122" source="sessan51" target="sdeuparlamentet" />
+      <edge id="123" source="sessan51" target="katjanouch" />
+      <edge id="124" source="sessan51" target="KARLBERG_H" />
+      <edge id="125" source="NylanderMicke" target="sdeuparlamentet" />
+      <edge id="126" source="NylanderMicke" target="katjanouch" />
+      <edge id="127" source="NylanderMicke" target="mikelevandi" />
+      <edge id="128" source="mickef5000" target="katjanouch" />
+      <edge id="129" source="virre777" target="katjanouch" />
+      <edge id="130" source="PevPro" target="IntellFusion" />
+      <edge id="131" source="Coinneachusa" target="MickeK69" />
+      <edge id="132" source="thetribbiani" target="mikaelgrev" />
+      <edge id="133" source="mikee_swe" target="LuckyAmori" />
+      <edge id="134" source="mikee_swe" target="katjanouch" />
+      <edge id="135" source="gorgus65" target="MickeK69" />
+      <edge id="136" source="gorgus65" target="EgorPutilov" />
+      <edge id="137" source="gorgus65" target="samtalsamhallet" />
+      <edge id="138" source="BogdanBorysko" target="katjanouch" />
+      <edge id="139" source="ungciv" target="GPDebatt" />
+      <edge id="140" source="Bengt1963" target="medborgsamling" />
+      <edge id="141" source="Bengt1963" target="MXCartoons" />
+      <edge id="142" source="jingezon" target="Herrtidning" />
+      <edge id="143" source="JornstedtDoina" target="medborgsamling" />
+      <edge id="144" source="Floppsy5" target="EngDvd" />
+      <edge id="145" source="JOBalinen" target="MXCartoons" />
+      <edge id="146" source="JOBalinen" target="medborgsamling" />
+      <edge id="147" source="JOBalinen" target="nya_moderaterna" />
+      <edge id="148" source="RipSverige" target="medborgsamling" />
+      <edge id="149" source="RipSverige" target="ROGSAHL" />
+      <edge id="150" source="RipSverige" target="katjanouch" />
+      <edge id="151" source="RipSverige" target="pursvensk" />
+      <edge id="152" source="RipSverige" target="daccraft" />
+      <edge id="153" source="Svenska777" target="LuckyAmori" />
+      <edge id="154" source="Svenska777" target="katjanouch" />
+      <edge id="155" source="Svenska777" target="MXCartoons" />
+      <edge id="156" source="20Vasse" target="SVTOpinion" />
+      <edge id="157" source="swe_perlan" target="katjanouch" />
+      <edge id="158" source="AnnaNel59480274" target="AndersAbris" />
+      <edge id="159" source="AnnaNel59480274" target="pete_phellgreen" />
+      <edge id="160" source="Stoffe_swe" target="MXCartoons" />
+      <edge id="161" source="a91st0" target="Herrtidning" />
+      <edge id="162" source="JoachimHansson2" target="medborgsamling" />
+      <edge id="163" source="VstsvenskaNyhet" target="nya_moderaterna" />
+      <edge id="164" source="ErikSvensk" target="mikelevandi" />
+      <edge id="165" source="gustbee" target="spanarlid" />
+      <edge id="166" source="borg_rosebud" target="MXCartoons" />
+      <edge id="167" source="b_devalagotti" target="spanarlid" />
+      <edge id="168" source="rundkvadrat" target="ROGSAHL" />
+      <edge id="169" source="Fishleg69" target="katjanouch" />
+      <edge id="170" source="ellategsten" target="johanbuser" />
+      <edge id="171" source="RexAdis" target="kallestrokirk" />
+      <edge id="172" source="kidahl" target="PiaClerte" />
+      <edge id="173" source="i_affekt" target="medborgsamling" />
+      <edge id="174" source="Maskinentrepren" target="bhn_debatt" />
+      <edge id="175" source="UWilio" target="nya_moderaterna" />
+      <edge id="176" source="Onlysofia" target="FemmeFataleSwe" />
+      <edge id="177" source="cptjenniferal" target="LuckyAmori" />
+      <edge id="178" source="cptjenniferal" target="katjanouch" />
+      <edge id="179" source="halvboj" target="katjanouch" />
+      <edge id="180" source="nemeth95" target="FemmeFataleSwe" />
+      <edge id="181" source="Pogo_Pedagog1" target="Whitesolution81" />
+      <edge id="182" source="trollministern" target="FemmeFataleSwe" />
+      <edge id="183" source="trollministern" target="ROGSAHL" />
+      <edge id="184" source="trollministern" target="MotgiftNu" />
+      <edge id="185" source="illerbrand" target="0censurerat" />
+      <edge id="186" source="minipower_90" target="FemmeFataleSwe" />
+      <edge id="187" source="storspiken" target="katjanouch" />
+      <edge id="188" source="roberthubinette" target="katjanouch" />
+      <edge id="189" source="maijasvensson" target="kallestrokirk" />
+      <edge id="190" source="maijasvensson" target="Sharps_Wagner" />
+      <edge id="191" source="GranLgb" target="katjanouch" />
+      <edge id="192" source="GranLgb" target="Samtidens" />
+      <edge id="193" source="Callevestman" target="Tidn_Kollega" />
+      <edge id="194" source="ma_grundstrom" target="mikaelgrev" />
+      <edge id="195" source="andreasostgote" target="nya_moderaterna" />
+      <edge id="196" source="Lennart_B_sund" target="katjanouch" />
+      <edge id="197" source="danibenlev" target="IntellFusion" />
+      <edge id="198" source="GunnarBernst" target="Herrtidning" />
+      <edge id="199" source="dickaldordavid" target="medborgsamling" />
+      <edge id="200" source="AnitaWallsten" target="Herrtidning" />
+      <edge id="201" source="AnitaWallsten" target="kallestrokirk" />
+      <edge id="202" source="AnitaWallsten" target="katjanouch" />
+      <edge id="203" source="AnitaWallsten" target="Sharps_Wagner" />
+      <edge id="204" source="AnitaWallsten" target="daccraft" />
+      <edge id="205" source="bikerhogg" target="ROGSAHL" />
+      <edge id="206" source="bikerhogg" target="katjanouch" />
+      <edge id="207" source="bikerhogg" target="PKkontroll" />
+      <edge id="208" source="bikerhogg" target="Kalsuparna" />
+      <edge id="209" source="bikerhogg" target="LuckyAmori" />
+      <edge id="210" source="bikerhogg" target="FemmeFataleSwe" />
+      <edge id="211" source="bikerhogg" target="MXCartoons" />
+      <edge id="212" source="bikerhogg" target="Provokatoren" />
+      <edge id="213" source="bikerhogg" target="frokensverige" />
+      <edge id="214" source="bikerhogg" target="MaximilianMaxi8" />
+      <edge id="215" source="bikerhogg" target="thomasmoller64" />
+      <edge id="216" source="bikerhogg" target="Nyhetsmorgon" />
+      <edge id="217" source="bikerhogg" target="KARLBERG_H" />
+      <edge id="218" source="bikerhogg" target="sdeuparlamentet" />
+      <edge id="219" source="bikerhogg" target="nn1684" />
+      <edge id="220" source="bikerhogg" target="SwedeNews" />
+      <edge id="221" source="bikerhogg" target="martin_inglot" />
+      <edge id="222" source="Engstrom_PP" target="Frihetssmedjan" />
+      <edge id="223" source="af_dahl" target="LuckyAmori" />
+      <edge id="224" source="af_dahl" target="Sharps_Wagner" />
+      <edge id="225" source="Tallgren" target="medborgsamling" />
+      <edge id="226" source="christergsson" target="LenaHansson130" />
+      <edge id="227" source="Nitramsteig" target="Nordfront" />
+      <edge id="228" source="MrWaternooze" target="BoerjeBrandt" />
+      <edge id="229" source="pissedfather666" target="lovetomyloops" />
+      <edge id="230" source="pissedfather666" target="MiaVest66" />
+      <edge id="231" source="RAWSURREAL" target="ROGSAHL" />
+      <edge id="232" source="7tongubbar" target="Sharps_Wagner" />
+      <edge id="233" source="sedanast" target="medborgsamling" />
+      <edge id="234" source="247Boras" target="Zwepol" />
+      <edge id="235" source="247Boras" target="mikaelgrev" />
+      <edge id="236" source="leif_w" target="hellberg_j" />
+      <edge id="237" source="hellgrenmarie" target="MickeK69" />
+      <edge id="238" source="btp001" target="swe_foreigner" />
+      <edge id="239" source="helena_nordwall" target="hackelius" />
+      <edge id="240" source="HrGaznil" target="medborgsamling" />
+      <edge id="241" source="Alfstweets1" target="dolf371" />
+      <edge id="242" source="Alfstweets1" target="mydlystrgl" />
+      <edge id="243" source="robertklemedss1" target="ROGSAHL" />
+      <edge id="244" source="robertklemedss1" target="katjanouch" />
+      <edge id="245" source="robertklemedss1" target="JohanErnelind" />
+      <edge id="246" source="robertklemedss1" target="MaximilianMaxi8" />
+      <edge id="247" source="robertklemedss1" target="EngDvd" />
+      <edge id="248" source="robertklemedss1" target="patrickreslow" />
+      <edge id="249" source="robertklemedss1" target="CallousCarolean" />
+      <edge id="250" source="robertklemedss1" target="medborgsamling" />
+      <edge id="251" source="robertklemedss1" target="daccraft" />
+      <edge id="252" source="robertklemedss1" target="PiaClerte" />
+      <edge id="253" source="robertklemedss1" target="sdeuparlamentet" />
+      <edge id="254" source="robertklemedss1" target="Sharps_Wagner" />
+      <edge id="255" source="robertklemedss1" target="charlieafnord" />
+      <edge id="256" source="AlbinBerlin" target="IntellFusion" />
+      <edge id="257" source="GranBengtsson" target="LuckyAmori" />
+      <edge id="258" source="GranBengtsson" target="medborgsamling" />
+      <edge id="259" source="foraretaffel" target="IngemarNilsson_" />
+      <edge id="260" source="Hochenberg" target="medborgsamling" />
+      <edge id="261" source="Hochenberg" target="vltse" />
+      <edge id="262" source="dykbcg" target="dolf371" />
+      <edge id="263" source="dykbcg" target="sister756" />
+      <edge id="264" source="lawi03" target="dagenssamhalle" />
+      <edge id="265" source="lawi03" target="widarandersson" />
+      <edge id="266" source="lawi03" target="Maria_Haglund" />
+      <edge id="267" source="xhertx" target="IntellFusion" />
+      <edge id="268" source="realMarcWest" target="Hanna__Lindholm" />
+      <edge id="269" source="Fantom_bilden" target="FemmeFataleSwe" />
+      <edge id="270" source="andreas_roma" target="daccraft" />
+      <edge id="271" source="Oisaren" target="alliansenater" />
+      <edge id="272" source="Oisaren" target="beckmansasikter" />
+      <edge id="273" source="pedge_" target="medborgsamling" />
+      <edge id="274" source="tistel" target="daccraft" />
+      <edge id="275" source="AleksKraj" target="MariaStenergard" />
+      <edge id="276" source="Sprucan" target="EgorPutilov" />
+      <edge id="277" source="yadid_y" target="MaximilianMaxi8" />
+      <edge id="278" source="yadid_y" target="katjanouch" />
+      <edge id="279" source="carpehallkaften" target="nya_moderaterna" />
+      <edge id="280" source="WiggSE" target="katjanouch" />
+      <edge id="281" source="mberglun" target="MaximilianMaxi8" />
+      <edge id="282" source="mberglun" target="LuckyAmori" />
+      <edge id="283" source="mberglun" target="katjanouch" />
+      <edge id="284" source="mberglun" target="AndersAbris" />
+      <edge id="285" source="mberglun" target="medborgsamling" />
+      <edge id="286" source="Danne42889610" target="PiaClerte" />
+      <edge id="287" source="Nygren_Magnus" target="katjanouch" />
+      <edge id="288" source="Mitt_Beslut" target="kallestrokirk" />
+      <edge id="289" source="doffsingen" target="katjanouch" />
+      <edge id="290" source="doffsingen" target="Sharps_Wagner" />
+      <edge id="291" source="poutunranta" target="Samtidens" />
+      <edge id="292" source="Cornubot" target="mikaelgrev" />
+      <edge id="293" source="MarkEstyn" target="medborgsamling" />
+      <edge id="294" source="rookieuserIm" target="fluxc80" />
+      <edge id="295" source="palladiumpallen" target="katjanouch" />
+      <edge id="296" source="gumman99" target="dolf371" />
+      <edge id="297" source="Quantsofie" target="UlfSvahn" />
+      <edge id="298" source="HPheebs" target="patrikoksanen" />
+      <edge id="299" source="AesgSjberg" target="katjanouch" />
+      <edge id="300" source="MagnusArvidsso2" target="alliansenater" />
+      <edge id="301" source="mattiasskarin" target="kallestrokirk" />
+      <edge id="302" source="mattiasskarin" target="katjanouch" />
+      <edge id="303" source="pudeltanten" target="dolf371" />
+      <edge id="304" source="pudeltanten" target="ZagrosHama" />
+      <edge id="305" source="pudeltanten" target="PeORehnquist" />
+      <edge id="306" source="pudeltanten" target="Mattias_K" />
+      <edge id="307" source="pudeltanten" target="KARLBERG_H" />
+      <edge id="308" source="pudeltanten" target="PiaClerte" />
+      <edge id="309" source="pudeltanten" target="Harriet_Sthlm" />
+      <edge id="310" source="pudeltanten" target="dagenssamhalle" />
+      <edge id="311" source="pudeltanten" target="spiderbeam" />
+      <edge id="312" source="pudeltanten" target="patrickreslow" />
+      <edge id="313" source="pudeltanten" target="MickeK69" />
+      <edge id="314" source="Viperbane" target="EgorPutilov" />
+      <edge id="315" source="pan_ryba" target="katjanouch" />
+      <edge id="316" source="Jens1Sorensen" target="beckmansasikter" />
+      <edge id="317" source="AnnelieGbg" target="cpkonsulten" />
+      <edge id="318" source="vrakplundrare" target="LarsErikRyd" />
+      <edge id="319" source="hawkeye_211" target="sdriks" />
+      <edge id="320" source="Allanballan1984" target="FemmeFataleSwe" />
+      <edge id="321" source="save_sweden" target="Gullintanne" />
+      <edge id="322" source="Budoarstamning" target="PiaClerte" />
+      <edge id="323" source="Bobbymangee" target="MickeK69" />
+      <edge id="324" source="pete_phellgreen" target="daccraft" />
+      <edge id="325" source="ludvigeh" target="mikaelgrev" />
+      <edge id="326" source="baboom_bd" target="LuckyAmori" />
+      <edge id="327" source="VictorAndreason" target="katjanouch" />
+      <edge id="328" source="abjohansson" target="PKkontroll" />
+      <edge id="329" source="Swedenfiles" target="PKkontroll" />
+      <edge id="330" source="Herclueless" target="mikaelgrev" />
+      <edge id="331" source="Herclueless" target="medborgsamling" />
+      <edge id="332" source="Ondskapt" target="ZagrosHama" />
+      <edge id="333" source="ayanjamil1" target="AnnaCarenS" />
+      <edge id="334" source="MonikaBeiring" target="nya_moderaterna" />
+      <edge id="335" source="Hallvaethor" target="KARLBERG_H" />
+      <edge id="336" source="BingoButler" target="Sharps_Wagner" />
+      <edge id="337" source="AlexanderZeBoom" target="medborgsamling" />
+      <edge id="338" source="AlexanderZeBoom" target="daccraft" />
+      <edge id="339" source="1nt3rmflash" target="LuckyAmori" />
+      <edge id="340" source="agerup_magnus" target="mikaelgrev" />
+      <edge id="341" source="agerup_magnus" target="dagenssamhalle" />
+      <edge id="342" source="agerup_magnus" target="katjanouch" />
+      <edge id="343" source="Gustavahlen" target="beckmansasikter" />
+      <edge id="344" source="gaxatjejen1" target="katjanouch" />
+      <edge id="345" source="DogGhostdog56" target="janake1953" />
+      <edge id="346" source="davids_of" target="svenskhistoria" />
+      <edge id="347" source="KarinMomma" target="MobergsR" />
+      <edge id="348" source="olofdissident" target="AlotOfN0thing" />
+      <edge id="349" source="CallTheDarkSide" target="Herrtidning" />
+      <edge id="350" source="CallTheDarkSide" target="katjanouch" />
+      <edge id="351" source="CallTheDarkSide" target="Sharps_Wagner" />
+      <edge id="352" source="CallTheDarkSide" target="daccraft" />
+      <edge id="353" source="DinSkugga" target="mikaelgrev" />
+      <edge id="354" source="a_rekoj" target="EngDvd" />
+      <edge id="355" source="a_rekoj" target="katjanouch" />
+      <edge id="356" source="ISvenonius" target="nya_moderaterna" />
+      <edge id="357" source="UlfJohansson1" target="matsknutson" />
+      <edge id="358" source="Go_Talibananas" target="LuckyAmori" />
+      <edge id="359" source="M_Sundbyberg" target="carroopsahl" />
+      <edge id="360" source="mr_nost" target="katjanouch" />
+      <edge id="361" source="pkerwien" target="Sharps_Wagner" />
+      <edge id="362" source="stroemsten" target="LuckyAmori" />
+      <edge id="363" source="AntiAvsan" target="nya_moderaterna" />
+      <edge id="364" source="JohnnyLUHG" target="daccraft" />
+      <edge id="365" source="DalenMia" target="medborgsamling" />
+      <edge id="366" source="DalenMia" target="katjanouch" />
+      <edge id="367" source="DalenMia" target="AndersAbris" />
+      <edge id="368" source="GuLinden" target="sodra" />
+      <edge id="369" source="XEdit6666" target="ZagrosHama" />
+      <edge id="370" source="XEdit6666" target="kallestrokirk" />
+      <edge id="371" source="XEdit6666" target="katjanouch" />
+      <edge id="372" source="XEdit6666" target="daccraft" />
+      <edge id="373" source="MickeG76" target="emilrsm" />
+      <edge id="374" source="jonbo679" target="EgorPutilov" />
+      <edge id="375" source="jaguaren5" target="medborgsamling" />
+      <edge id="376" source="presskinka" target="katjanouch" />
+      <edge id="377" source="frodrak" target="LAgreus" />
+      <edge id="378" source="frodrak" target="draganist" />
+      <edge id="379" source="frodrak" target="hackelius" />
+      <edge id="380" source="frodrak" target="fembarnsfarsan" />
+      <edge id="381" source="Fbjorkkvist" target="nya_moderaterna" />
+      <edge id="382" source="kadett16" target="katjanouch" />
+      <edge id="383" source="MThel1" target="LOSverige" />
+      <edge id="384" source="NisseNyfiken" target="mikaelgrev" />
+      <edge id="385" source="RisbergStig" target="kallestrokirk" />
+      <edge id="386" source="Swede456" target="Samtidens" />
+      <edge id="387" source="IamNemain" target="3GunCompetitor" />
+      <edge id="388" source="IamNemain" target="ThomasSndbk" />
+      <edge id="389" source="IamNemain" target="PiaClerte" />
+      <edge id="390" source="IamNemain" target="OdoLagery" />
+      <edge id="391" source="IamNemain" target="dagenssamhalle" />
+      <edge id="392" source="IamNemain" target="Magic1X2" />
+      <edge id="393" source="platfus125" target="platfus125" />
+      <edge id="394" source="magnus_maldini" target="IntellFusion" />
+      <edge id="395" source="LeenaKSAN" target="LeenaKSAN" />
+      <edge id="396" source="metakosmisk" target="ROGSAHL" />
+      <edge id="397" source="metakosmisk" target="katjanouch" />
+      <edge id="398" source="metakosmisk" target="EHavlova" />
+      <edge id="399" source="metakosmisk" target="MaximilianMaxi8" />
+      <edge id="400" source="metakosmisk" target="Sharps_Wagner" />
+      <edge id="401" source="metakosmisk" target="martin_inglot" />
+      <edge id="402" source="backiback28" target="medborgsamling" />
+      <edge id="403" source="mkliae" target="ROGSAHL" />
+      <edge id="404" source="mkliae" target="katjanouch" />
+      <edge id="405" source="mkliae" target="PKkontroll" />
+      <edge id="406" source="TwoOutsNoProbs" target="katjanouch" />
+      <edge id="407" source="MHoegman" target="katjanouch" />
+      <edge id="408" source="utan_namn" target="katjanouch" />
+      <edge id="409" source="Vizzel1" target="LOSverige" />
+      <edge id="410" source="CimmerianFB" target="LuckyAmori" />
+      <edge id="411" source="cbxen" target="LuckyAmori" />
+      <edge id="412" source="cbxen" target="medborgsamling" />
+      <edge id="413" source="cbxen" target="swedalarna" />
+      <edge id="414" source="Papsenen" target="katjanouch" />
+      <edge id="415" source="ComJacquet" target="frokensverige" />
+      <edge id="416" source="ComJacquet" target="KARLBERG_H" />
+      <edge id="417" source="StefanAllemyr" target="daccraft" />
+      <edge id="418" source="WorldfriendsW" target="dagensindustri" />
+      <edge id="419" source="motvalls1" target="swedalarna" />
+      <edge id="420" source="BreikaBeiba" target="CORCAS_AUTONOMY" />
+      <edge id="421" source="Scanhiboslav" target="MaximilianMaxi8" />
+      <edge id="422" source="annasjoholm80" target="hackelius" />
+      <edge id="423" source="snicksnackSWE" target="Sharps_Wagner" />
+      <edge id="424" source="Mr_Knet_" target="katjanouch" />
+      <edge id="425" source="Msfastbrain" target="medborgsamling" />
+      <edge id="426" source="Sakpol_SE" target="PerEHallin" />
+      <edge id="427" source="Sakpol_SE" target="RobertMosbach" />
+      <edge id="428" source="Sakpol_SE" target="samtalsamhallet" />
+      <edge id="429" source="Sakpol_SE" target="patrikoksanen" />
+      <edge id="430" source="Sakpol_SE" target="ricci_davide77" />
+      <edge id="431" source="Sakpol_SE" target="megamescalito" />
+      <edge id="432" source="Sakpol_SE" target="LarsErikRyd" />
+      <edge id="433" source="Sakpol_SE" target="_Bohman_" />
+      <edge id="434" source="Sakpol_SE" target="mikaelgrev" />
+      <edge id="435" source="Sakpol_SE" target="martin_inglot" />
+      <edge id="436" source="Sakpol_SE" target="ekaker2" />
+      <edge id="437" source="Sakpol_SE" target="ZoranaVuk" />
+      <edge id="438" source="Sakpol_SE" target="AnnikaMollstrom" />
+      <edge id="439" source="Sakpol_SE" target="PerSKamperin" />
+      <edge id="440" source="Sakpol_SE" target="arbetet1" />
+      <edge id="441" source="Sakpol_SE" target="PiaClerte" />
+      <edge id="442" source="Sakpol_SE" target="KurtKenley5" />
+      <edge id="443" source="Sakpol_SE" target="IntellFusion" />
+      <edge id="444" source="Sakpol_SE" target="larsarnehagman" />
+      <edge id="445" source="Sakpol_SE" target="frokensverige" />
+      <edge id="446" source="Sakpol_SE" target="BoerjeBrandt" />
+      <edge id="447" source="Sakpol_SE" target="LindemannUlrika" />
+      <edge id="448" source="Sakpol_SE" target="Herclueless" />
+      <edge id="449" source="Sakpol_SE" target="polyrath" />
+      <edge id="450" source="Sakpol_SE" target="AntiAvsan" />
+      <edge id="451" source="patrik0070000" target="prwbg" />
+      <edge id="452" source="YttraYttra2" target="Zwepol" />
+      <edge id="453" source="carlwyckman" target="mikaelfeldbaum" />
+      <edge id="454" source="Magic1X2" target="sdeuparlamentet" />
+      <edge id="455" source="Magic1X2" target="ROGSAHL" />
+      <edge id="456" source="Magic1X2" target="MaximilianMaxi8" />
+      <edge id="457" source="Magic1X2" target="mikelevandi" />
+      <edge id="458" source="Magic1X2" target="KARLBERG_H" />
+      <edge id="459" source="aktietinna" target="mikaelgrev" />
+      <edge id="460" source="wallenas" target="daccraft" />
+      <edge id="461" source="MarkusBertheim" target="katjanouch" />
+      <edge id="462" source="SvanteNybyggars" target="widarandersson" />
+      <edge id="463" source="lovetomyloops" target="katjanouch" />
+      <edge id="464" source="Nissepsson" target="ZagrosHama" />
+      <edge id="465" source="Nissepsson" target="LuckyAmori" />
+      <edge id="466" source="Nissepsson" target="KurtKenley5" />
+      <edge id="467" source="bassebirgersson" target="LAgreus" />
+      <edge id="468" source="gunnar_a" target="katjanouch" />
+      <edge id="469" source="gunnar_a" target="daccraft" />
+      <edge id="470" source="AlexanderBoman" target="AndersAbris" />
+      <edge id="471" source="VJarflod" target="patrikoksanen" />
+      <edge id="472" source="voxlinThegreat" target="katjanouch" />
+      <edge id="473" source="EvaHillen" target="MobergsR" />
+      <edge id="474" source="joelsh" target="jacobzetterman" />
+      <edge id="475" source="ChristerSchale" target="SwedeNews" />
+      <edge id="476" source="ChristerSchale" target="medborgsamling" />
+      <edge id="477" source="JacobssonStefan" target="MotgiftNu" />
+      <edge id="478" source="BergqvistSofie" target="martin_inglot" />
+      <edge id="479" source="FruZiethen" target="mSaleemJaved" />
+      <edge id="480" source="ErucolindoT" target="mikaelgrev" />
+      <edge id="481" source="danneljunkan" target="katjanouch" />
+      <edge id="482" source="bedjei" target="nya_moderaterna" />
+      <edge id="483" source="Gargamel081" target="LuckyAmori" />
+      <edge id="484" source="ThordMolander" target="mikaelgrev" />
+      <edge id="485" source="CarlMelin" target="Diledare" />
+      <edge id="486" source="QvintusJohan" target="katjanouch" />
+      <edge id="487" source="TomasGradin" target="medborgsamling" />
+      <edge id="488" source="centerhelena" target="claesatme" />
+      <edge id="489" source="veryinformative" target="sdriks" />
+      <edge id="490" source="AEGolm" target="medborgsamling" />
+      <edge id="491" source="kaklunen" target="EgorPutilov" />
+      <edge id="492" source="TomasLindgren5" target="Zwepol" />
+      <edge id="493" source="StefanJ00814622" target="OdoLagery" />
+      <edge id="494" source="StefanJ00814622" target="katjanouch" />
+      <edge id="495" source="StefanJ00814622" target="devilsmeantwin" />
+      <edge id="496" source="StefanJ00814622" target="vosjerf" />
+      <edge id="497" source="StefanJ00814622" target="Hajk" />
+      <edge id="498" source="MiaVest66" target="ROGSAHL" />
+      <edge id="499" source="MiaVest66" target="katjanouch" />
+      <edge id="500" source="MiaVest66" target="hansrothenberg" />
+      <edge id="501" source="MiaVest66" target="samtalsamhallet" />
+      <edge id="502" source="MiaVest66" target="patrickreslow" />
+      <edge id="503" source="MiaVest66" target="martin_inglot" />
+      <edge id="504" source="birgerrhenman" target="sdriks" />
+      <edge id="505" source="birgerrhenman" target="Whitesolution81" />
+      <edge id="506" source="birgerrhenman" target="MatsC1965" />
+      <edge id="507" source="birgerrhenman" target="PKkontroll" />
+      <edge id="508" source="birgerrhenman" target="LuckyAmori" />
+      <edge id="509" source="Vapenkontroll" target="PiaClerte" />
+      <edge id="510" source="palbergstrom" target="katjanouch" />
+      <edge id="511" source="annareb" target="simontrbojevic" />
+      <edge id="512" source="Davidsson1891" target="MXCartoons" />
+      <edge id="513" source="Carl_I_Dagman" target="BarbEUfel" />
+      <edge id="514" source="Archimedes02" target="ROGSAHL" />
+      <edge id="515" source="Barbara_Theo" target="IntellFusion" />
+      <edge id="516" source="ingran_m" target="mikaelgrev" />
+      <edge id="517" source="68Dexter" target="medborgsamling" />
+      <edge id="518" source="ROGSAHL" target="daccraft" />
+      <edge id="519" source="ROGSAHL" target="samtalsamhallet" />
+      <edge id="520" source="Arbetsvarlden" target="mikaelfeldbaum" />
+      <edge id="521" source="Eeeeericcccc" target="ROGSAHL" />
+      <edge id="522" source="Eeeeericcccc" target="katjanouch" />
+      <edge id="523" source="Orianalind" target="ekaker2" />
+      <edge id="524" source="Orianalind" target="sister756" />
+      <edge id="525" source="Orianalind" target="medborgsamling" />
+      <edge id="526" source="Orianalind" target="bengt_emil" />
+      <edge id="527" source="Orianalind" target="idagoraSE" />
+      <edge id="528" source="Orianalind" target="katjanouch" />
+      <edge id="529" source="Orianalind" target="MickeK69" />
+      <edge id="530" source="CeciliaMagnuss1" target="Maria_Haglund" />
+      <edge id="531" source="PcDoktorn" target="katjanouch" />
+      <edge id="532" source="PcDoktorn" target="nya_moderaterna" />
+      <edge id="533" source="slay3r82" target="Herrtidning" />
+      <edge id="534" source="StinalinaLin" target="LuckyAmori" />
+      <edge id="535" source="BlottGott" target="BlottGott" />
+      <edge id="536" source="BlottGott" target="AndersAbris" />
+      <edge id="537" source="nordicfoldy" target="katjanouch" />
+      <edge id="538" source="Dawn_Raine" target="Juliet777777" />
+      <edge id="539" source="Hajk" target="kallestrokirk" />
+      <edge id="540" source="Hajk" target="frokensverige" />
+      <edge id="541" source="Hajk" target="ROGSAHL" />
+      <edge id="542" source="Hajk" target="KARLBERG_H" />
+      <edge id="543" source="Hajk" target="sdriks" />
+      <edge id="544" source="Hajk" target="nn1684" />
+      <edge id="545" source="Hajk" target="Samtidens" />
+      <edge id="546" source="Hajk" target="Sharps_Wagner" />
+      <edge id="547" source="Hajk" target="pissedfather666" />
+      <edge id="548" source="Hajk" target="MXCartoons" />
+      <edge id="549" source="JonasMichanek" target="R10Arian" />
+      <edge id="550" source="JonasMichanek" target="MobergsR" />
+      <edge id="551" source="handklaver" target="katjanouch" />
+      <edge id="552" source="miafialotta" target="ZagrosHama" />
+      <edge id="553" source="miafialotta" target="attcom12" />
+      <edge id="554" source="peter_sundlof" target="CesarHjelm" />
+      <edge id="555" source="AKaWe6" target="valdemarstenmar" />
+      <edge id="556" source="hundsnus" target="medborgsamling" />
+      <edge id="557" source="speedoaw" target="ROGSAHL" />
+      <edge id="558" source="speedoaw" target="martin_inglot" />
+      <edge id="559" source="Tompa75" target="medborgsamling" />
+      <edge id="560" source="pursvensk" target="LuckyAmori" />
+      <edge id="561" source="ambrowoll" target="WeAreDalarna" />
+      <edge id="562" source="kreisky" target="SverigeBilder" />
+      <edge id="563" source="bananaoserios" target="katjanouch" />
+      <edge id="564" source="MrTeaSmoker" target="katjanouch" />
+      <edge id="565" source="GA_X58A" target="katjanouch" />
+      <edge id="566" source="GA_X58A" target="mikelevandi" />
+      <edge id="567" source="SpjLuv" target="pkfientlig" />
+      <edge id="568" source="SpjLuv" target="katjanouch" />
+      <edge id="569" source="Vikezor" target="Herrtidning" />
+      <edge id="570" source="HansCJohansson" target="bladetledare" />
+      <edge id="571" source="HansCJohansson" target="mikaelgrev" />
+      <edge id="572" source="HansCJohansson" target="PerSKamperin" />
+      <edge id="573" source="ZeenBox" target="KARLBERG_H" />
+      <edge id="574" source="abbeasdf" target="sdeuparlamentet" />
+      <edge id="575" source="MINUHE" target="Zwepol" />
+      <edge id="576" source="MINUHE" target="EngDvd" />
+      <edge id="577" source="MINUHE" target="MMaandi" />
+      <edge id="578" source="NilssonPM" target="Diledare" />
+      <edge id="579" source="BlazejLukasik" target="katjanouch" />
+      <edge id="580" source="Sherwode_Forest" target="PKkontroll" />
+      <edge id="581" source="SistLara" target="attcom12" />
+      <edge id="582" source="KristianGson" target="Herrtidning" />
+      <edge id="583" source="KristianGson" target="LuckyAmori" />
+      <edge id="584" source="AngelikaBoman" target="katjanouch" />
+      <edge id="585" source="mahesomajnh" target="hackelius" />
+      <edge id="586" source="ChristerChgson" target="ero1661" />
+      <edge id="587" source="uisgy" target="ROGSAHL" />
+      <edge id="588" source="plankandersson" target="LOSverige" />
+      <edge id="589" source="KARLBERG_H" target="katjanouch" />
+      <edge id="590" source="clindblom69" target="medborgsamling" />
+      <edge id="591" source="forefter" target="NyaDagbladet" />
+      <edge id="592" source="PNygren1" target="PerSKamperin" />
+      <edge id="593" source="andreashamrin" target="nya_moderaterna" />
+      <edge id="594" source="sfalktorp" target="kallestrokirk" />
+      <edge id="595" source="sfalktorp" target="frokensverige" />
+      <edge id="596" source="sfalktorp" target="Samtidens" />
+      <edge id="597" source="sfalktorp" target="dagenssamhalle" />
+      <edge id="598" source="sfalktorp" target="Hajk" />
+      <edge id="599" source="sfalktorp" target="medborgsamling" />
+      <edge id="600" source="sfalktorp" target="MXCartoons" />
+      <edge id="601" source="Unschlagbar1" target="AndersAbris" />
+      <edge id="602" source="WallinChrister" target="MariaStenergard" />
+      <edge id="603" source="WallinChrister" target="nya_moderaterna" />
+      <edge id="604" source="quid_vis" target="katjanouch" />
+      <edge id="605" source="olleludvigsson" target="johanbuser" />
+      <edge id="606" source="GustavSderback" target="svenskhistoria" />
+      <edge id="607" source="OlaTelby" target="mikaelgrev" />
+      <edge id="608" source="ppccchampion" target="PiaClerte" />
+      <edge id="609" source="ppccchampion" target="larsarnehagman" />
+      <edge id="610" source="erikgson" target="LuckyAmori" />
+      <edge id="611" source="Peter_667" target="medborgsamling" />
+      <edge id="612" source="LAgreus" target="draganist" />
+      <edge id="613" source="LAgreus" target="Fingerpullaren" />
+      <edge id="614" source="LeifKjellin" target="medborgsamling" />
+      <edge id="615" source="AjoAloner" target="mikaelgrev" />
+      <edge id="616" source="JohanNordgren" target="nya_moderaterna" />
+      <edge id="617" source="bohuslaningen" target="bhn_debatt" />
+      <edge id="618" source="ErikRojalist782" target="katjanouch" />
+      <edge id="619" source="helixparadox" target="katjanouch" />
+      <edge id="620" source="lawcarp" target="IntellFusion" />
+      <edge id="621" source="macksp86" target="FemmeFataleSwe" />
+      <edge id="622" source="camilobellom" target="nya_moderaterna" />
+      <edge id="623" source="tovamaria" target="svenskhistoria" />
+      <edge id="624" source="BuddhaTwist1" target="Gullintanne" />
+      <edge id="625" source="jonasjacobsson" target="nya_moderaterna" />
+      <edge id="626" source="LPSwardh" target="nya_moderaterna" />
+      <edge id="627" source="Nebosa" target="ROGSAHL" />
+      <edge id="628" source="Nebosa" target="katjanouch" />
+      <edge id="629" source="Nebosa" target="mikelevandi" />
+      <edge id="630" source="Nebosa" target="OdoLagery" />
+      <edge id="631" source="Nebosa" target="VansterNtnellt" />
+      <edge id="632" source="Nebosa" target="citronpoet1" />
+      <edge id="633" source="Nebosa" target="Herrtidning" />
+      <edge id="634" source="Nebosa" target="frokensverige" />
+      <edge id="635" source="Nebosa" target="MickeK69" />
+      <edge id="636" source="Nebosa" target="attcom12" />
+      <edge id="637" source="Nebosa" target="ChristelNilsso1" />
+      <edge id="638" source="Nebosa" target="fredrik19769543" />
+      <edge id="639" source="Nebosa" target="mikaelgrev" />
+      <edge id="640" source="Nebosa" target="swedalarna" />
+      <edge id="641" source="Nebosa" target="Sharps_Wagner" />
+      <edge id="642" source="midmus" target="hackelius" />
+      <edge id="643" source="erlhel" target="jacobzetterman" />
+      <edge id="644" source="ordolib" target="ZagrosHama" />
+      <edge id="645" source="ordolib" target="katjanouch" />
+      <edge id="646" source="ordolib" target="medborgsamling" />
+      <edge id="647" source="medicinarn" target="LuckyAmori" />
+      <edge id="648" source="medicinarn" target="svenskhistoria" />
+      <edge id="649" source="medicinarn" target="katjanouch" />
+      <edge id="650" source="medicinarn" target="Sharps_Wagner" />
+      <edge id="651" source="medicinarn" target="medborgsamling" />
+      <edge id="652" source="Manda_O" target="mikaelgrev" />
+      <edge id="653" source="Borg123holm" target="ZagrosHama" />
+      <edge id="654" source="Borg123holm" target="medborgsamling" />
+      <edge id="655" source="StefanVilumsons" target="daccraft" />
+      <edge id="656" source="Miss_Bildad" target="cpkonsulten" />
+      <edge id="657" source="BengtNilsson16" target="katjanouch" />
+      <edge id="658" source="BengtNilsson16" target="mikelevandi" />
+      <edge id="659" source="BengtNilsson16" target="KARLBERG_H" />
+      <edge id="660" source="BengtNilsson16" target="EgorPutilov" />
+      <edge id="661" source="BengtNilsson16" target="spanarlid" />
+      <edge id="662" source="BengtNilsson16" target="MickeK69" />
+      <edge id="663" source="BengtNilsson16" target="Samtidens" />
+      <edge id="664" source="PHWLL" target="katjanouch" />
+      <edge id="665" source="Gluggen777" target="LuckyAmori" />
+      <edge id="666" source="Gluggen777" target="spiderbeam" />
+      <edge id="667" source="Gluggen777" target="Sharps_Wagner" />
+      <edge id="668" source="Gluggen777" target="pissedfather666" />
+      <edge id="669" source="IZINKITBA" target="dolf371" />
+      <edge id="670" source="IZINKITBA" target="katjanouch" />
+      <edge id="671" source="IZINKITBA" target="Tidn_Kollega" />
+      <edge id="672" source="loksoppan" target="medborgsamling" />
+      <edge id="673" source="AaFriis" target="attcom12" />
+      <edge id="674" source="KroghLisbeth" target="Nyhetsmorgon" />
+      <edge id="675" source="LindgrenBjorn" target="TobiasGustavs" />
+      <edge id="676" source="afroturken" target="dolf371" />
+      <edge id="677" source="eve_sweden" target="ROGSAHL" />
+      <edge id="678" source="ThisGoyimKnows" target="FemmeFataleSwe" />
+      <edge id="679" source="ThisGoyimKnows" target="PKkontroll" />
+      <edge id="680" source="JustusKrecker" target="victorrundqvist" />
+      <edge id="681" source="1svenskhistoria" target="svenskhistoria" />
+      <edge id="682" source="kabalissima" target="ROGSAHL" />
+      <edge id="683" source="kabalissima" target="PKkontroll" />
+      <edge id="684" source="fuut_ruud" target="FossilFreeSWE" />
+      <edge id="685" source="PerericJ" target="LuckyAmori" />
+      <edge id="686" source="PerericJ" target="katjanouch" />
+      <edge id="687" source="PerericJ" target="spanarlid" />
+      <edge id="688" source="crapidile" target="swe_foreigner" />
+      <edge id="689" source="HellstromElina" target="katjanouch" />
+      <edge id="690" source="lindgren66" target="katjanouch" />
+      <edge id="691" source="mackloh" target="Herrtidning" />
+      <edge id="692" source="Maria61264754" target="katjanouch" />
+      <edge id="693" source="mats_rytther" target="ChristelNilsso1" />
+      <edge id="694" source="Foorssa_80" target="LOSverige" />
+      <edge id="695" source="K1200R_Jan" target="EgorPutilov" />
+      <edge id="696" source="Cameloparadlis" target="MickeK69" />
+      <edge id="697" source="100_fornybart" target="LindaBMagnusson" />
+      <edge id="698" source="agnesdag" target="agnesdag" />
+      <edge id="699" source="Tellevinken" target="kallestrokirk" />
+      <edge id="700" source="micke6712" target="FemmeFataleSwe" />
+      <edge id="701" source="oliv917" target="OdoLagery" />
+      <edge id="702" source="oliv917" target="oliv917" />
+      <edge id="703" source="MissMacadam" target="katjanouch" />
+      <edge id="704" source="AnnaDanieli" target="medborgsamling" />
+      <edge id="705" source="SVpappers" target="LOSverige" />
+      <edge id="706" source="jenssen_jonas" target="EgorPutilov" />
+      <edge id="707" source="filangen" target="katjanouch" />
+      <edge id="708" source="von_Freeden" target="ROGSAHL" />
+      <edge id="709" source="Ingvar_Eriksson" target="katjanouch" />
+      <edge id="710" source="Hamnviken" target="TittiSchnbeck" />
+      <edge id="711" source="Mariastockhaus" target="nya_moderaterna" />
+      <edge id="712" source="Fotograf_CS" target="LuckyAmori" />
+      <edge id="713" source="Fotograf_CS" target="ROGSAHL" />
+      <edge id="714" source="Fotograf_CS" target="katjanouch" />
+      <edge id="715" source="Fotograf_CS" target="attcom12" />
+      <edge id="716" source="Fotograf_CS" target="KARLBERG_H" />
+      <edge id="717" source="Fotograf_CS" target="sdeuparlamentet" />
+      <edge id="718" source="Fotograf_CS" target="spiderbeam" />
+      <edge id="719" source="Fotograf_CS" target="spanarlid" />
+      <edge id="720" source="Herrtidning" target="katjanouch" />
+      <edge id="721" source="Herrtidning" target="daccraft" />
+      <edge id="722" source="IudiciumAd" target="sdriks" />
+      <edge id="723" source="RM_IPSC" target="PiaClerte" />
+      <edge id="724" source="RM_IPSC" target="katjanouch" />
+      <edge id="725" source="RM_IPSC" target="medborgsamling" />
+      <edge id="726" source="Keepcalm_234" target="medborgsamling" />
+      <edge id="727" source="Keepcalm_234" target="vosjerf" />
+      <edge id="728" source="Keepcalm_234" target="ChristelNilsso1" />
+      <edge id="729" source="Norddah" target="katjanouch" />
+      <edge id="730" source="NiklasBergq" target="medborgsamling" />
+      <edge id="731" source="energycoin" target="LindaBMagnusson" />
+      <edge id="732" source="Weird_Beard99" target="mikaelgrev" />
+      <edge id="733" source="Weird_Beard99" target="katjanouch" />
+      <edge id="734" source="Weird_Beard99" target="medborgsamling" />
+      <edge id="735" source="uffe_r" target="Maria_Haglund" />
+      <edge id="736" source="garimelda" target="ZagrosHama" />
+      <edge id="737" source="garimelda" target="sdeuparlamentet" />
+      <edge id="738" source="garimelda" target="EgorPutilov" />
+      <edge id="739" source="garimelda" target="ChristelNilsso1" />
+      <edge id="740" source="konsensuseliten" target="nya_moderaterna" />
+      <edge id="741" source="humanitarmakt" target="katjanouch" />
+      <edge id="742" source="humanitarmakt" target="MickeK69" />
+      <edge id="743" source="LionMedic" target="ZagrosHama" />
+      <edge id="744" source="LionMedic" target="PerEHallin" />
+      <edge id="745" source="C_Nordmark" target="nya_moderaterna" />
+      <edge id="746" source="cckid7" target="mikaelgrev" />
+      <edge id="747" source="LindemannUlrika" target="MatsC1965" />
+      <edge id="748" source="LindemannUlrika" target="Sharps_Wagner" />
+      <edge id="749" source="LindemannUlrika" target="AndersAbris" />
+      <edge id="750" source="LindemannUlrika" target="KARLBERG_H" />
+      <edge id="751" source="ormvrak" target="Maria61264754" />
+      <edge id="752" source="Snabelapa" target="3GunCompetitor" />
+      <edge id="753" source="Snabelapa" target="Sharps_Wagner" />
+      <edge id="754" source="liberalurbanist" target="medborgsamling" />
+      <edge id="755" source="Birgitt68549318" target="MickeK69" />
+      <edge id="756" source="Birgitt68549318" target="devilsmeantwin" />
+      <edge id="757" source="izdrottning" target="katjanouch" />
+      <edge id="758" source="izdrottning" target="CesarHjelm" />
+      <edge id="759" source="izdrottning" target="MaximilianMaxi8" />
+      <edge id="760" source="tuija_tuijam" target="katjanouch" />
+      <edge id="761" source="tuija_tuijam" target="medborgsamling" />
+      <edge id="762" source="bjornb5" target="katjanouch" />
+      <edge id="763" source="Piggatorparn" target="medborgsamling" />
+      <edge id="764" source="JillJansson68" target="FemmeFataleSwe" />
+      <edge id="765" source="JillJansson68" target="katjanouch" />
+      <edge id="766" source="MNordevall" target="katjanouch" />
+      <edge id="767" source="kronskog" target="katjanouch" />
+      <edge id="768" source="benke2" target="LuckyAmori" />
+      <edge id="769" source="SedatGumus10" target="beckmansasikter" />
+      <edge id="770" source="torwah" target="nya_moderaterna" />
+      <edge id="771" source="Lobuz1" target="ZagrosHama" />
+      <edge id="772" source="JohnnyBrottom9" target="kallestrokirk" />
+      <edge id="773" source="JohnnyBrottom9" target="katjanouch" />
+      <edge id="774" source="JohnnyBrottom9" target="daccraft" />
+      <edge id="775" source="JohnnyBrottom9" target="ZagrosHama" />
+      <edge id="776" source="JohnnyBrottom9" target="JFredHenriksson" />
+      <edge id="777" source="JohnnyBrottom9" target="MXCartoons" />
+      <edge id="778" source="Allmanbildaren" target="nya_moderaterna" />
+      <edge id="779" source="LisaDahlin2" target="Nyhetsmorgon" />
+      <edge id="780" source="Ninnis_tankar" target="Herrtidning" />
+      <edge id="781" source="Ninnis_tankar" target="FemmeFataleSwe" />
+      <edge id="782" source="Ninnis_tankar" target="MickeK69" />
+      <edge id="783" source="Ninnis_tankar" target="katjanouch" />
+      <edge id="784" source="JakobWallgren" target="medborgsamling" />
+      <edge id="785" source="Flodan_78" target="ROGSAHL" />
+      <edge id="786" source="KarlJohanViktor" target="edvinalam" />
+      <edge id="787" source="Diodens" target="Samtidens" />
+      <edge id="788" source="ThoreThowik" target="dagensindustri" />
+      <edge id="789" source="hg_till_vp" target="Maria61264754" />
+      <edge id="790" source="hg_till_vp" target="LuckyAmori" />
+      <edge id="791" source="hg_till_vp" target="katjanouch" />
+      <edge id="792" source="hg_till_vp" target="thomasmoller64" />
+      <edge id="793" source="tor_li" target="EgorPutilov" />
+      <edge id="794" source="pzfabbe" target="ZagrosHama" />
+      <edge id="795" source="pzfabbe" target="katjanouch" />
+      <edge id="796" source="pzfabbe" target="medborgsamling" />
+      <edge id="797" source="StaffanG_son" target="medborgsamling" />
+      <edge id="798" source="Sharps_Wagner" target="katjanouch" />
+      <edge id="799" source="RoaJuanPablo" target="Olle_Sundgren" />
+      <edge id="800" source="Qeruiem" target="mikaelgrev" />
+      <edge id="801" source="Svenskiutlandet" target="medborgsamling" />
+      <edge id="802" source="Svenskiutlandet" target="dagensindustri" />
+      <edge id="803" source="Christian_anv" target="katjanouch" />
+      <edge id="804" source="BoSundin" target="wiljander" />
+      <edge id="805" source="BoSundin" target="Maria_Haglund" />
+      <edge id="806" source="BoSundin" target="nya_moderaterna" />
+      <edge id="807" source="Adolphus_Magnus" target="LuckyAmori" />
+      <edge id="808" source="HanssonLars" target="LuckyAmori" />
+      <edge id="809" source="Dempaslotteborn" target="sdriks" />
+      <edge id="810" source="Dempaslotteborn" target="ROGSAHL" />
+      <edge id="811" source="Dempaslotteborn" target="KARLBERG_H" />
+      <edge id="812" source="PatrikHed" target="victorrundqvist" />
+      <edge id="813" source="treamigos" target="mikaelgrev" />
+      <edge id="814" source="liberalerna" target="RogerHaddadLib" />
+      <edge id="815" source="danielwimhed" target="medborgsamling" />
+      <edge id="816" source="talybonton" target="Sharps_Wagner" />
+      <edge id="817" source="CooperSverige" target="Sharps_Wagner" />
+      <edge id="818" source="waterconflict" target="mikaelgrev" />
+      <edge id="819" source="cajsa123" target="katjanouch" />
+      <edge id="820" source="cajsa123" target="beckmansasikter" />
+      <edge id="821" source="malinka_p" target="malinka_p" />
+      <edge id="822" source="SvayBhag" target="RichardHerrey" />
+      <edge id="823" source="FruViol" target="katjanouch" />
+      <edge id="824" source="Annika9999perss" target="LuckyAmori" />
+      <edge id="825" source="Annika9999perss" target="MXCartoons" />
+      <edge id="826" source="karlastrid59" target="medborgsamling" />
+      <edge id="827" source="hakansonnora" target="Nyhetsmorgon" />
+      <edge id="828" source="profnos" target="dagenssamhalle" />
+      <edge id="829" source="profnos" target="medborgsamling" />
+      <edge id="830" source="profnos" target="mikelevandi" />
+      <edge id="831" source="TiredPessimist" target="BarbEUfel" />
+      <edge id="832" source="Tiazzen" target="mikaelgrev" />
+      <edge id="833" source="MagnusStyrbjorn" target="Sharps_Wagner" />
+      <edge id="834" source="MagnusStyrbjorn" target="daccraft" />
+      <edge id="835" source="lennart71724777" target="ROGSAHL" />
+      <edge id="836" source="soslundin" target="Sharps_Wagner" />
+      <edge id="837" source="CB_onUkrRu" target="Hanna__Lindholm" />
+      <edge id="838" source="SolrosP" target="Herrtidning" />
+      <edge id="839" source="SolrosP" target="ROGSAHL" />
+      <edge id="840" source="SolrosP" target="katjanouch" />
+      <edge id="841" source="SolrosP" target="BarbEUfel" />
+      <edge id="842" source="SolrosP" target="attcom12" />
+      <edge id="843" source="SolrosP" target="Whitesolution81" />
+      <edge id="844" source="SolrosP" target="martin_inglot" />
+      <edge id="845" source="SolrosP" target="MatsC1965" />
+      <edge id="846" source="SolrosP" target="medborgsamling" />
+      <edge id="847" source="SolrosP" target="spanarlid" />
+      <edge id="848" source="ekaker2" target="bengt_emil" />
+      <edge id="849" source="CSelius" target="GunnarLidell" />
+      <edge id="850" source="Cardeenio" target="katjanouch" />
+      <edge id="851" source="stklas" target="EgorPutilov" />
+      <edge id="852" source="Provokatoren" target="Sharps_Wagner" />
+      <edge id="853" source="Provokatoren" target="MXCartoons" />
+      <edge id="854" source="Saerintresse" target="mikaelgrev" />
+      <edge id="855" source="Saerintresse" target="katjanouch" />
+      <edge id="856" source="Saerintresse" target="medborgsamling" />
+      <edge id="857" source="Saerintresse" target="MickeK69" />
+      <edge id="858" source="brottsregering" target="MXCartoons" />
+      <edge id="859" source="MikaZack" target="katjanouch" />
+      <edge id="860" source="man_kan64" target="mikaelgrev" />
+      <edge id="861" source="preacher51" target="katjanouch" />
+      <edge id="862" source="preacher51" target="medborgsamling" />
+      <edge id="863" source="preacher51" target="martin_inglot" />
+      <edge id="864" source="Charles_SE" target="mikaelgrev" />
+      <edge id="865" source="Charles_SE" target="medborgsamling" />
+      <edge id="866" source="Ingrid_Helander" target="LmVarlden" />
+      <edge id="867" source="Par_Sjogren" target="FemmeFataleSwe" />
+      <edge id="868" source="Par_Sjogren" target="medborgsamling" />
+      <edge id="869" source="ZAPZAF" target="katjanouch" />
+      <edge id="870" source="ZAPZAF" target="medborgsamling" />
+      <edge id="871" source="SweDeplorables" target="Sharps_Wagner" />
+      <edge id="872" source="perraponken" target="ROGSAHL" />
+      <edge id="873" source="ja72nielsen" target="katjanouch" />
+      <edge id="874" source="Wexio2Good" target="EgorPutilov" />
+      <edge id="875" source="Wexio2Good" target="ChristelNilsso1" />
+      <edge id="876" source="PlagueofProgs" target="Alienna3" />
+      <edge id="877" source="Javabonan" target="ROGSAHL" />
+      <edge id="878" source="Javabonan" target="katjanouch" />
+      <edge id="879" source="Javabonan" target="BarbEUfel" />
+      <edge id="880" source="Javabonan" target="mikelevandi" />
+      <edge id="881" source="Javabonan" target="gustbee" />
+      <edge id="882" source="Javabonan" target="patrickreslow" />
+      <edge id="883" source="Javabonan" target="MickeK69" />
+      <edge id="884" source="SkolombudAutism" target="JuliaBahner" />
+      <edge id="885" source="BengtVOL" target="katjanouch" />
+      <edge id="886" source="BengtVOL" target="medborgsamling" />
+      <edge id="887" source="BengtVOL" target="MXCartoons" />
+      <edge id="888" source="hans_vesterberg" target="katjanouch" />
+      <edge id="889" source="hans_vesterberg" target="EgorPutilov" />
+      <edge id="890" source="AnneSkantz" target="katjanouch" />
+      <edge id="891" source="lidingohulken" target="ZagrosHama" />
+      <edge id="892" source="lidingohulken" target="EngDvd" />
+      <edge id="893" source="lidingohulken" target="samhallsnytt" />
+      <edge id="894" source="lidingohulken" target="katjanouch" />
+      <edge id="895" source="lidingohulken" target="frokensverige" />
+      <edge id="896" source="Mattias_K" target="carroopsahl" />
+      <edge id="897" source="HenningMunk" target="EgorPutilov" />
+      <edge id="898" source="HenningMunk" target="martin_inglot" />
+      <edge id="899" source="tobiasekelin" target="enkritiskfan" />
+      <edge id="900" source="tobiasekelin" target="medborgsamling" />
+      <edge id="901" source="LojjsanW" target="katjanouch" />
+      <edge id="902" source="LojjsanW" target="Nivodius" />
+      <edge id="903" source="jozzipp" target="MickeK69" />
+      <edge id="904" source="etabori" target="katjanouch" />
+      <edge id="905" source="Benefactom" target="Herrtidning" />
+      <edge id="906" source="Benefactom" target="katjanouch" />
+      <edge id="907" source="Benefactom" target="spanarlid" />
+      <edge id="908" source="Benefactom" target="daccraft" />
+      <edge id="909" source="Benefactom" target="martin_inglot" />
+      <edge id="910" source="StefanK_Gbg" target="Herrtidning" />
+      <edge id="911" source="StefanK_Gbg" target="MickeK69" />
+      <edge id="912" source="TEXOTX" target="medborgsamling" />
+      <edge id="913" source="TEXOTX" target="LuckyAmori" />
+      <edge id="914" source="TEXOTX" target="frokensverige" />
+      <edge id="915" source="TEXOTX" target="MaximilianMaxi8" />
+      <edge id="916" source="TEXOTX" target="attcom12" />
+      <edge id="917" source="TEXOTX" target="mikaelgrev" />
+      <edge id="918" source="TEXOTX" target="EgorPutilov" />
+      <edge id="919" source="TEXOTX" target="Sharps_Wagner" />
+      <edge id="920" source="TEXOTX" target="MickeK69" />
+      <edge id="921" source="TEXOTX" target="spanarlid" />
+      <edge id="922" source="Markus_Klasson" target="nya_moderaterna" />
+      <edge id="923" source="urban_scott" target="katjanouch" />
+      <edge id="924" source="urban_scott" target="medborgsamling" />
+      <edge id="925" source="WaltherHubbot" target="katjanouch" />
+      <edge id="926" source="JohanErnelind" target="PiaClerte" />
+      <edge id="927" source="JohanErnelind" target="IsabellaSvenss3" />
+      <edge id="928" source="JohanErnelind" target="bladetledare" />
+      <edge id="929" source="JohanErnelind" target="katjanouch" />
+      <edge id="930" source="JohanErnelind" target="frokensverige" />
+      <edge id="931" source="MEdnarsson" target="katjanouch" />
+      <edge id="932" source="MEdnarsson" target="EgorPutilov" />
+      <edge id="933" source="MEdnarsson" target="Sharps_Wagner" />
+      <edge id="934" source="JimmyKarlberg" target="ROGSAHL" />
+      <edge id="935" source="JimmyKarlberg" target="spanarlid" />
+      <edge id="936" source="bjorkman83" target="nya_moderaterna" />
+      <edge id="937" source="Dodgeman2ever" target="enkritiskfan" />
+      <edge id="938" source="Dodgeman2ever" target="katjanouch" />
+      <edge id="939" source="Dodgeman2ever" target="kallestrokirk" />
+      <edge id="940" source="Dodgeman2ever" target="sdriks" />
+      <edge id="941" source="Dodgeman2ever" target="sdeuparlamentet" />
+      <edge id="942" source="Dodgeman2ever" target="Sharps_Wagner" />
+      <edge id="943" source="Dodgeman2ever" target="KurtKenley5" />
+      <edge id="944" source="gostaceasar" target="sdriks" />
+      <edge id="945" source="SDTobbe" target="MXCartoons" />
+      <edge id="946" source="PeterOlsson" target="EngDvd" />
+      <edge id="947" source="PeterOlsson" target="mikaelgrev" />
+      <edge id="948" source="PeterOlsson" target="victorrundqvist" />
+      <edge id="949" source="PeterOlsson" target="daccraft" />
+      <edge id="950" source="Ogisslen" target="katjanouch" />
+      <edge id="951" source="Ogisslen" target="EgorPutilov" />
+      <edge id="952" source="Korpkvadet" target="EgorPutilov" />
+      <edge id="953" source="Korpkvadet" target="Sharps_Wagner" />
+      <edge id="954" source="Korpkvadet" target="JanAndreas87" />
+      <edge id="955" source="Korpkvadet" target="KurtKenley5" />
+      <edge id="956" source="felstavatt" target="katjanouch" />
+      <edge id="957" source="henriksson808" target="Hanna__Lindholm" />
+      <edge id="958" source="svartedalingen" target="medborgsamling" />
+      <edge id="959" source="svartedalingen" target="Sharps_Wagner" />
+      <edge id="960" source="clarkkent63" target="katjanouch" />
+      <edge id="961" source="Kollan66" target="MaximilianMaxi8" />
+      <edge id="962" source="Kollan66" target="katjanouch" />
+      <edge id="963" source="Kollan66" target="AndersAbris" />
+      <edge id="964" source="Kollan66" target="beckmansasikter" />
+      <edge id="965" source="RoteGn" target="mikaelgrev" />
+      <edge id="966" source="Kvasern" target="PiaClerte" />
+      <edge id="967" source="Kvasern" target="LuckyAmori" />
+      <edge id="968" source="Kvasern" target="nn1684" />
+      <edge id="969" source="Kvasern" target="katjanouch" />
+      <edge id="970" source="Kvasern" target="MXCartoons" />
+      <edge id="971" source="BorenNon" target="ROGSAHL" />
+      <edge id="972" source="BorenNon" target="katjanouch" />
+      <edge id="973" source="BorenNon" target="Sharps_Wagner" />
+      <edge id="974" source="Sumatra00598695" target="Nivodius" />
+      <edge id="975" source="gringocranko" target="katjanouch" />
+      <edge id="976" source="abb77777" target="daccraft" />
+      <edge id="977" source="Sarahgbg" target="MaximilianMaxi8" />
+      <edge id="978" source="Sarahgbg" target="HerrTalman" />
+      <edge id="979" source="Sarahgbg" target="SwedeNews" />
+      <edge id="980" source="Sarahgbg" target="MiaVest66" />
+      <edge id="981" source="Monknr1" target="katjanouch" />
+      <edge id="982" source="fredriklidby" target="medborgsamling" />
+      <edge id="983" source="glennabrahamsso" target="LOSverige" />
+      <edge id="984" source="MabubeHansson" target="Maria61264754" />
+      <edge id="985" source="MabubeHansson" target="LuckyAmori" />
+      <edge id="986" source="magnushasa" target="mikaelgrev" />
+      <edge id="987" source="poa_karlsson" target="frokensverige" />
+      <edge id="988" source="starbuzzed75" target="Herrtidning" />
+      <edge id="989" source="Tervald" target="medborgsamling" />
+      <edge id="990" source="pizzedof" target="katjanouch" />
+      <edge id="991" source="pizzedof" target="KARLBERG_H" />
+      <edge id="992" source="pizzedof" target="sdriks" />
+      <edge id="993" source="pizzedof" target="spanarlid" />
+      <edge id="994" source="pizzedof" target="Carl_I_Dagman" />
+      <edge id="995" source="pizzedof" target="chrwallg" />
+      <edge id="996" source="storahagen" target="larsarnehagman" />
+      <edge id="997" source="storahagen" target="PiaClerte" />
+      <edge id="998" source="SkarinAndreas" target="MaximilianMaxi8" />
+      <edge id="999" source="EliasMastimaki" target="LuckyAmori" />
+      <edge id="1000" source="erikeriksson15" target="LuckyAmori" />
+      <edge id="1001" source="BeleGunnar" target="ROGSAHL" />
+      <edge id="1002" source="vadmenadedu" target="nya_moderaterna" />
+      <edge id="1003" source="vadmenadedu" target="medborgsamling" />
+      <edge id="1004" source="vadmenadedu" target="KARLBERG_H" />
+      <edge id="1005" source="MonicaMorath" target="frokensverige" />
+      <edge id="1006" source="MonicaMorath" target="katjanouch" />
+      <edge id="1007" source="MonicaMorath" target="BlottGott" />
+      <edge id="1008" source="MonicaMorath" target="attcom12" />
+      <edge id="1009" source="MonicaMorath" target="spanarlid" />
+      <edge id="1010" source="MonicaMorath" target="MXCartoons" />
+      <edge id="1011" source="Joistein" target="LuckyAmori" />
+      <edge id="1012" source="ZublH" target="realGustaf" />
+      <edge id="1013" source="ZublH" target="EgorPutilov" />
+      <edge id="1014" source="Matilda_Sved3n" target="LuckyAmori" />
+      <edge id="1015" source="Ipse_Cogita" target="katjanouch" />
+      <edge id="1016" source="Ipse_Cogita" target="KurtKenley5" />
+      <edge id="1017" source="mmsoxford" target="enkritiskfan" />
+      <edge id="1018" source="mmsoxford" target="chrwallg" />
+      <edge id="1019" source="mmsoxford" target="KurtKenley5" />
+      <edge id="1020" source="KettilsMead" target="kallestrokirk" />
+      <edge id="1021" source="KettilsMead" target="ROGSAHL" />
+      <edge id="1022" source="KettilsMead" target="MickeK69" />
+      <edge id="1023" source="KettilsMead" target="attcom12" />
+      <edge id="1024" source="KettilsMead" target="daccraft" />
+      <edge id="1025" source="KettilsMead" target="ChristelNilsso1" />
+      <edge id="1026" source="KettilsMead" target="Maria61264754" />
+      <edge id="1027" source="KettilsMead" target="martin_inglot" />
+      <edge id="1028" source="KettilsMead" target="LuckyAmori" />
+      <edge id="1029" source="KettilsMead" target="MXCartoons" />
+      <edge id="1030" source="Gravdyrkare" target="Orianalind" />
+      <edge id="1031" source="jorand75" target="katjanouch" />
+      <edge id="1032" source="jnse78" target="nolltoleransen" />
+      <edge id="1033" source="WolfNilsson" target="nya_moderaterna" />
+      <edge id="1034" source="utanord" target="svenskhistoria" />
+      <edge id="1035" source="kalle_anon" target="fembarnsfarsan" />
+      <edge id="1036" source="nijinskyforever" target="ROGSAHL" />
+      <edge id="1037" source="nijinskyforever" target="katjanouch" />
+      <edge id="1038" source="PeterZethraeus" target="nya_moderaterna" />
+      <edge id="1039" source="EKogsta" target="carroopsahl" />
+      <edge id="1040" source="OlofRostin" target="nya_moderaterna" />
+      <edge id="1041" source="logiktack" target="ChristelNilsso1" />
+      <edge id="1042" source="Harriet_Sthlm" target="Jeff_Ahl" />
+      <edge id="1043" source="Harriet_Sthlm" target="LuckyAmori" />
+      <edge id="1044" source="Harriet_Sthlm" target="ROGSAHL" />
+      <edge id="1045" source="Harriet_Sthlm" target="medborgsamling" />
+      <edge id="1046" source="Harriet_Sthlm" target="KARLBERG_H" />
+      <edge id="1047" source="Harriet_Sthlm" target="MXCartoons" />
+      <edge id="1048" source="Tuxmania" target="dolf371" />
+      <edge id="1049" source="Tuxmania" target="kallestrokirk" />
+      <edge id="1050" source="Tuxmania" target="katjanouch" />
+      <edge id="1051" source="Tuxmania" target="spanarlid" />
+      <edge id="1052" source="Tuxmania" target="medborgsamling" />
+      <edge id="1053" source="Tuxmania" target="MXCartoons" />
+      <edge id="1054" source="IdaCarling" target="LOSverige" />
+      <edge id="1055" source="edahlin" target="patrikoksanen" />
+      <edge id="1056" source="edahlin" target="LAgreus" />
+      <edge id="1057" source="bockfot" target="mikaelgrev" />
+      <edge id="1058" source="kallapadet" target="MickeK69" />
+      <edge id="1059" source="Rabiaandrea" target="IntellFusion" />
+      <edge id="1060" source="jimmyedkvist" target="LuckyAmori" />
+      <edge id="1061" source="jimmyedkvist" target="daccraft" />
+      <edge id="1062" source="LippeLippes" target="Junabacka" />
+      <edge id="1063" source="medborgsamling" target="Zwepol" />
+      <edge id="1064" source="medborgsamling" target="mikaelgrev" />
+      <edge id="1065" source="Jacob_Arnesson" target="mikaelgrev" />
+      <edge id="1066" source="MFRSverige" target="martaobminska" />
+      <edge id="1067" source="JonssonYvette" target="medborgsamling" />
+      <edge id="1068" source="Smygprepper_SE" target="medborgsamling" />
+      <edge id="1069" source="AgnetaBlomqvist" target="medborgsamling" />
+      <edge id="1070" source="HLunsan" target="katjanouch" />
+      <edge id="1071" source="veronicaliedber" target="nya_moderaterna" />
+      <edge id="1072" source="stig_alterback" target="widarandersson" />
+      <edge id="1073" source="elwee2" target="Maria61264754" />
+      <edge id="1074" source="elwee2" target="FemmeFataleSwe" />
+      <edge id="1075" source="elwee2" target="SVerkstad" />
+      <edge id="1076" source="KerstinSvanberg" target="EgorPutilov" />
+      <edge id="1077" source="KjellRautio" target="MobergsR" />
+      <edge id="1078" source="MrsTP1" target="Herrtidning" />
+      <edge id="1079" source="MrsTP1" target="katjanouch" />
+      <edge id="1080" source="magnusbonnevier" target="medborgsamling" />
+      <edge id="1081" source="julioab65194116" target="johanbuser" />
+      <edge id="1082" source="FiaHippie" target="mikelevandi" />
+      <edge id="1083" source="UAehlman" target="katjanouch" />
+      <edge id="1084" source="frokensverige" target="Jeff_Ahl" />
+      <edge id="1085" source="frokensverige" target="IsabellaSvenss3" />
+      <edge id="1086" source="frokensverige" target="katjanouch" />
+      <edge id="1087" source="frokensverige" target="MXCartoons" />
+      <edge id="1088" source="frokensverige" target="samhallsnytt" />
+      <edge id="1089" source="frokensverige" target="Hajk" />
+      <edge id="1090" source="frokensverige" target="EgorPutilov" />
+      <edge id="1091" source="frokensverige" target="Samtidens" />
+      <edge id="1092" source="frokensverige" target="frokensverige" />
+      <edge id="1093" source="frokensverige" target="thomasmoller64" />
+      <edge id="1094" source="frokensverige" target="Nyhetsmorgon" />
+      <edge id="1095" source="frokensverige" target="MiaVest66" />
+      <edge id="1096" source="frokensverige" target="LJHallgren" />
+      <edge id="1097" source="frokensverige" target="Sharps_Wagner" />
+      <edge id="1098" source="frokensverige" target="martin_inglot" />
+      <edge id="1099" source="brunsaas" target="katjanouch" />
+      <edge id="1100" source="brunsaas" target="MickeK69" />
+      <edge id="1101" source="tant58" target="thomasmoller64" />
+      <edge id="1102" source="tant58" target="spanarlid" />
+      <edge id="1103" source="kansligatankar" target="hackelius" />
+      <edge id="1104" source="katarina_J_J" target="katjanouch" />
+      <edge id="1105" source="katarina_J_J" target="daccraft" />
+      <edge id="1106" source="angelaolsson1" target="PiaClerte" />
+      <edge id="1107" source="angelaolsson1" target="katjanouch" />
+      <edge id="1108" source="angelaolsson1" target="pete_phellgreen" />
+      <edge id="1109" source="angelaolsson1" target="medborgsamling" />
+      <edge id="1110" source="angelaolsson1" target="mikaelgrev" />
+      <edge id="1111" source="Grejbeard" target="katjanouch" />
+      <edge id="1112" source="CarroDalle" target="sdeuparlamentet" />
+      <edge id="1113" source="Stabsassistent" target="mikaelgrev" />
+      <edge id="1114" source="99JFS" target="Herrtidning" />
+      <edge id="1115" source="99JFS" target="LuckyAmori" />
+      <edge id="1116" source="99JFS" target="ROGSAHL" />
+      <edge id="1117" source="99JFS" target="SwedeNews" />
+      <edge id="1118" source="99JFS" target="mikaelgrev" />
+      <edge id="1119" source="99JFS" target="pkfientlig" />
+      <edge id="1120" source="99JFS" target="Hajk" />
+      <edge id="1121" source="99JFS" target="EgorPutilov" />
+      <edge id="1122" source="99JFS" target="spanarlid" />
+      <edge id="1123" source="99JFS" target="MXCartoons" />
+      <edge id="1124" source="torinalex" target="nya_moderaterna" />
+      <edge id="1125" source="SalaQ80" target="swe_foreigner" />
+      <edge id="1126" source="eternointer1908" target="katjanouch" />
+      <edge id="1127" source="redmoon_micael" target="ROGSAHL" />
+      <edge id="1128" source="redmoon_micael" target="katjanouch" />
+      <edge id="1129" source="mr__quake" target="sdeuparlamentet" />
+      <edge id="1130" source="mr__quake" target="katjanouch" />
+      <edge id="1131" source="mr__quake" target="LuckyAmori" />
+      <edge id="1132" source="mr__quake" target="AndersAbris" />
+      <edge id="1133" source="mr__quake" target="Samtidens" />
+      <edge id="1134" source="Wmorhan" target="nya_moderaterna" />
+      <edge id="1135" source="Philipsten" target="MickeK69" />
+      <edge id="1136" source="PdlSrLS" target="medborgsamling" />
+      <edge id="1137" source="agneta_m" target="cpkonsulten" />
+      <edge id="1138" source="SailaQ" target="AntiAvsan" />
+      <edge id="1139" source="Adde77" target="patriotjennifer" />
+      <edge id="1140" source="Adde77" target="medborgsamling" />
+      <edge id="1141" source="Hammid" target="katjanouch" />
+      <edge id="1142" source="stjartan" target="LuckyAmori" />
+      <edge id="1143" source="stjartan" target="katjanouch" />
+      <edge id="1144" source="RolfHultman" target="PiaClerte" />
+      <edge id="1145" source="RolfHultman" target="medborgsamling" />
+      <edge id="1146" source="RolfHultman" target="mavagu14" />
+      <edge id="1147" source="fryd_ns" target="EgorPutilov" />
+      <edge id="1148" source="Andromake000" target="mikelevandi" />
+      <edge id="1149" source="ALomander" target="AnnaCarenS" />
+      <edge id="1150" source="kickilina2009" target="katjanouch" />
+      <edge id="1151" source="kickilina2009" target="AndersAbris" />
+      <edge id="1152" source="TeBites" target="katjanouch" />
+      <edge id="1153" source="TeBites" target="mikaelgrev" />
+      <edge id="1154" source="pafa75" target="katjanouch" />
+      <edge id="1155" source="pafa75" target="MickeK69" />
+      <edge id="1156" source="18dPl" target="LuckyAmori" />
+      <edge id="1157" source="18dPl" target="EgorPutilov" />
+      <edge id="1158" source="18dPl" target="ChristelNilsso1" />
+      <edge id="1159" source="PrWallin3" target="Herrtidning" />
+      <edge id="1160" source="PrWallin3" target="frokensverige" />
+      <edge id="1161" source="PrWallin3" target="ROGSAHL" />
+      <edge id="1162" source="PrWallin3" target="katjanouch" />
+      <edge id="1163" source="PrWallin3" target="lovetomyloops" />
+      <edge id="1164" source="PrWallin3" target="daccraft" />
+      <edge id="1165" source="PrWallin3" target="EngDvd" />
+      <edge id="1166" source="PrWallin3" target="Sharps_Wagner" />
+      <edge id="1167" source="PrWallin3" target="spanarlid" />
+      <edge id="1168" source="PrWallin3" target="MiaVest66" />
+      <edge id="1169" source="cinaed77" target="EngDvd" />
+      <edge id="1170" source="Claes_Nordmark" target="AnnaCarenS" />
+      <edge id="1171" source="FmarskHorn" target="kallestrokirk" />
+      <edge id="1172" source="marie_marias" target="JohanErnelind" />
+      <edge id="1173" source="GeekBasher" target="medborgsamling" />
+      <edge id="1174" source="moodyrowdy" target="katjanouch" />
+      <edge id="1175" source="moodyrowdy" target="MXCartoons" />
+      <edge id="1176" source="komagnusson" target="AnnaCarenS" />
+      <edge id="1177" source="Zeilon" target="enkritiskfan" />
+      <edge id="1178" source="Zeilon" target="RichardHerrey" />
+      <edge id="1179" source="enderspel" target="ROGSAHL" />
+      <edge id="1180" source="enderspel" target="katjanouch" />
+      <edge id="1181" source="enderspel" target="nn1684" />
+      <edge id="1182" source="r_daniel_j" target="AnnaCarenS" />
+      <edge id="1183" source="otkaznik" target="attcom12" />
+      <edge id="1184" source="CrackySmiles" target="frokensverige" />
+      <edge id="1185" source="carl70andersson" target="MaximilianMaxi8" />
+      <edge id="1186" source="carl70andersson" target="LuckyAmori" />
+      <edge id="1187" source="carl70andersson" target="katjanouch" />
+      <edge id="1188" source="carl70andersson" target="MickeK69" />
+      <edge id="1189" source="carl70andersson" target="medborgsamling" />
+      <edge id="1190" source="ErikNasmark" target="kallestrokirk" />
+      <edge id="1191" source="frokenbjork" target="katjanouch" />
+      <edge id="1192" source="Neder_Bird" target="PiaClerte" />
+      <edge id="1193" source="Neder_Bird" target="katjanouch" />
+      <edge id="1194" source="Neder_Bird" target="MMaandi" />
+      <edge id="1195" source="spanarlid" target="medborgsamling" />
+      <edge id="1196" source="spanarlid" target="Divine_baal" />
+      <edge id="1197" source="spanarlid" target="katjanouch" />
+      <edge id="1198" source="spanarlid" target="EgorPutilov" />
+      <edge id="1199" source="spanarlid" target="daccraft" />
+      <edge id="1200" source="skatteprocess" target="MariaStenergard" />
+      <edge id="1201" source="katjanouch" target="kallestrokirk" />
+      <edge id="1202" source="katjanouch" target="medborgsamling" />
+      <edge id="1203" source="katjanouch" target="daccraft" />
+      <edge id="1204" source="TheSwedishRhino" target="PiaClerte" />
+      <edge id="1205" source="55durkass" target="sdeuparlamentet" />
+      <edge id="1206" source="55durkass" target="LuckyAmori" />
+      <edge id="1207" source="joakimpolsson1" target="Sharps_Wagner" />
+      <edge id="1208" source="BergWaara" target="EngDvd" />
+      <edge id="1209" source="BergWaara" target="katjanouch" />
+      <edge id="1210" source="BergWaara" target="SimonsBjornE" />
+      <edge id="1211" source="bjorkel" target="sodra" />
+      <edge id="1212" source="ramo_kai" target="mikaelgrev" />
+      <edge id="1213" source="ramo_kai" target="medborgsamling" />
+      <edge id="1214" source="ramo_kai" target="martin_inglot" />
+      <edge id="1215" source="Christos5802" target="nya_moderaterna" />
+      <edge id="1216" source="SimonsBjornE" target="pissedfather666" />
+      <edge id="1217" source="JesperSkalberg" target="carroopsahl" />
+      <edge id="1218" source="kollarp" target="nya_moderaterna" />
+      <edge id="1219" source="didefer" target="mikaelgrev" />
+      <edge id="1220" source="Ratchaburi555" target="katjanouch" />
+      <edge id="1221" source="IsabellaSvenss3" target="daccraft" />
+      <edge id="1222" source="kattaB4" target="spanarlid" />
+      <edge id="1223" source="kattaB4" target="ZagrosHama" />
+      <edge id="1224" source="kattaB4" target="katjanouch" />
+      <edge id="1225" source="kattaB4" target="LuckyAmori" />
+      <edge id="1226" source="kattaB4" target="FemmeFataleSwe" />
+      <edge id="1227" source="kattaB4" target="nn1684" />
+      <edge id="1228" source="kattaB4" target="mikaelgrev" />
+      <edge id="1229" source="kattaB4" target="nixstalin" />
+      <edge id="1230" source="kattaB4" target="medborgsamling" />
+      <edge id="1231" source="kattaB4" target="martin_inglot" />
+      <edge id="1232" source="eeklavenes" target="CORCAS_AUTONOMY" />
+      <edge id="1233" source="1donkeyShot" target="LuckyAmori" />
+      <edge id="1234" source="1donkeyShot" target="daccraft" />
+      <edge id="1235" source="1donkeyShot" target="charlieafnord" />
+      <edge id="1236" source="1donkeyShot" target="Sharps_Wagner" />
+      <edge id="1237" source="jqvarnen" target="ROGSAHL" />
+      <edge id="1238" source="jqvarnen" target="katjanouch" />
+      <edge id="1239" source="ProjektMorpheus" target="katjanouch" />
+      <edge id="1240" source="libertas_tidskr" target="AnnaCarenS" />
+      <edge id="1241" source="AAC_Terry" target="JuliaBahner" />
+      <edge id="1242" source="MickeK69" target="MickeK69" />
+      <edge id="1243" source="JJonsson1" target="AnnaCarenS" />
+      <edge id="1244" source="JJonsson1" target="nolltoleransen" />
+      <edge id="1245" source="latterino" target="daccraft" />
+      <edge id="1246" source="am_cyberspace" target="Herrtidning" />
+      <edge id="1247" source="am_cyberspace" target="katjanouch" />
+      <edge id="1248" source="am_cyberspace" target="EgorPutilov" />
+      <edge id="1249" source="Mollgan_osynlig" target="nya_moderaterna" />
+      <edge id="1250" source="andreasnurbo" target="enkritiskfan" />
+      <edge id="1251" source="AndersSchildt" target="daccraft" />
+      <edge id="1252" source="Roger_Falk" target="LOSverige" />
+      <edge id="1253" source="DickHead2016" target="katjanouch" />
+      <edge id="1254" source="Dagen" target="jacobzetterman" />
+      <edge id="1255" source="idreamautumn" target="kallestrokirk" />
+      <edge id="1256" source="idreamautumn" target="Cosmic_Legion" />
+      <edge id="1257" source="advmikael" target="hansimalmo" />
+      <edge id="1258" source="advmikael" target="mikaelgrev" />
+      <edge id="1259" source="EndastLogik" target="kallestrokirk" />
+      <edge id="1260" source="BrorssonPeter" target="Hanna__Lindholm" />
+      <edge id="1261" source="Viktormarsson" target="medborgsamling" />
+      <edge id="1262" source="sandberg_johan" target="nya_moderaterna" />
+      <edge id="1263" source="PuttePearl" target="katjanouch" />
+      <edge id="1264" source="PuttePearl" target="carroopsahl" />
+      <edge id="1265" source="aspekterna" target="medborgsamling" />
+      <edge id="1266" source="Dravshh" target="sdriks" />
+      <edge id="1267" source="PatrikStroem" target="FemmeFataleSwe" />
+      <edge id="1268" source="silla8" target="chrwallg" />
+      <edge id="1269" source="TobiasWikstrom" target="Diledare" />
+      <edge id="1270" source="THEFILADOR" target="FemmeFataleSwe" />
+      <edge id="1271" source="PeterssonKent" target="MaximilianMaxi8" />
+      <edge id="1272" source="micblo63" target="ROGSAHL" />
+      <edge id="1273" source="micblo63" target="katjanouch" />
+      <edge id="1274" source="micblo63" target="Keepcalm_234" />
+      <edge id="1275" source="micblo63" target="MXCartoons" />
+      <edge id="1276" source="micblo63" target="ChristelNilsso1" />
+      <edge id="1277" source="micblo63" target="spanarlid" />
+      <edge id="1278" source="micblo63" target="Herrtidning" />
+      <edge id="1279" source="micblo63" target="LuckyAmori" />
+      <edge id="1280" source="micblo63" target="MickeK69" />
+      <edge id="1281" source="micblo63" target="MaximilianMaxi8" />
+      <edge id="1282" source="micblo63" target="PKkontroll" />
+      <edge id="1283" source="micblo63" target="KARLBERG_H" />
+      <edge id="1284" source="micblo63" target="sdeuparlamentet" />
+      <edge id="1285" source="micblo63" target="mikaelgrev" />
+      <edge id="1286" source="micblo63" target="Sharps_Wagner" />
+      <edge id="1287" source="micblo63" target="borg_rosebud" />
+      <edge id="1288" source="micblo63" target="martin_inglot" />
+      <edge id="1289" source="Ruski_Bratva" target="ROGSAHL" />
+      <edge id="1290" source="Ruski_Bratva" target="PKkontroll" />
+      <edge id="1291" source="Ruski_Bratva" target="LJHallgren" />
+      <edge id="1292" source="Ruski_Bratva" target="MotgiftNu" />
+      <edge id="1293" source="Ruski_Bratva" target="patrickreslow" />
+      <edge id="1294" source="Ruski_Bratva" target="Cosmic_Legion" />
+      <edge id="1295" source="SilverPhilharmo" target="LuckyAmori" />
+      <edge id="1296" source="SilverPhilharmo" target="katjanouch" />
+      <edge id="1297" source="polishview" target="katjanouch" />
+      <edge id="1298" source="Ville_inte" target="mikaelgrev" />
+      <edge id="1299" source="Luscum70" target="LuckyAmori" />
+      <edge id="1300" source="HALLONSA" target="mikaelgrev" />
+      <edge id="1301" source="HALLONSA" target="EngDvd" />
+      <edge id="1302" source="HALLONSA" target="PeORehnquist" />
+      <edge id="1303" source="ByDamnation" target="katjanouch" />
+      <edge id="1304" source="ByDamnation" target="MickeK69" />
+      <edge id="1305" source="uwe_se" target="FemmeFataleSwe" />
+      <edge id="1306" source="uwe_se" target="katjanouch" />
+      <edge id="1307" source="bratten" target="medborgsamling" />
+      <edge id="1308" source="ToreSerrander" target="mikaelgrev" />
+      <edge id="1309" source="samhallskalops" target="katjanouch" />
+      <edge id="1310" source="Annoula64" target="jacobzetterman" />
+      <edge id="1311" source="Natsecjeff" target="IntellFusion" />
+      <edge id="1312" source="Carl_Anders_77" target="katjanouch" />
+      <edge id="1313" source="kristian_000001" target="0censurerat" />
+      <edge id="1314" source="dagensindustri" target="Diledare" />
+      <edge id="1315" source="i_ingela" target="katjanouch" />
+      <edge id="1316" source="DruKerstin" target="mseid" />
+      <edge id="1317" source="DruKerstin" target="WeAreDalarna" />
+      <edge id="1318" source="DruKerstin" target="swe_foreigner" />
+      <edge id="1319" source="papphammar2000" target="svenskhistoria" />
+      <edge id="1320" source="bengt_emil" target="beckmansasikter" />
+      <edge id="1321" source="NinjaRico" target="nn1684" />
+      <edge id="1322" source="b_borgen" target="BlottGott" />
+      <edge id="1323" source="hback200" target="mikelevandi" />
+      <edge id="1324" source="fidde284" target="katjanouch" />
+      <edge id="1325" source="sixuniform" target="mikaelgrev" />
+      <edge id="1326" source="sixuniform" target="medborgsamling" />
+      <edge id="1327" source="AssRendOn" target="ROGSAHL" />
+      <edge id="1328" source="AssRendOn" target="katjanouch" />
+      <edge id="1329" source="AssRendOn" target="medborgsamling" />
+      <edge id="1330" source="EdvinTilly" target="FemmeFataleSwe" />
+      <edge id="1331" source="WALLSTAM" target="kallestrokirk" />
+      <edge id="1332" source="kurt_johansson" target="katjanouch" />
+      <edge id="1333" source="kurt_johansson" target="Sharps_Wagner" />
+      <edge id="1334" source="kurt_johansson" target="MickeK69" />
+      <edge id="1335" source="SVTHolmberg" target="matsknutson" />
+      <edge id="1336" source="mattiasdahlpoli" target="katjanouch" />
+      <edge id="1337" source="mattiasdahlpoli" target="rixstep" />
+      <edge id="1338" source="ithiliwen" target="EgorPutilov" />
+      <edge id="1339" source="JohanNissinen" target="sdriks" />
+      <edge id="1340" source="JohanNissinen" target="patrickreslow" />
+      <edge id="1341" source="sister756" target="katjanouch" />
+      <edge id="1342" source="sister756" target="medborgsamling" />
+      <edge id="1343" source="sister756" target="Nyhetsmorgon" />
+      <edge id="1344" source="sister756" target="widarandersson" />
+      <edge id="1345" source="BjuhrEva" target="MaximilianMaxi8" />
+      <edge id="1346" source="BjuhrEva" target="mikelevandi" />
+      <edge id="1347" source="CommandrCalzone" target="katjanouch" />
+      <edge id="1348" source="CommandrCalzone" target="MickeK69" />
+      <edge id="1349" source="vigdhomoman" target="Herrtidning" />
+      <edge id="1350" source="vigdhomoman" target="kallestrokirk" />
+      <edge id="1351" source="vigdhomoman" target="PerEHallin" />
+      <edge id="1352" source="vigdhomoman" target="katjanouch" />
+      <edge id="1353" source="vigdhomoman" target="AlotOfN0thing" />
+      <edge id="1354" source="vigdhomoman" target="KARLBERG_H" />
+      <edge id="1355" source="vigdhomoman" target="Maria61264754" />
+      <edge id="1356" source="vigdhomoman" target="enkritiskfan" />
+      <edge id="1357" source="vigdhomoman" target="MiaVest66" />
+      <edge id="1358" source="HjalmarSand" target="katjanouch" />
+      <edge id="1359" source="GoranPerssonPM" target="socialdep" />
+      <edge id="1360" source="prwbg" target="Sharps_Wagner" />
+      <edge id="1361" source="prwbg" target="daccraft" />
+      <edge id="1362" source="prwbg" target="KARLBERG_H" />
+      <edge id="1363" source="KTorbjrn" target="LOSverige" />
+      <edge id="1364" source="erixon_leif" target="JonasChr88" />
+      <edge id="1365" source="OlleElofsson" target="svenskhistoria" />
+      <edge id="1366" source="OlssonJohannes" target="WeAreDalarna" />
+      <edge id="1367" source="TeslaKatten" target="spanarlid" />
+      <edge id="1368" source="ElisabetEnell1" target="LuckyAmori" />
+      <edge id="1369" source="ElisabetEnell1" target="ROGSAHL" />
+      <edge id="1370" source="ElisabetEnell1" target="katjanouch" />
+      <edge id="1371" source="ElisabetEnell1" target="attcom12" />
+      <edge id="1372" source="ElisabetEnell1" target="HansCJohansson" />
+      <edge id="1373" source="ElisabetEnell1" target="FemmeFataleSwe" />
+      <edge id="1374" source="ElisabetEnell1" target="OdoLagery" />
+      <edge id="1375" source="Borgisen" target="nolltoleransen" />
+      <edge id="1376" source="FredSwe" target="ROGSAHL" />
+      <edge id="1377" source="enzo4235" target="sdeuparlamentet" />
+      <edge id="1378" source="enzo4235" target="Samtidens" />
+      <edge id="1379" source="enzo4235" target="katjanouch" />
+      <edge id="1380" source="enzo4235" target="AndersAbris" />
+      <edge id="1381" source="enzo4235" target="martin_inglot" />
+      <edge id="1382" source="okkes_tutkum" target="Kalsuparna" />
+      <edge id="1383" source="27kislev5719" target="IntellFusion" />
+      <edge id="1384" source="ccpointcc" target="KlingsporC" />
+      <edge id="1385" source="HumblePie1971" target="katjanouch" />
+      <edge id="1386" source="HumblePie1971" target="AndersAbris" />
+      <edge id="1387" source="barakabbel" target="katjanouch" />
+      <edge id="1388" source="Milkbonde" target="MickeK69" />
+      <edge id="1389" source="Milkbonde" target="EgorPutilov" />
+      <edge id="1390" source="MobergsR" target="MobergsR" />
+      <edge id="1391" source="sannarayman" target="dagenssamhalle" />
+      <edge id="1392" source="Gr8mjuzic" target="sdriks" />
+      <edge id="1393" source="Gr8mjuzic" target="thomasmoller64" />
+      <edge id="1394" source="AnnaTSL" target="LuckyAmori" />
+      <edge id="1395" source="AnnaTSL" target="sister756" />
+      <edge id="1396" source="AnnaTSL" target="medborgsamling" />
+      <edge id="1397" source="AnnaTSL" target="beckmansasikter" />
+      <edge id="1398" source="sofipetersson" target="GPDebatt" />
+      <edge id="1399" source="EkblomJan" target="katjanouch" />
+      <edge id="1400" source="EkblomJan" target="nya_moderaterna" />
+      <edge id="1401" source="MariaCMaric" target="jacobzetterman" />
+      <edge id="1402" source="postsjuan" target="mikaelgrev" />
+      <edge id="1403" source="pedofeten" target="enkritiskfan" />
+      <edge id="1404" source="christerstolt" target="medborgsamling" />
+      <edge id="1405" source="HallanderEva" target="AnnaCarenS" />
+      <edge id="1406" source="HallanderEva" target="Rebeckalemoine" />
+      <edge id="1407" source="qantiFi" target="MXCartoons" />
+      <edge id="1408" source="SailerMade" target="katjanouch" />
+      <edge id="1409" source="onthemove247" target="mikaelgrev" />
+      <edge id="1410" source="zetterbergskan" target="katjanouch" />
+      <edge id="1411" source="zetterbergskan" target="KARLBERG_H" />
+      <edge id="1412" source="Erlendkw" target="EgorPutilov" />
+      <edge id="1413" source="wedholmen" target="AndersAbris" />
+      <edge id="1414" source="GlennSjogren" target="EgorPutilov" />
+      <edge id="1415" source="joab66" target="daccraft" />
+      <edge id="1416" source="Krimmarn" target="daccraft" />
+      <edge id="1417" source="ninasvensson" target="LOSverige" />
+      <edge id="1418" source="BjorklundVictor" target="katjanouch" />
+      <edge id="1419" source="sundstrompeter" target="katjanouch" />
+      <edge id="1420" source="svenakepe" target="mikaelgrev" />
+      <edge id="1421" source="svenakepe" target="medborgsamling" />
+      <edge id="1422" source="Dude25L" target="MaximilianMaxi8" />
+      <edge id="1423" source="Dude25L" target="katjanouch" />
+      <edge id="1424" source="I_am_Lothbrok" target="mikaelgrev" />
+      <edge id="1425" source="RobertMosbach" target="Mattias_K" />
+      <edge id="1426" source="annatekla" target="AnnaCarenS" />
+      <edge id="1427" source="DagLovold" target="katjanouch" />
+      <edge id="1428" source="Svartlufsen" target="hackelius" />
+      <edge id="1429" source="Amin_Aras" target="JohanErnelind" />
+      <edge id="1430" source="chrwallg" target="LuckyAmori" />
+      <edge id="1431" source="chrwallg" target="katjanouch" />
+      <edge id="1432" source="DenEpiskeOden" target="EHavlova" />
+      <edge id="1433" source="DenEpiskeOden" target="thomasmoller64" />
+      <edge id="1434" source="viktorjohan" target="katjanouch" />
+      <edge id="1435" source="KatrinFriberg" target="Jonna_A" />
+      <edge id="1436" source="MedborgarenM" target="medborgsamling" />
+      <edge id="1437" source="HeikeErkers" target="akademssr" />
+      <edge id="1438" source="EddieBo57" target="PiaClerte" />
+      <edge id="1439" source="gvonsydow" target="snskunskap" />
+      <edge id="1440" source="JMalmqvist" target="carroopsahl" />
+      <edge id="1441" source="WalhallaWachter" target="Mustalainen1" />
+      <edge id="1442" source="L1stn" target="katjanouch" />
+      <edge id="1443" source="myHBCUinterview" target="enkritiskfan" />
+      <edge id="1444" source="PssiP" target="beckmansasikter" />
+      <edge id="1445" source="PssiP" target="nya_moderaterna" />
+      <edge id="1446" source="Jonny_bullaren" target="PiaClerte" />
+      <edge id="1447" source="OddsVokal" target="LOSverige" />
+      <edge id="1448" source="massutmaning" target="EgorPutilov" />
+      <edge id="1449" source="hyugta" target="MXCartoons" />
+      <edge id="1450" source="HGullby" target="Sharps_Wagner" />
+      <edge id="1451" source="ThereseBostrom" target="medborgsamling" />
+      <edge id="1452" source="marcoackerman" target="marcoackerman" />
+      <edge id="1453" source="BenjaminDousa" target="MariaStenergard" />
+      <edge id="1454" source="Kingfis00529659" target="larsarnehagman" />
+      <edge id="1455" source="Kingfis00529659" target="PiaClerte" />
+      <edge id="1456" source="Kingfis00529659" target="beckmansasikter" />
+      <edge id="1457" source="Kingfis00529659" target="MXCartoons" />
+      <edge id="1458" source="Farmand14" target="katjanouch" />
+      <edge id="1459" source="malmobon" target="sdeuparlamentet" />
+      <edge id="1460" source="malmobon" target="Sharps_Wagner" />
+      <edge id="1461" source="malmobon" target="Samtidens" />
+      <edge id="1462" source="patrikgolsson" target="LuckyAmori" />
+      <edge id="1463" source="jonsson_goran" target="katjanouch" />
+      <edge id="1464" source="jonsson_goran" target="ROGSAHL" />
+      <edge id="1465" source="jonsson_goran" target="medborgsamling" />
+      <edge id="1466" source="jonsson_goran" target="PKkontroll" />
+      <edge id="1467" source="torpartjejen1" target="kallestrokirk" />
+      <edge id="1468" source="torpartjejen1" target="mikaelgrev" />
+      <edge id="1469" source="torpartjejen1" target="spanarlid" />
+      <edge id="1470" source="torpartjejen1" target="katjanouch" />
+      <edge id="1471" source="BDjup" target="katjanouch" />
+      <edge id="1472" source="BDjup" target="EgorPutilov" />
+      <edge id="1473" source="TommyFunebo" target="Hanna__Lindholm" />
+      <edge id="1474" source="SheilaGmar" target="MobergsR" />
+      <edge id="1475" source="booredx" target="medborgsamling" />
+      <edge id="1476" source="Hawkeyewatching" target="MaximilianMaxi8" />
+      <edge id="1477" source="Hawkeyewatching" target="medborgsamling" />
+      <edge id="1478" source="Hawkeyewatching" target="SwedeNews" />
+      <edge id="1479" source="nievsyrneh" target="katjanouch" />
+      <edge id="1480" source="SweKek" target="katjanouch" />
+      <edge id="1481" source="SweKek" target="mikelevandi" />
+      <edge id="1482" source="ganralf7" target="bladetledare" />
+      <edge id="1483" source="marcusjunh" target="mikaelgrev" />
+      <edge id="1484" source="Sussie5" target="katjanouch" />
+      <edge id="1485" source="HansELundblad" target="Jerlerup" />
+      <edge id="1486" source="HansELundblad" target="JohanErnelind" />
+      <edge id="1487" source="indpist" target="sodra" />
+      <edge id="1488" source="DamnedNewSweden" target="LuckyAmori" />
+      <edge id="1489" source="DamnedNewSweden" target="ROGSAHL" />
+      <edge id="1490" source="dieselvodo" target="medborgsamling" />
+      <edge id="1491" source="Fjordman1" target="JuliaCaesar08" />
+      <edge id="1492" source="CyberZeke_" target="medborgsamling" />
+      <edge id="1493" source="Stingbase" target="nya_moderaterna" />
+      <edge id="1494" source="ollewass" target="ROGSAHL" />
+      <edge id="1495" source="scandinavius" target="katjanouch" />
+      <edge id="1496" source="scandinavius" target="EgorPutilov" />
+      <edge id="1497" source="scandinavius" target="Sharps_Wagner" />
+      <edge id="1498" source="scandinavius" target="BarbEUfel" />
+      <edge id="1499" source="scandinavius" target="nya_moderaterna" />
+      <edge id="1500" source="OdoLagery" target="ROGSAHL" />
+      <edge id="1501" source="OdoLagery" target="katjanouch" />
+      <edge id="1502" source="OdoLagery" target="oliv917" />
+      <edge id="1503" source="OdoLagery" target="spanarlid" />
+      <edge id="1504" source="OdoLagery" target="KARLBERG_H" />
+      <edge id="1505" source="Jari64Topi" target="nn1684" />
+      <edge id="1506" source="Jari64Topi" target="PKkontroll" />
+      <edge id="1507" source="Kjell_999" target="ROGSAHL" />
+      <edge id="1508" source="Kjell_999" target="katjanouch" />
+      <edge id="1509" source="Kjell_999" target="JuliaCaesar08" />
+      <edge id="1510" source="Kjell_999" target="Kalsuparna" />
+      <edge id="1511" source="Kjell_999" target="chrwallg" />
+      <edge id="1512" source="Kjell_999" target="Samtidens" />
+      <edge id="1513" source="Kjell_999" target="frokensverige" />
+      <edge id="1514" source="Kjell_999" target="medborgsamling" />
+      <edge id="1515" source="Kjell_999" target="thomasmoller64" />
+      <edge id="1516" source="Kjell_999" target="LarsErikRyd" />
+      <edge id="1517" source="Kjell_999" target="Sharps_Wagner" />
+      <edge id="1518" source="Kjell_999" target="charlieafnord" />
+      <edge id="1519" source="Kjell_999" target="martin_inglot" />
+      <edge id="1520" source="verkligheten_sv" target="OdoLagery" />
+      <edge id="1521" source="Pojken_Ade" target="N0RDFR0ST" />
+    </edges>
+  </graph>
+</gexf>
