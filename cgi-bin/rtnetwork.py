@@ -8,7 +8,7 @@ import re
 import os
 import pandas as pd
 import networkx as nx
-#from werkzeug import secure_filename
+from werkzeug import secure_filename
 sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8', buffering=1)
 form = cgi.FieldStorage()
 import time
@@ -75,8 +75,8 @@ def openfile():
 
 
 
-    fn = fileitem.filename
-    fn2 = fileitem2.filename
+    fn = secure_filename(fileitem.filename)
+    fn2 = secure_filename(fileitem2.filename)
 
 
 
