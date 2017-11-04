@@ -49,8 +49,7 @@ def printpage():
          <br><input type="file" name="filename" />
          <input type="submit" value="Ladda upp" />
 
-        <br>
-        <br>
+        <br><br>
 
         <p>Om du har fått en .csv-fil av Christoher, ladda upp här:</p>
         <form enctype="multipart/form-data"
@@ -58,8 +57,8 @@ def printpage():
          <br><input type="file" name="filename2" />
          <input type="submit" value="Ladda upp" />
 
-
-
+         <br><br>
+         <p>Källkoden till detta verktyg finns <a href="https://github.com/christopherkullenberg/digitalametoder.science/blob/master/cgi-bin/rtnetwork.py">här</a>.</p>
         <br>
         </section>
      </main>
@@ -69,16 +68,11 @@ def printpage():
 
 def openfile():
     # Get filename here.
-
     fileitem = form['filename']
     fileitem2 = form['filename2']
 
-
-
     fn = secure_filename(fileitem.filename)
     fn2 = secure_filename(fileitem2.filename)
-
-
 
     # Test if the file was uploaded
     try:
@@ -121,14 +115,12 @@ def openfile():
             nx.write_gexf(G, "/home/chrisk/digitalametoder.science/results/" + filename + ".gexf")
             print('''Nätverksfilen för RT-network kan laddas ned <a href="http://digitalametoder.science/results/''' + filename + '''.gexf">här</a> (högerklicka och välj "spara som")  och sedan öppnas med Gephi.''')
 
-
         else:
             printpage()
             print('<p>Ingen fil valdes.</p>')
 
     except UnicodeError:
         print("<p>Filen har inte korrekt teckenkodning. Testa att spara om med Unicode / UTF-8.</p>")
-
 
 ## GET TEXT FROM FORM
 # Create instance of FieldStorage
@@ -138,5 +130,5 @@ try:
 except KeyError:
     printpage()
     sys.exit()
-    
+
 print("</body></html>")

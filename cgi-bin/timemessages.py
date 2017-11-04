@@ -112,8 +112,6 @@ def printpage():
          <br><input type="file" name="filename2" />
          <input type="submit" value="Ladda upp" />
 
-
-
         <br>
         </section>
      </main>
