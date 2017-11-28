@@ -187,9 +187,9 @@ def printaltmetric():
      <main>
         <h1>Analyzing altmetric scores </h1>
 	<p><b>OBS: filnamnen får inte innehålla specialtecken</b>.<br> Godkänt filnamn är ex. <code>fil.csv</code>.
-    <br>Välj gärna ett unikt och specifikt filnamn, ex. <code>christophersdata.csv</code></p>
+    <br>Use a unique file name, for example <code>christophersdata.csv</code></p>
         <h3>A. Web of Science</h3>
-        <p>Exportera till csv-fil i Google Calc/TAGS och ladda upp:</p>
+        <p>Export a .tsv file from Web of Science,  "Mac Tab delimited UTF-8" as character encoding.</p>
         <form enctype="multipart/form-data"
                          action="altmetric.py" method="post">
          <br><input type="file" name="filename" />
