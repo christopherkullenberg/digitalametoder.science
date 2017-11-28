@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2017-11-28">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="fillcolor" title="fillcolor" type="string"></attribute>
+      <attribute id="href" title="href" type="string"></attribute>
+      <attribute id="shape" title="shape" type="string"></attribute>
+      <attribute id="border" title="border" type="string"></attribute>
+      <attribute id="cellpadding" title="cellpadding" type="string"></attribute>
+      <attribute id="cellspacing" title="cellspacing" type="string"></attribute>
+      <attribute id="cellborder" title="cellborder" type="string"></attribute>
+      <attribute id="align" title="align" type="string"></attribute>
+      <attribute id="port" title="port" type="string"></attribute>
+      <attribute id="bgcolor" title="bgcolor" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="rankdir" label="rankdir">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="287.1528" y="457.5075"></viz:position>
+      </node>
+      <node id="LR" label="LR">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-52.45588" y="-289.5746"></viz:position>
+      </node>
+      <node id="ranksep" label="ranksep">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-41.084602" y="-269.2763"></viz:position>
+      </node>
+      <node id=".75" label=".75">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-444.63498" y="106.5313"></viz:position>
+      </node>
+      <node id="size" label="size">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="66.50289" y="-47.654064"></viz:position>
+      </node>
+      <node id="7.5,7.5" label="7.5,7.5">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="39.4078" y="-232.62843"></viz:position>
+      </node>
+      <node id="shape" label="shape">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="95.55599" y="-39.992992"></viz:position>
+      </node>
+      <node id="plaintext" label="plaintext">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-198.53896" y="383.57544"></viz:position>
+      </node>
+      <node id="fontsize" label="fontsize">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-286.80453" y="233.37517"></viz:position>
+      </node>
+      <node id="16" label="16">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="62.47561" y="180.4528"></viz:position>
+      </node>
+      <node id="past" label="past">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="524.8525" y="285.21063"></viz:position>
+      </node>
+      <node id="1998" label="1998">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-33.86521" y="369.265"></viz:position>
+      </node>
+      <node id="1999" label="1999">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-353.00827" y="405.18738"></viz:position>
+      </node>
+      <node id="2000" label="2000">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-198.62889" y="-407.67288"></viz:position>
+      </node>
+      <node id="2001" label="2001">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-156.31859" y="57.414112"></viz:position>
+      </node>
+      <node id="2002" label="2002">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="332.50827" y="188.75652"></viz:position>
+      </node>
+      <node id="2003" label="2003">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-317.02536" y="73.407646"></viz:position>
+      </node>
+      <node id="2004" label="2004">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="11.83895" y="151.62444"></viz:position>
+      </node>
+      <node id="2005" label="2005">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="283.3218" y="279.34436"></viz:position>
+      </node>
+      <node id="2006" label="2006">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-458.16827" y="-152.53612"></viz:position>
+      </node>
+      <node id="2007" label="2007">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-259.25613" y="349.73383"></viz:position>
+      </node>
+      <node id="2008" label="2008">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-147.2057" y="-74.46598"></viz:position>
+      </node>
+      <node id="2009" label="2009">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="254.25221" y="489.22986"></viz:position>
+      </node>
+      <node id="2010" label="2010">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="66.70138" y="356.9328"></viz:position>
+      </node>
+      <node id="2011" label="2011">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="300.0101" y="10.114248"></viz:position>
+      </node>
+      <node id="2012" label="2012">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="429.02957" y="212.5991"></viz:position>
+      </node>
+      <node id="2013" label="2013">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-56.012672" y="-4.9410195"></viz:position>
+      </node>
+      <node id="2014" label="2014">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="507.82486" y="-385.56168"></viz:position>
+      </node>
+      <node id="2015" label="2015">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="528.36896" y="13.093313"></viz:position>
+      </node>
+      <node id="2016" label="2016">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="182.85878" y="275.25037"></viz:position>
+      </node>
+      <node id="rank" label="rank">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="518.735" y="291.27136"></viz:position>
+      </node>
+      <node id="same" label="same">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="77.61538" y="180.83733"></viz:position>
+      </node>
+      <node id="bentham" label="Bentham">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="257.03714" y="-164.6428"></viz:position>
+      </node>
+      <node id="kuznets" label="Simon Kuznets (1934)">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+          <attvalue for="href" value="https://fraser.stlouisfed.org/docs/publications/natincome_1934/19340104_nationalinc.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="122.981285" y="261.6093"></viz:position>
+      </node>
+      <node id="sen" label="Amartya Sen">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-270.34406" y="-260.08496"></viz:position>
+      </node>
+      <node id="easterlin" label="Easterlin 1974">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-116.104836" y="351.2058"></viz:position>
+      </node>
+      <node id="erikson93" label="Erikson 1993
+Descriptions of inequality">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+          <attvalue for="href" value="https://www.google.se/search?q=Erikson+1993+&quot;Descriptions of inequality&quot;"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="230.3301" y="331.51025"></viz:position>
+      </node>
+      <node id="cantril" label="Cantrils stege">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="128.8459" y="336.09302"></viz:position>
+      </node>
+      <node id="sen1985" label="sen1985">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-25.494028" y="-151.69957"></viz:position>
+      </node>
+      <node id="Johansson1970" label="Johansson1970">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-123.00944" y="162.79369"></viz:position>
+      </node>
+      <node id="centermotion" label="1982 Centerpartiet motionerar om alternativ till BNP">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/G5022080"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="304.665" y="75.11364"></viz:position>
+      </node>
+      <node id="titmuss" label="Titmuss,  R.M.  1958.  Essays  on  the  Welfare  State">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-181.2029" y="288.35162"></viz:position>
+      </node>
+      <node id="Johansson1979" label="Johansson, S. 1979. Mot en teori för social rapportering">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="115.443504" y="-274.81836"></viz:position>
+      </node>
+      <node id="sou1998" label="SOU 1998:25*">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GMB325d2.text"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-426.50067" y="234.82744"></viz:position>
+      </node>
+      <node id="sou200041" label="SOU 2000:41 (Palme) Välfärd, ofärd och ojämlikhet">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="522.8676" y="388.01776"></viz:position>
+      </node>
+      <node id="easterlin2001" label="Easterlin 2001">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+          <attvalue for="href" value="http://www.jstor.org/stable/2667943"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-279.7163" y="140.06895"></viz:position>
+      </node>
+      <node id="uk" label="2002 Life Satisfaction
+ UK report">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://tidsverkstaden.se/filarkiv/file/Life%20satisfaction.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-396.2174" y="-452.50296"></viz:position>
+      </node>
+      <node id="layard" label="2005 Layard">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-79.98853" y="-415.30762"></viz:position>
+      </node>
+      <node id="norberg" label="2006 Norberg">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://www.timbro.se/bokhandel/pdf/TBP07_2006.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="239.56654" y="-484.98123"></viz:position>
+      </node>
+      <node id="bbc06" label="Make People Happier, says Cameron
+ BBC 22 May 2006">
+        <attvalues>
+          <attvalue for="fillcolor" value="#97C9A9"></attvalue>
+          <attvalue for="href" value="http://news.bbc.co.uk/2/hi/uk_news/politics/5003314.stm"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-269.58798" y="-480.84097"></viz:position>
+      </node>
+      <node id="helsingborgsdagblad06" label="Utbilick Storbritannien
+ Helsingborgs Dagblad 06">
+        <attvalues>
+          <attvalue for="fillcolor" value="#97C9A9"></attvalue>
+          <attvalue for="href" value="https://www.google.se/search?q=&quot;Utblick Storbritannien&quot;+Helsingborgs Dagblad"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-287.52737" y="119.70025"></viz:position>
+      </node>
+      <node id="a" label="2007 Max 
+Andersson Motion">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GV02Ub450.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-89.93491" y="-184.97487"></viz:position>
+      </node>
+      <node id="e" label="2007 Forskning och forskarutbildning">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GV01UbU5.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-276.54538" y="-349.1283"></viz:position>
+      </node>
+      <node id="f" label="2007 Riksdagens protokoll
+2007/08:64 Torsdagen den 14 februari">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GV0964.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="105.12478" y="-179.11195"></viz:position>
+      </node>
+      <node id="debatt1" label="2007 Riksdagens Debatt">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GV0911.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-72.91294" y="-142.28725"></viz:position>
+      </node>
+      <node id="brulde" label="2007 Brülde">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-182.38194" y="316.24878"></viz:position>
+      </node>
+      <node id="aftonbladet07" label="Lyckan finns – i Göteborg
+ Johannisson 2007">
+        <attvalues>
+          <attvalue for="fillcolor" value="#97C9A9"></attvalue>
+          <attvalue for="href" value="https://www.google.se/search?q=&quot;Lyckan finns - i Göteborg&quot;"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-87.80067" y="-223.30965"></viz:position>
+      </node>
+      <node id="bt07" label="Lyckan kommer - lyckan går
+ Söderström Borås Tidning 2007">
+        <attvalues>
+          <attvalue for="fillcolor" value="#97C9A9"></attvalue>
+          <attvalue for="href" value="https://www.google.se/search?q=&quot;Lyckan kommer - lyckan går&quot;+Söderström+Borås+Tidning"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="465.28622" y="425.4544"></viz:position>
+      </node>
+      <node id="a2" label="2008 Max
+ Andersson Motion">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GW02Ub492.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-203.89891" y="-220.47081"></viz:position>
+      </node>
+      <node id="g" label="2008 Ett lyft för forskning och innovation
+    Utbildningsutskottets betänkande">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GW01UbU4.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="160.31752" y="379.08032"></viz:position>
+      </node>
+      <node id="gotlandsallehanda" label="Är Nicolas Sarkozy lycklig?
+ Alexander Funcke 2008">
+        <attvalues>
+          <attvalue for="fillcolor" value="#97C9A9"></attvalue>
+          <attvalue for="href" value="https://www.google.se/search?q=&quot;Är Nicholas Sarokozy lycklig?&quot;"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="245.78358" y="-487.23422"></viz:position>
+      </node>
+      <node id="h" label="2009 Max
+Andersson Motion">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GX02Ub348.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-442.04428" y="491.5572"></viz:position>
+      </node>
+      <node id="j" label="2009 Forskning och forskarutbildning
+ Utbildningsutskottets betänkande">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GX01UbU10.text"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-208.75957" y="334.50677"></viz:position>
+      </node>
+      <node id="k" label="2009 Riksdagens protokoll
+2009/10:76 Onsdagen den 17 februari">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GX0976.text"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-244.15242" y="361.5429"></viz:position>
+      </node>
+      <node id="stiglitz" label="2009 Stiglitz report">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://www.insee.fr/fr/publications-et-services/dossiers_web/stiglitz/doc-commission/RAPPORT_anglais.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-245.9423" y="444.83447"></viz:position>
+      </node>
+      <node id="sydsvenskan09" label="Lyckan under lupp i Malmö
+ Lindström &amp; Andersson 2009">
+        <attvalues>
+          <attvalue for="fillcolor" value="#97C9A9"></attvalue>
+          <attvalue for="href" value="https://www.google.se/search?q=&quot;Lyckan under lupp i Malmö&quot;"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-238.8698" y="95.484856"></viz:position>
+      </node>
+      <node id="newhorizons" label="2010 New Horizons">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://webarchive.nationalarchives.gov.uk/20130107105354/http://www.dh.gov.uk/prod_consum_dh/groups/dh_digitalassets/@dh/@en/documents/digitalasset/dh_109708.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-21.31785" y="153.36998"></viz:position>
+      </node>
+      <node id="l" label="2010 Lise Nordin Motion">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GY02Ub209.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="484.63693" y="305.01392"></viz:position>
+      </node>
+      <node id="n" label="Riksdagens protokoll 2010/11:65 Onsdagen den 2 mars">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GY0965.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-175.7159" y="-369.17242"></viz:position>
+      </node>
+      <node id="o" label="2010 Forskning och forskarutbildning
+Utbildningsutskottets betänkande">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GY01UbU12.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-429.76254" y="-264.7447"></viz:position>
+      </node>
+      <node id="bortombnp" label="Bortom BNP. Eu-kommissionens rapport">
+        <attvalues>
+          <attvalue for="href" value="https://webapi.cor.europa.eu/documentsanonymous/CDR163-2010_REV1_PAC_SV.doc"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-448.1115" y="50.962086"></viz:position>
+      </node>
+      <node id="FN" label="2011 FN Generalförsamling">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://www.un.org/apps/news/story.asp?NewsID=39084#.VrDc0PGFB24"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-377.79214" y="-356.16052"></viz:position>
+      </node>
+      <node id="p" label="2011 års ekonomiska vårproposition">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GY03100d4.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="324.45615" y="245.13231"></viz:position>
+      </node>
+      <node id="q" label="2011 Lise Nordin Motion">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GZ02Ub272.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-445.33923" y="469.33795"></viz:position>
+      </node>
+      <node id="r" label="2011 Forskning, forskarutbildning och rymdfrågor
+  Utbildningsutskottets betänkande">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GZ01UbU18.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="526.85565" y="-136.22578"></viz:position>
+      </node>
+      <node id="sydsvenskan11" label="Lyckopolitik inget lyckat mål
+ Sydsvenskan 2011-10-01">
+        <attvalues>
+          <attvalue for="fillcolor" value="#97C9A9"></attvalue>
+          <attvalue for="href" value="https://www.google.se/search?q=&quot;Lyckopolitik+inget+lyckat+mål&quot;"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-145.55266" y="-96.95243"></viz:position>
+      </node>
+      <node id="romson" label="2011 Romson motion om nya mått på välfärd">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/GZ02Fi221"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="8.171866" y="-432.6034"></viz:position>
+      </node>
+      <node id="s" label="2012 SOU
+Längre liv, längre arbetsliv">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/H0B328.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="522.57697" y="209.49016"></viz:position>
+      </node>
+      <node id="t" label="2012 Lise Nordin Motion">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/H002Ub517.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="150.55824" y="-45.71629"></viz:position>
+      </node>
+      <node id="u" label="2012 Forskning och innovation
+ Utbildningsutskottets betänkande">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/H001UbU3.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="339.08188" y="-471.30988"></viz:position>
+      </node>
+      <node id="x" label="Riksdagens protokoll 2012/13:85 Onsdagen den 27 mars">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/H00985.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="376.84427" y="-227.09126"></viz:position>
+      </node>
+      <node id="fors" label="Filip Fors 2012
+Framtidskommissionen Rap. 4">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://www.regeringen.se/contentassets/49fa9971dc4d4d6b8dd33c9178a51cc3/nya-matt-pa-valfard-och-livskvalitet-i-samhallet"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-117.61164" y="-62.76161"></viz:position>
+      </node>
+      <node id="forsochbrulde" label="Fors och Brülde 2012">
+        <attvalues>
+          <attvalue for="fillcolor" value="#8C93BE"></attvalue>
+          <attvalue for="href" value="http://gup.ub.gu.se/publication/168778"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-176.62941" y="464.13257"></viz:position>
+      </node>
+      <node id="arena12" label="Vilken färg har lycka?
+ Arena 20120327, Kjell Vowles">
+        <attvalues>
+          <attvalue for="fillcolor" value="#97C9A9"></attvalue>
+          <attvalue for="href" value="https://www.google.se/search?q=&quot;Vilken färg har lycka?&quot;"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="426.63712" y="245.34605"></viz:position>
+      </node>
+      <node id="y" label="2013 Lise Nordin Motionerar">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/H102Ub255.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="425.02927" y="231.58275"></viz:position>
+      </node>
+      <node id="aa" label="2013 SOU - Synliggöra värdet av ekosystemtjänster">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/H1B368.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="439.03036" y="-136.46425"></viz:position>
+      </node>
+      <node id="bb" label="2013 Forskning
+ Utbildningsutskottets betänkande">
+        <attvalues>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/H101UbU14.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-413.75345" y="-351.82227"></viz:position>
+      </node>
+      <node id="miljopartiet" label="2013 Miljöpartiet rapport">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://www.mp.se/sites/default/files/nya_matt_pa_valfard.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-95.83637" y="-414.6839"></viz:position>
+      </node>
+      <node id="framtidskommissionen" label="2013 framtidskommissionen DS 2013:1*">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/H1B41.text"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-55.34754" y="272.5813"></viz:position>
+      </node>
+      <node id="framtidskommissionen3" label="2013 framtidskommissionen DS 2013:3*">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/fil/4DBA97E3-DFA9-46CF-8423-87A1E676A4C6"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="113.43569" y="-198.87318"></viz:position>
+      </node>
+      <node id="howslife" label="How's Life 2013
+ OECD report">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://www.oecd.org/std/3013071e.pdf"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="473.43887" y="-128.5559"></viz:position>
+      </node>
+      <node id="worldhappinessreport" label="World Happiness Report">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://worldhappiness.report/"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-124.989876" y="484.04083"></viz:position>
+      </node>
+      <node id="kommittedirektiv14" label="Kommittédirektiv 2014:68
+ Anders Borg tillsätter utredning">
+        <attvalues>
+          <attvalue for="href" value="https://www.riksdagen.se/sv/Dokument-Lagar/Utredningar/Kommittedirektiv/Matt-pa-livskvalitet_H2B168/"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="313.91653" y="-378.39337"></viz:position>
+      </node>
+      <node id="schlyter" label="Schlyter motion om BNP">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/H2021889"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="323.43698" y="269.1516"></viz:position>
+      </node>
+      <node id="mutt" label="Valter mutt motion om minskad BNP">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/H2022528"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="281.53915" y="101.01159"></viz:position>
+      </node>
+      <node id="dd" label="2015 Lise Nordin Motion">
+        <attvalues>
+          <attvalue for="fillcolor" value="#9CC94E"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/dokument/H3022223.text"></attvalue>
+          <attvalue for="shape" value="box"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-362.07495" y="86.27282"></viz:position>
+      </node>
+      <node id="sou2015" label="2015 SOU Får vi det bättre">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://www.regeringen.se/contentassets/dbb4c911287747b3943b4f61cf2b344f/far-vi-det-battre-om-matt-pa-livskvalitet-.pf"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-53.330757" y="-32.108654"></viz:position>
+      </node>
+      <node id="sou2015b" label="2015:106 SOU Sveriges ekonomi*">
+        <attvalues>
+          <attvalue for="fillcolor" value="#CA6445"></attvalue>
+          <attvalue for="href" value="http://data.riksdagen.se/fil/E71D6250-6BA4-4AD7-93FF-82BB4A70B4AA"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="14.387717" y="99.51916"></viz:position>
+      </node>
+      <node id="RiR2015" label="RiR 2015">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-444.3798" y="-25.132425"></viz:position>
+      </node>
+      <node id="OECD" label="OECD">
+        <attvalues>
+          <attvalue for="shape" value="underline"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="178.76839" y="157.53508"></viz:position>
+      </node>
+      <node id="Cameron" label="Cameron">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-171.985" y="367.9206"></viz:position>
+      </node>
+      <node id="remissriksrevisionen" label="Riksrevisionen">
+        <attvalues>
+          <attvalue for="href" value="01.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-422.21506" y="-435.4172"></viz:position>
+      </node>
+      <node id="bra" label="BRÅ">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="02.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-156.73863" y="-220.2441"></viz:position>
+      </node>
+      <node id="forsakringskassan" label="Förskringskassan">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="05.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="138.11433" y="-254.60457"></viz:position>
+      </node>
+      <node id="socialstyrelsen" label="Socialstyrelsen">
+        <attvalues>
+          <attvalue for="href" value="06.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-188.05034" y="442.9157"></viz:position>
+      </node>
+      <node id="folkhalsomyndigheten" label="Folkhälsomyndigheten">
+        <attvalues>
+          <attvalue for="href" value="07.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="146.17244" y="295.64752"></viz:position>
+      </node>
+      <node id="SBU" label="SBU">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="09.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="517.2386" y="-79.94633"></viz:position>
+      </node>
+      <node id="SCBremiss" label="SCB">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="15.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="368.0262" y="-14.910013"></viz:position>
+      </node>
+      <node id="lansstyrelsensthlm" label="Länsstyrelsen Stockholm">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="16.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-393.19904" y="-422.8882"></viz:position>
+      </node>
+      <node id="lansstyrelsenvg" label="Länsstyrelsen Västra götaland">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="19.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="2.6079319" y="-488.15842"></viz:position>
+      </node>
+      <node id="uu" label="Uppsala universitet">
+        <attvalues>
+          <attvalue for="href" value="26.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-282.33987" y="-290.2927"></viz:position>
+      </node>
+      <node id="gu" label="Göteborgs uni">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="27.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="441.2855" y="194.02538"></viz:position>
+      </node>
+      <node id="su" label="Stockholm uni">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="28.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-375.74496" y="-426.13998"></viz:position>
+      </node>
+      <node id="ki" label="Karolinska">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="31.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="92.973656" y="328.8825"></viz:position>
+      </node>
+      <node id="tillvaxt" label="Tillväxtverket">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="38.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="214.3296" y="-430.7415"></viz:position>
+      </node>
+      <node id="arbetsformedlingen" label="Arbetsförmedlingen">
+        <attvalues>
+          <attvalue for="href" value="45.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-273.64487" y="-350.308"></viz:position>
+      </node>
+      <node id="folkbildningsradet" label="Folkbildningsrådet">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="25.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="117.75094" y="476.58557"></viz:position>
+      </node>
+      <node id="regionostargotland" label="Region Östergötland">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="48.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-120.58692" y="167.27013"></viz:position>
+      </node>
+      <node id="sthlmlandsting" label="Stockholms läns landsting">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="49.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="240.11696" y="-40.00752"></viz:position>
+      </node>
+      <node id="vgr" label="Västra götalandsregionen">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="50.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-108.640785" y="-304.48123"></viz:position>
+      </node>
+      <node id="sthlmstad" label="Stockholm stad">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="56.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="286.02383" y="-488.3668"></viz:position>
+      </node>
+      <node id="umeastad" label="Umeå stad">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="57.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="23.174093" y="-470.56366"></viz:position>
+      </node>
+      <node id="framtidsstudier" label="Institutet för framtidsstudier">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="65.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-403.88065" y="-362.76166"></viz:position>
+      </node>
+      <node id="ume" label="Umeå uni">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="29.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-49.639687" y="69.20153"></viz:position>
+      </node>
+      <node id="SKL" label="Sveriges Kommuner och Landsting">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="73.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="267.57846" y="360.03082"></viz:position>
+      </node>
+      <node id="TCO" label="Sveriges Kommuner och Landsting">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="73.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-364.85977" y="-334.6156"></viz:position>
+      </node>
+      <node id="liu" label="Linköpings universitet">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="77.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-420.6075" y="54.85387"></viz:position>
+      </node>
+      <node id="tillvaxtanalys" label="Tillväxtanalys">
+        <attvalues>
+          <attvalue for="fillcolor" value="#B85BBC"></attvalue>
+          <attvalue for="href" value="79.pdf"></attvalue>
+          <attvalue for="shape" value="component"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="215.21474" y="-401.9646"></viz:position>
+      </node>
+      <node id="EHIS" label="European Health Inteview Survey">
+        <attvalues>
+          <attvalue for="shape" value="underline"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="201.87392" y="215.20317"></viz:position>
+      </node>
+      <node id="NTU" label="Nationella Trygghetsundersökningen">
+        <attvalues>
+          <attvalue for="shape" value="underline"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="82.33083" y="-103.65241"></viz:position>
+      </node>
+      <node id="nordenfelt" label="Lennart Nordenfelt">
+        <attvalues>
+          <attvalue for="shape" value="underline"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-465.96573" y="2.9257104"></viz:position>
+      </node>
+      <node id="NICE" label="Natinal Institute for Care and Excellence">
+        <attvalues>
+          <attvalue for="shape" value="underline"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-233.71153" y="-344.21698"></viz:position>
+      </node>
+      <node id="TLV" label="TLV">
+        <attvalues>
+          <attvalue for="shape" value="underline"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-216.99846" y="333.66626"></viz:position>
+      </node>
+      <node id="SOM" label="SOM">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-411.34766" y="-384.00043"></viz:position>
+      </node>
+      <node id="WHO" label="WHO">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="76.40182" y="-189.2841"></viz:position>
+      </node>
+      <node id="diener" label="diener">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="305.3134" y="25.609549"></viz:position>
+      </node>
+      <node id="Sen" label="Sen">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-18.363962" y="35.733814"></viz:position>
+      </node>
+      <node id="sink" label="sink">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="118.18081" y="238.74706"></viz:position>
+      </node>
+      <node id="subgraph" label="subgraph">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="295.24258" y="-303.11343"></viz:position>
+      </node>
+      <node id="cluster_01" label="cluster_01">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="503.6666" y="63.615955"></viz:position>
+      </node>
+      <node id="label" label="label">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-138.95775" y="363.26788"></viz:position>
+      </node>
+      <node id="Legend" label="Legend">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="279.25748" y="-385.36365"></viz:position>
+      </node>
+      <node id="key" label="&lt;&lt;table">
+        <attvalues>
+          <attvalue for="border" value="0"></attvalue>
+          <attvalue for="cellpadding" value="2"></attvalue>
+          <attvalue for="cellspacing" value="0"></attvalue>
+          <attvalue for="cellborder" value="0"></attvalue>
+          <attvalue for="align" value="right"></attvalue>
+          <attvalue for="port" value="i5"></attvalue>
+          <attvalue for="bgcolor" value="#97C9A9"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="477.52182" y="99.03326"></viz:position>
+      </node>
+      <node id="key2" label="amartya sen">
+        <attvalues>
+          <attvalue for="border" value="0"></attvalue>
+          <attvalue for="cellpadding" value="2"></attvalue>
+          <attvalue for="cellspacing" value="0"></attvalue>
+          <attvalue for="cellborder" value="0"></attvalue>
+          <attvalue for="port" value="i10"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="209.3528" y="307.50165"></viz:position>
+      </node>
+      <node id="key:i1:e" label="key:i1:e">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-337.08163" y="-148.4969"></viz:position>
+      </node>
+      <node id="key2:i1:w" label="key2:i1:w">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="237.67867" y="-319.59512"></viz:position>
+      </node>
+      <node id="key:i2:e" label="key:i2:e">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="160.72664" y="64.55901"></viz:position>
+      </node>
+      <node id="key2:i2:w" label="key2:i2:w">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="125.97201" y="-75.112526"></viz:position>
+      </node>
+      <node id="key:i3:e" label="key:i3:e">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-411.14346" y="121.97802"></viz:position>
+      </node>
+      <node id="key2:i3:w" label="key2:i3:w">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-122.738655" y="366.20886"></viz:position>
+      </node>
+      <node id="key:i4:e" label="key:i4:e">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-437.57114" y="34.91985"></viz:position>
+      </node>
+      <node id="key2:i4:w" label="key2:i4:w">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-173.04701" y="-354.1687"></viz:position>
+      </node>
+      <node id="key:i5:e" label="key:i5:e">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-46.79734" y="253.60265"></viz:position>
+      </node>
+      <node id="key2:i5:w" label="key2:i5:w">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-303.93494" y="27.558828"></viz:position>
+      </node>
+      <node id="key:i6:e" label="key:i6:e">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-312.11313" y="-394.7271"></viz:position>
+      </node>
+      <node id="key2:i6:w" label="key2:i6:w">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="218.33412" y="74.06585"></viz:position>
+      </node>
+      <node id="key:i7:e" label="key:i7:e">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-366.90387" y="138.89525"></viz:position>
+      </node>
+      <node id="key2:i7:w" label="key2:i7:w">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="176.55202" y="-78.00642"></viz:position>
+      </node>
+      <node id="key:i8:e" label="key:i8:e">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-333.5314" y="91.559135"></viz:position>
+      </node>
+      <node id="key2:i8:w" label="key2:i8:w">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-186.62675" y="-478.50827"></viz:position>
+      </node>
+      <node id="key:i9:e" label="key:i9:e">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-8.528756" y="282.4184"></viz:position>
+      </node>
+      <node id="key2:i9:w" label="key2:i9:w">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-382.03336" y="-499.97583"></viz:position>
+      </node>
+      <node id="key:i10:e" label="key:i10:e">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="117.67654" y="-12.949106"></viz:position>
+      </node>
+      <node id="key2:i10:w" label="key2:i10:w">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="432.2668" y="-239.54445"></viz:position>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="past" target="1998"></edge>
+      <edge id="1" source="1999" target="2000"></edge>
+      <edge id="2" source="2001" target="2002"></edge>
+      <edge id="3" source="2003" target="2004"></edge>
+      <edge id="4" source="2005" target="2006"></edge>
+      <edge id="5" source="2007" target="2008"></edge>
+      <edge id="6" source="2009" target="2010"></edge>
+      <edge id="7" source="2011" target="2012"></edge>
+      <edge id="8" source="2013" target="2014"></edge>
+      <edge id="9" source="2015" target="2016"></edge>
+      <edge id="10" source="sou200041" target="titmuss"></edge>
+      <edge id="11" source="sou200041" target="Johansson1979"></edge>
+      <edge id="12" source="sou200041" target="Johansson1970"></edge>
+      <edge id="13" source="layard" target="bentham"></edge>
+      <edge id="14" source="layard" target="easterlin"></edge>
+      <edge id="15" source="layard" target="easterlin2001"></edge>
+      <edge id="16" source="easterlin2001" target="easterlin"></edge>
+      <edge id="17" source="erikson93" target="easterlin"></edge>
+      <edge id="18" source="erikson93" target="sen"></edge>
+      <edge id="19" source="sou1998" target="sen"></edge>
+      <edge id="20" source="norberg" target="easterlin"></edge>
+      <edge id="21" source="norberg" target="layard"></edge>
+      <edge id="22" source="stiglitz" target="easterlin"></edge>
+      <edge id="23" source="stiglitz" target="sen"></edge>
+      <edge id="24" source="fors" target="howslife"></edge>
+      <edge id="25" source="fors" target="worldhappinessreport"></edge>
+      <edge id="26" source="fors" target="stiglitz"></edge>
+      <edge id="27" source="fors" target="erikson93"></edge>
+      <edge id="28" source="miljopartiet" target="easterlin2001"></edge>
+      <edge id="29" source="miljopartiet" target="forsochbrulde"></edge>
+      <edge id="30" source="miljopartiet" target="kuznets"></edge>
+      <edge id="31" source="framtidskommissionen" target="sen"></edge>
+      <edge id="32" source="framtidskommissionen" target="stiglitz"></edge>
+      <edge id="33" source="framtidskommissionen3" target="fors"></edge>
+      <edge id="34" source="framtidskommissionen3" target="layard"></edge>
+      <edge id="35" source="framtidskommissionen3" target="sen"></edge>
+      <edge id="36" source="sou2015" target="framtidskommissionen3"></edge>
+      <edge id="37" source="sou2015" target="stiglitz"></edge>
+      <edge id="38" source="sou2015" target="miljopartiet"></edge>
+      <edge id="39" source="sou2015" target="bentham"></edge>
+      <edge id="40" source="sou2015" target="easterlin2001"></edge>
+      <edge id="41" source="sou2015" target="layard"></edge>
+      <edge id="42" source="sou2015" target="fors"></edge>
+      <edge id="43" source="sou2015" target="sen"></edge>
+      <edge id="44" source="sou2015" target="kuznets"></edge>
+      <edge id="45" source="sou2015" target="sen1985"></edge>
+      <edge id="46" source="sou2015" target="Johansson1970"></edge>
+      <edge id="47" source="sou2015" target="OECD"></edge>
+      <edge id="48" source="sou2015b" target="fors"></edge>
+      <edge id="49" source="sou2015b" target="sen"></edge>
+      <edge id="50" source="sydsvenskan11" target="sen"></edge>
+      <edge id="51" source="sydsvenskan11" target="q"></edge>
+      <edge id="52" source="sydsvenskan11" target="bbc06"></edge>
+      <edge id="53" source="bbc06" target="Cameron"></edge>
+      <edge id="54" source="arena12" target="Cameron"></edge>
+      <edge id="55" source="arena12" target="sen"></edge>
+      <edge id="56" source="arena12" target="q"></edge>
+      <edge id="57" source="arena12" target="layard"></edge>
+      <edge id="58" source="arena12" target="norberg"></edge>
+      <edge id="59" source="arena12" target="fors"></edge>
+      <edge id="60" source="arena12" target="brulde"></edge>
+      <edge id="61" source="gotlandsallehanda" target="stiglitz"></edge>
+      <edge id="62" source="sydsvenskan09" target="stiglitz"></edge>
+      <edge id="63" source="aftonbladet07" target="brulde"></edge>
+      <edge id="64" source="aftonbladet07" target="a"></edge>
+      <edge id="65" source="bt07" target="brulde"></edge>
+      <edge id="66" source="bt07" target="a"></edge>
+      <edge id="67" source="helsingborgsdagblad06" target="Cameron"></edge>
+      <edge id="68" source="helsingborgsdagblad06" target="layard"></edge>
+      <edge id="69" source="uk" target="easterlin2001"></edge>
+      <edge id="70" source="a" target="uk"></edge>
+      <edge id="71" source="a" target="layard"></edge>
+      <edge id="72" source="a" target="bentham"></edge>
+      <edge id="73" source="a" target="easterlin"></edge>
+      <edge id="74" source="e" target="a"></edge>
+      <edge id="75" source="f" target="a"></edge>
+      <edge id="76" source="a2" target="brulde"></edge>
+      <edge id="77" source="a2" target="layard"></edge>
+      <edge id="78" source="a2" target="norberg"></edge>
+      <edge id="79" source="a2" target="uk"></edge>
+      <edge id="80" source="a2" target="bentham"></edge>
+      <edge id="81" source="a2" target="easterlin"></edge>
+      <edge id="82" source="a2" target="stiglitz"></edge>
+      <edge id="83" source="g" target="a2"></edge>
+      <edge id="84" source="h" target="stiglitz"></edge>
+      <edge id="85" source="h" target="uk"></edge>
+      <edge id="86" source="h" target="layard"></edge>
+      <edge id="87" source="h" target="norberg"></edge>
+      <edge id="88" source="h" target="brulde"></edge>
+      <edge id="89" source="h" target="bentham"></edge>
+      <edge id="90" source="h" target="easterlin"></edge>
+      <edge id="91" source="j" target="h"></edge>
+      <edge id="92" source="l" target="stiglitz"></edge>
+      <edge id="93" source="l" target="brulde"></edge>
+      <edge id="94" source="l" target="bentham"></edge>
+      <edge id="95" source="l" target="easterlin"></edge>
+      <edge id="96" source="sou2015" target="bortombnp"></edge>
+      <edge id="97" source="romson" target="bortombnp"></edge>
+      <edge id="98" source="n" target="stiglitz"></edge>
+      <edge id="99" source="o" target="l"></edge>
+      <edge id="100" source="p" target="layard"></edge>
+      <edge id="101" source="p" target="sen"></edge>
+      <edge id="102" source="q" target="FN"></edge>
+      <edge id="103" source="q" target="newhorizons"></edge>
+      <edge id="104" source="q" target="stiglitz"></edge>
+      <edge id="105" source="q" target="kuznets"></edge>
+      <edge id="106" source="q" target="easterlin"></edge>
+      <edge id="107" source="r" target="q"></edge>
+      <edge id="108" source="s" target="layard"></edge>
+      <edge id="109" source="t" target="FN"></edge>
+      <edge id="110" source="t" target="newhorizons"></edge>
+      <edge id="111" source="t" target="stiglitz"></edge>
+      <edge id="112" source="t" target="kuznets"></edge>
+      <edge id="113" source="t" target="easterlin"></edge>
+      <edge id="114" source="u" target="t"></edge>
+      <edge id="115" source="y" target="FN"></edge>
+      <edge id="116" source="y" target="stiglitz"></edge>
+      <edge id="117" source="y" target="kuznets"></edge>
+      <edge id="118" source="y" target="newhorizons"></edge>
+      <edge id="119" source="y" target="easterlin"></edge>
+      <edge id="120" source="aa" target="fors"></edge>
+      <edge id="121" source="aa" target="bentham"></edge>
+      <edge id="122" source="aa" target="stiglitz"></edge>
+      <edge id="123" source="bb" target="y"></edge>
+      <edge id="124" source="kommittedirektiv14" target="fors"></edge>
+      <edge id="125" source="kommittedirektiv14" target="framtidskommissionen"></edge>
+      <edge id="126" source="kommittedirektiv14" target="worldhappinessreport"></edge>
+      <edge id="127" source="kommittedirektiv14" target="howslife"></edge>
+      <edge id="128" source="kommittedirektiv14" target="stiglitz"></edge>
+      <edge id="129" source="kommittedirektiv14" target="sou2015"></edge>
+      <edge id="130" source="dd" target="FN"></edge>
+      <edge id="131" source="dd" target="kuznets"></edge>
+      <edge id="132" source="dd" target="stiglitz"></edge>
+      <edge id="133" source="dd" target="newhorizons"></edge>
+      <edge id="134" source="dd" target="easterlin"></edge>
+      <edge id="135" source="remissriksrevisionen" target="sou2015"></edge>
+      <edge id="136" source="remissriksrevisionen" target="OECD"></edge>
+      <edge id="137" source="remissriksrevisionen" target="RiR2015"></edge>
+      <edge id="138" source="bra" target="sou2015"></edge>
+      <edge id="139" source="bra" target="NTU"></edge>
+      <edge id="140" source="forsakringskassan" target="sou2015"></edge>
+      <edge id="141" source="socialstyrelsen" target="sou2015"></edge>
+      <edge id="142" source="socialstyrelsen" target="OECD"></edge>
+      <edge id="143" source="folkhalsomyndigheten" target="sou2015"></edge>
+      <edge id="144" source="folkhalsomyndigheten" target="EHIS"></edge>
+      <edge id="145" source="SBU" target="sou2015"></edge>
+      <edge id="146" source="SBU" target="nordenfelt"></edge>
+      <edge id="147" source="SBU" target="NICE"></edge>
+      <edge id="148" source="SBU" target="TLV"></edge>
+      <edge id="149" source="SCBremiss" target="sou2015"></edge>
+      <edge id="150" source="lansstyrelsensthlm" target="sou2015"></edge>
+      <edge id="151" source="lansstyrelsensthlm" target="worldhappinessreport"></edge>
+      <edge id="152" source="lansstyrelsensthlm" target="framtidskommissionen3"></edge>
+      <edge id="153" source="lansstyrelsenvg" target="sou2015"></edge>
+      <edge id="154" source="folkbildningsradet" target="sou2015"></edge>
+      <edge id="155" source="folkbildningsradet" target="OECD"></edge>
+      <edge id="156" source="folkbildningsradet" target="cantril"></edge>
+      <edge id="157" source="uu" target="sou2015"></edge>
+      <edge id="158" source="uu" target="stiglitz"></edge>
+      <edge id="159" source="gu" target="sou2015"></edge>
+      <edge id="160" source="gu" target="brulde"></edge>
+      <edge id="161" source="gu" target="SOM"></edge>
+      <edge id="162" source="gu" target="stiglitz"></edge>
+      <edge id="163" source="gu" target="OECD"></edge>
+      <edge id="164" source="gu" target="layard"></edge>
+      <edge id="165" source="su" target="sou2015"></edge>
+      <edge id="166" source="su" target="NTU"></edge>
+      <edge id="167" source="ume" target="sou2015"></edge>
+      <edge id="168" source="ume" target="stiglitz"></edge>
+      <edge id="169" source="ume" target="OECD"></edge>
+      <edge id="170" source="ume" target="framtidskommissionen3"></edge>
+      <edge id="171" source="ki" target="sou2015"></edge>
+      <edge id="172" source="tillvaxt" target="sou2015"></edge>
+      <edge id="173" source="tillvaxt" target="OECD"></edge>
+      <edge id="174" source="arbetsformedlingen" target="sou2015"></edge>
+      <edge id="175" source="regionostargotland" target="sou2015"></edge>
+      <edge id="176" source="regionostargotland" target="cantril"></edge>
+      <edge id="177" source="sthlmlandsting" target="sou2015"></edge>
+      <edge id="178" source="vgr" target="sou2015"></edge>
+      <edge id="179" source="vgr" target="SOM"></edge>
+      <edge id="180" source="vgr" target="WHO"></edge>
+      <edge id="181" source="vgr" target="worldhappinessreport"></edge>
+      <edge id="182" source="vgr" target="OECD"></edge>
+      <edge id="183" source="sthlmstad" target="sou2015"></edge>
+      <edge id="184" source="sthlmstad" target="OECD"></edge>
+      <edge id="185" source="umeastad" target="sou2015"></edge>
+      <edge id="186" source="framtidsstudier" target="sou2015"></edge>
+      <edge id="187" source="framtidsstudier" target="layard"></edge>
+      <edge id="188" source="framtidsstudier" target="diener"></edge>
+      <edge id="189" source="framtidsstudier" target="OECD"></edge>
+      <edge id="190" source="framtidsstudier" target="stiglitz"></edge>
+      <edge id="191" source="framtidsstudier" target="Sen"></edge>
+      <edge id="192" source="SKL" target="sou2015"></edge>
+      <edge id="193" source="SKL" target="OECD"></edge>
+      <edge id="194" source="SKL" target="FN"></edge>
+      <edge id="195" source="TCO" target="sou2015"></edge>
+      <edge id="196" source="TCO" target="OECD"></edge>
+      <edge id="197" source="TCO" target="howslife"></edge>
+      <edge id="198" source="liu" target="sou2015"></edge>
+      <edge id="199" source="liu" target="cantril"></edge>
+      <edge id="200" source="liu" target="OECD"></edge>
+      <edge id="201" source="liu" target="stiglitz"></edge>
+      <edge id="202" source="tillvaxtanalys" target="sou2015"></edge>
+      <edge id="203" source="tillvaxtanalys" target="stiglitz"></edge>
+      <edge id="204" source="tillvaxtanalys" target="OECD"></edge>
+      <edge id="205" source="key:i1:e" target="key2:i1:w"></edge>
+      <edge id="206" source="key:i2:e" target="key2:i2:w"></edge>
+      <edge id="207" source="key:i3:e" target="key2:i3:w"></edge>
+      <edge id="208" source="key:i4:e" target="key2:i4:w"></edge>
+    </edges>
+  </graph>
+</gexf>
