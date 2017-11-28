@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
-import cgi, cgitb
+import cgi
+import cgitb
 import sys
 import re
 import os
@@ -11,6 +12,7 @@ import time
 from printhtml import printrtnetwork
 sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8', buffering=1)
 form = cgi.FieldStorage()
+
 
 def openfile():
     # Get filename here.
@@ -38,7 +40,8 @@ def openfile():
                         G.add_edge(tweet[1][1], match[0])
             filename = str(time.time())
             nx.write_gexf(G, "/home/chrisk/digitalametoder.science/results/" + filename + ".gexf")
-            print('''Nätverksfilen för RT-network kan laddas ned <a href="http://digitalametoder.science/results/''' + filename + '''.gexf">här</a> (högerklicka och välj "spara som")  och sedan öppnas med Gephi.''')
+            print('''Nätverksfilen för RT-network kan laddas ned <a href="http://digitalametoder.science/results/''' +
+                  filename + '''.gexf">här</a> (högerklicka och välj "spara som")  och sedan öppnas med Gephi.''')
         elif fileitem2.filename:
             open('upload/' + fn2, 'wb').write(fileitem2.file.read())
             fn2 = os.path.basename(fileitem2.filename.replace(' ', '-'))
@@ -55,12 +58,14 @@ def openfile():
                         G.add_edge(tweet[1][3], match[0])
             filename = str(time.time())
             nx.write_gexf(G, "/home/chrisk/digitalametoder.science/results/" + filename + ".gexf")
-            print('''Nätverksfilen för RT-network kan laddas ned <a href="http://digitalametoder.science/results/''' + filename + '''.gexf">här</a> (högerklicka och välj "spara som")  och sedan öppnas med Gephi.''')
+            print('''Nätverksfilen för RT-network kan laddas ned <a href="http://digitalametoder.science/results/''' +
+                  filename + '''.gexf">här</a> (högerklicka och välj "spara som")  och sedan öppnas med Gephi.''')
         else:
             printrtnetwork()
             print('<p>Ingen fil valdes.</p>')
     except UnicodeError:
         print("<p>Filen har inte korrekt teckenkodning. Testa att spara om med Unicode / UTF-8.</p>")
+
 
 try:
     openfile()
