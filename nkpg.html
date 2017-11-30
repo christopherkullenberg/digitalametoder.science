@@ -51,7 +51,7 @@
 <!-- End header-->
 
 
-<!-- https://www.altmetric.com/blog/scoreanddonut/ -->
+<!--  -->
 
 
       <!-- Page Heading -->
@@ -64,18 +64,31 @@
           </p>
 
           <p><b>
-            Innehåll:
+            Contents:
           </b></p>
 
           <ol>
-            <li>Valuation practice: Citations vs. Altmetrics</li>
-            <li>Qualcite practice: "Measuring welfare" data</li>
+            <li>Useful links and external resources</li>
+            <li>Valuation practice 1: Citations vs. Altmetrics</li>
+            <li>QualCite practice: "Measuring welfare" data</li>
+            <li>Valuation practice 2: "Valuation of Valuation Studies Journal"</li>
+          </ol>
+
+          <h3 class="my-4">
+            1. Useful links and external resources.
+          </h3>
+
+          <ol>
+            <li><a href="http://www.roundabout.se/scientometrics/nkpg/">Gustaf's page</a> (additional data)</li>
+            <li><a href="http://webofknowledge.com">Web of Science scientometric database</a>.</li>
+            <li><a href="http://scopus.com">Scopus</a> scientometric database.</li>
+            <li>Altmetric <a href="https://www.altmetric.com/blog/scoreanddonut/">documentation</a> on score calculation.</li>
           </ol>
 
 
 
               <h3 class="my-4">
-                1. Valuation practice: Citations vs. Altmetrics
+                2. Valuation practice 1: Citations vs. Altmetrics
               </h3>
 
               <p>
@@ -85,18 +98,13 @@
                 value meters.
               </p>
 
-
-
-              <p>Links to Wos and Scopus </p>
-
               <p><a href="http://digitalametoder.science/cgi-bin/altmetric.py">Link to tool</a></p>
 
 
 
 
-
               <h3 class="my-4">
-                2. QualCite practice: "Measuring welfare" dataset.
+                3. QualCite practice: "Measuring welfare" dataset.
               </h3>
               <p>This is the methological source material and digital method
                 toolbox used for the article <a href="http://valuationstudies.liu.se/Issues/articles/default.asp?DOI=10.3384/VS.2001-5992.17517">
@@ -108,7 +116,7 @@
               <p>A visual and hyperlinked <b>overview</b> of the dataset can be found
                 <a href="https://scientometrics.flov.gu.se/happiness/map/index.html" target="_blank">here</a>.
               </p>
-              <p>Graphviz source code can be found <a href="https://scientometrics.flov.gu.se/happiness/map/remiss.dot">here</a> (which also can be opened in Gephi).</p>
+              <p>Graphviz source code can be found <a href="https://scientometrics.flov.gu.se/happiness/map/lycka.dot">here</a> (which also can be opened in Gephi).</p>
               <p>A Gephi file can be found <a href="http://digitalametoder.science/data/lycka.gephi">here</a>
                 and a <code>.gexf</code> file <a href="http://digitalametoder.science/data/lycka.gexf">here</a>.</p>
             </li>
@@ -139,8 +147,24 @@
           </ol>
 
 
+          <h3 class="my-4">
+            4. Valuation practice 2: "Valuation of Valuation Studies Journal"
+          </h3>
+          <p>Under construction... </p>
 
+          <p>This excercise extracts all the articles and their cited articles
+            from the Journal of Valuation Studies (source code for the scraper
+            can be found <a href="https://github.com/christopherkullenberg/ValuationStudiesScraper">here</a>)
+            . Then we run these through scholarly citation databases as well as Altmetrics</p>
 
+            <p><b>Data</b></p>
+            <p>The datafiles below can be run through the <a href="http://digitalametoder.science/cgi-bin/altmetric.py">Altmetric</a> tool.</p>
+
+            <ul>
+              <li><a href="/data/VSdoi.txt">Valuation Studies, all DOIs, plain text file</a></li>
+              <li><a href="/data/VSreferencesDOIS.txt">Valuation Studies, all reference list DOIs (cited references) except self references to journal, plain text file</a></li>
+              <li><a href="/data/VSselfreferencesDOIs.txt">Valuation Studies, all references to own journal, DOIs, plain text file</a></li>
+            </ul>
 
 
 

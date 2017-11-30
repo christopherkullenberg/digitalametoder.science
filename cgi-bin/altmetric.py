@@ -18,42 +18,17 @@ import requests
 import json
 sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8', buffering=1)
 form = cgi.FieldStorage()
-
-
-
-'''
-def callaltmetric(listofdois):
-    # Initialize a pandas dataframe with the correct columns
-    df = pd.DataFrame(columns=["Title", "DOI", "URL", "AltmetricURL", "Score"])
-    for DOI in listofdois[0:9]:
-        webcontent = requests.get('https://api.altmetric.com/v1/doi/' + DOI)
-        try:
-            jsonobject = webcontent.json()
-            try:
-                df = df.append({
-                 "Title": jsonobject['title'],
-                 "DOI":  jsonobject['doi'],
-                 "URL": "https://dx.doi.org/" + jsonobject['doi'],
-                 "Score": jsonobject['score'],
-                "AltmetricURL": jsonobject['details_url']
-                  }, ignore_index=True)
-             except KeyError:
-                 print("<p>KeyError, Skipping this piece</p>")
-                 continue
-         except json.JSONDecodeError:
-            print("The article " + DOI + " was not in Altmetrics database")
-            continue
-'''
-
-
+filename = str(time.time())
 
 
 def openfile():
     # Get filename here.
     fileitem = form['filename']
     fileitem2 = form['filename2']
+    fileitem3 = form['filename3']
     fn = secure_filename(fileitem.filename)
     fn2 = secure_filename(fileitem2.filename)
+    fn3 = secure_filename(fileitem3.filename)
     # Test if the file was uploaded
     try:
         if fileitem.filename:
@@ -89,6 +64,22 @@ def openfile():
             print("<p>Extracted DOIs: " + str(len(scopusdois)) + "</p>")
             print("<p>Now attempting to contact the Altmetric API... please be patient.</p>")
             return(scopusdois)
+
+        elif fileitem3.filename:
+            plaintextdois = []
+            open('upload/' + fn3, 'wb').write(fileitem3.file.read())
+            fn3 = os.path.basename(fileitem3.filename.replace(' ', '-'))
+            dois = open('upload/' + fn3, "r")
+            listofdois = dois.readlines()
+            printaltmetric()
+            for line in listofdois:
+                plaintextdois.append(line[:-1]) # -2 removes \n
+                #print(line)
+            print("<p>Number of DOIs in file: " + str(len(plaintextdois)) + "</p>")
+            print("<p>Now attempting to contact the Altmetric API... please be patient.</p>")
+            #print(plaintextdois[0:10])
+            return(plaintextdois)
+
         else:
             printaltmetric()
             print('<p>Ingen fil valdes.</p>')
@@ -103,45 +94,61 @@ except KeyError:
     sys.exit()
 '''
 
-df = pd.DataFrame(columns=["Title", "DOI", "URL", "AltmetricURL", "Score"])
 
-for DOI in openfile()[0:100]:
 
-    webcontent = requests.get('https://api.altmetric.com/v1/doi/' + DOI)
+def builddf(filename):
+    df = pd.DataFrame(columns=["Title", "DOI", "URL", "AltmetricURL", "Tweets", "Wikipedia", "MSM", "Score"])
+    skipped = 0
     try:
-        jsonobject = webcontent.json()
-    except json.JSONDecodeError:
-        print("Not in Altmetrics database")
-        continue
-    print(jsonobject)
-    try:
-        #print(jsonobject['title'])
-        #print(jsonobject['doi'])
-        #print(jsonobject['cited_by_posts_count'])
-        #print(jsonobject['cited_by_msm_count'])
-        #print(jsonobject['cited_by_feeds_count'])
-        #print(jsonobject['cited_by_tweeters_count'])
-        #print(jsonobject['cited_by_fbwalls_count'])
-        #print(jsonobject['cited_by_wikipedia_count'])
-        #print(jsonobject['cited_by_gplus_count'])
-        #print(jsonobject['cited_by_rdts_count'])
-        #print(jsonobject['cited_by_videos_count'])
-        #print(jsonobject['cited_by_accounts_count'])
-        #print(jsonobject['score'])
-        df = df.append({
-         "Title": jsonobject['title'],
-         "DOI":  jsonobject['doi'],
-         #"Tweets": jsonobject['cited_by_tweeters_count'],
-         "URL": "https://dx.doi.org/" + jsonobject['doi'],
-         "Score": jsonobject['score'],
-        "AltmetricURL": jsonobject['details_url']
-          }, ignore_index=True)
+        for DOI in openfile()[0:10]:
+            datadict = {}
+            webcontent = requests.get('https://api.altmetric.com/v1/doi/' + DOI)
+            #print(webcontent)
+            try:
+                jsonobject = webcontent.json()
+            except json.JSONDecodeError:
+                skipped += 1
+                continue
+            #print(jsonobject)
+            try:
+                datadict['Title'] = jsonobject['title']
+                datadict['DOI'] = jsonobject['doi']
+                datadict['Score'] = jsonobject['score']
+                datadict['URL'] = "https://dx.doi.org/" + jsonobject['doi']
+                datadict['AltmetricURL'] = jsonobject['details_url']
+                try:
+                    datadict['Wikipedia'] = jsonobject['cited_by_wikipedia_count']
+                except KeyError:
+                    datadict['Wikipedia'] = 0
+                try:
+                    datadict['Tweets'] = jsonobject['cited_by_tweeters_count']
+                except KeyError:
+                    datadict['Tweets'] = 0
+                try:
+                    datadict['MSM'] = jsonobject['cited_by_msm_count']
+                except KeyError:
+                    datadict['MSM'] = 0
+                try:
+                    datadict['Videos'] = jsonobject['cited_by_videos_coun']
+                except KeyError:
+                    datadict['Videos'] = 0
+
+                df = df.append(datadict, ignore_index=True)
+
+            except KeyError:
+                skipped += 1
+                continue
     except KeyError:
-        print("No data, Skipping this piece")
-        continue
+        printaltmetric()
+        sys.exit()
+    df.to_excel("/home/chrisk/digitalametoder.science/results/" + filename + ".xlsx")
+    print("<p>" + str(skipped) + " DOIs had no matches in the Altmetric database</p>")
+    print("<p>" + str(len(df)) + " Altmetric scores were written to file.</p>")
+    print('''<p>The file can be downloaded <a href="http://digitalametoder.science/results/''' + filename + '''.xlsx">here</a> and be opened with a spreadsheet application.</p>''')
+builddf(filename) # get timestamped filename
 
-df.to_excel("/home/chrisk/digitalametoder.science/results/test2.xlsx")
-print('''Nätverksfilen för RT-network kan laddas ned <a href="http://digitalametoder.science/results/test2.xlsx">här</a> (högerklicka och välj "spara som")  och sedan öppnas med Excel.''')
+
+
 
 
 

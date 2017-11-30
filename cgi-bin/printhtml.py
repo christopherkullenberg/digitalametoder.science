@@ -186,23 +186,40 @@ def printaltmetric():
     <div id="container">
      <main>
         <h1>Analyzing altmetric scores </h1>
-	<p><b>OBS: filnamnen får inte innehålla specialtecken</b>.<br> Godkänt filnamn är ex. <code>fil.csv</code>.
-    <br>Use a unique file name, for example <code>christophersdata.csv</code></p>
+        <p>This tool uses data from the <a href="https://www.altmetric.com/">Altmetric</a> API.</p>
+
+	    <p>Please use a unique file name without special characters, for example <code>christophersdata.csv</code></p>
+
+        <p>This tool is currently limited to 100 requests to the Altmetric API to
+        to prevent overloading it. Longer files will only make requests for the
+        100 first records.</p>
+
+        <p>Please be patient, fetching records might take some time.</p>
+
         <h3>A. Web of Science</h3>
         <p>Export a .tsv file from Web of Science,  "Mac Tab delimited UTF-8" as character encoding.</p>
         <form enctype="multipart/form-data"
                          action="altmetric.py" method="post">
          <br><input type="file" name="filename" />
-         <input type="submit" value="Ladda upp" />
+         <input type="submit" value="Upload Web of Science TSV file" />
 
         <br><br>
 
         <h3>B. Scopus</h3>
-        <p>Om du har en csv-fil som samlats in med Netvizz, ladda upp här:</p>
+        <p>Export search results from Scopus as CSV file.</p>
         <form enctype="multipart/form-data"
                          action="altmetric.py" method="post">
          <br><input type="file" name="filename2" />
-         <input type="submit" value="Ladda upp" />
+         <input type="submit" value="Upload Scopus CSV file" />
+
+        <br>
+
+        <h3>C. From list of DOIs</h3>
+        <p>Save DOI numbers in a plain text file. Delimit each DOI with a newline (one DOI per line)</p>
+        <form enctype="multipart/form-data"
+                         action="altmetric.py" method="post">
+         <br><input type="file" name="filename3" />
+         <input type="submit" value="Upload textfile with DOIs" />
 
         <br>
         </section>
