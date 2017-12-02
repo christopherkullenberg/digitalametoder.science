@@ -19,6 +19,8 @@ import json
 sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8', buffering=1)
 form = cgi.FieldStorage()
 filename = str(time.time())
+with open("/home/chrisk/apikey.txt") as apifile:
+    apikey = apifile.read()
 
 
 def openfile():
@@ -102,7 +104,7 @@ def builddf(filename):
     try:
         for DOI in openfile()[0:10]:
             datadict = {}
-            webcontent = requests.get('https://api.altmetric.com/v1/doi/' + DOI)
+            webcontent = requests.get('https://api.altmetric.com/v1/doi/' + DOI + "?key=" + apikey)
             #print(webcontent)
             try:
                 jsonobject = webcontent.json()
