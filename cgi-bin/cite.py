@@ -2,8 +2,9 @@
 # -*- coding: UTF-8 -*-
 import pandas as pd
 from bokeh.plotting import figure, output_file, save
-from bokeh.embed import file_html
+#from bokeh.embed import file_html
 from bokeh.resources import CDN
+from bokeh.embed import components
 import collections
 from gexf import Gexf
 from itertools import combinations
@@ -341,7 +342,7 @@ p.toolbar.logo = None
 p.toolbar_location = None #"right"
 p.line(x=data['yearDate'],y=data['value'], color="#B7ADCF", line_width=2)
 #show(p) # for debugging
-bokehhtml = file_html(p, CDN, "Yearly Distribution of Records")
+bokehhtml = components(p)
 save(p)
 
 
@@ -414,8 +415,9 @@ function init() {
 window.onload = init;
 </script>
 </head>
+<body>
 <h1>Results for <em>''' + fn + ''' </em></h1>
-<p> ''' + bokehhtml + '''
+''' + bokehhtml[0] + bokehhtml[1] + '''
 <a href="index.html">Records</a>: ''' + str(records) + '''
 <a href="authors.html">Authors</a>: ''' + str(authorcounter) + '''
 <a href="journals.html">Journals</a>: ''' + str(journalcounter) + '''
@@ -426,7 +428,6 @@ window.onload = init;
 Keywords.gexf">Keyword Co-occurrence Network (.gexf)</a> |
 <a href="''' + fn + '''
 Citations.gexf">Citation Network (Authors, Cited references) (.gexf)</a> |
-</p>
 '''
 
 # This top is specific to index.html
