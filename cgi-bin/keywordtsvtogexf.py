@@ -1,8 +1,11 @@
-#!/usr/bin/python3
-
-import cgi, os
-import cgitb; cgitb.enable()
+#!/usr/bin/env python3
+# -*- coding: UTF-8 -*-
+import cgi
+import os
 import csv
+from gexf import Gexf
+from itertools import combinations
+from printhtml import printkeywordstogexf
 
 form = cgi.FieldStorage()
 
@@ -10,51 +13,34 @@ form = cgi.FieldStorage()
 fileitem = form['filename']
 
 # Test if the file was uploaded
-if fileitem.filename:
-   fn = os.path.basename(fileitem.filename)
-   open('upload/' + fn, 'wb').write(fileitem.file.read())
 
-   message = '<p>The file "' + fn + '" was uploaded successfully</p>'
-   
-else:
-   message = 'No file was uploaded'
-   
-print("""\
-Content-Type: text/html\n
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="http://tools.christopherkullenberg.se/style.css">
-    <title>Results</title>
-  </head>
-<body>
-   <p>Processing...</p>
-""" + message)
+try:
+    if fileitem.filename:
+        fn = os.path.basename(fileitem.filename)
+        open('upload/' + fn, 'wb').write(fileitem.file.read())
 
+except KeyError:
+    printkeywordstogexf()
+    print('<p>No file was uploaded</p>')
 
+printkeywordstogexf()
+print('<p>The file "' + fn + '" was uploaded successfully</p>')
 
 thefile = open("upload/" + fn, 'r', encoding="utf-8")
 tsv = csv.reader(thefile, delimiter='\t')
-next(tsv) #remove headers
-
-from gexf import Gexf
-from itertools import combinations
-
-
+next(tsv)  # remove headers
 gexf = Gexf("Keyword Co-occurrence Network", "File:" + fn + ".")
 graph = gexf.addGraph("undirected", "static", "Web of Science Keyword network")
-
 keywords = []
 keywordset = []
-
 for t in tsv:
-    DE = t[19]    
+    DE = t[19]
     keywordset.append(DE.split('; '))
     for keyw in DE.split('; '):
         if len(keyw) < 1:  # removes empty keywords
             continue
         else:
-            graph.addNode(keyw.lower(), keyw.lower()) # add nodes to graph
+            graph.addNode(keyw.lower(), keyw.lower())  # add nodes to graph
 
 
 edgelist = []
@@ -70,24 +56,15 @@ for enumer, edge in enumerate(edgelist):
 
 # Write file wrapped in <p> for pretty printing
 print("<p>")
-gexf_file = open("/home/chrisk/tools.christopherkullenberg.se/public_html/download/"+ fn + ".gexf", "wb")
+directory = "/home/chrisk/tools.christopherkullenberg.se/public_html/download/"
+gexf_file = open(directory + fn + ".gexf", "wb")
 gexf.write(gexf_file)
+dldir = "http://digitalametoder.science/results/"
 print("<p>")
-
-print('<p>Created network file: <a href="http://tools.christopherkullenberg.se/download/' 
-+ fn + '.gexf">' + fn + '.gexf</a>')
+print('<p>Created network file: <a href="' + dldir + fn + '.gexf">' + fn
+      + '.gexf</a>')
 
 print('''
 </body>
 </html>
 ''')
-
-
-
-
-
-
-
-
-
-

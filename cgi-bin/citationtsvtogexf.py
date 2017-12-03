@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-
 import cgi, os
 import cgitb; cgitb.enable()
 import csv
+from gexf import Gexf
+from itertools import combinations
 
 form = cgi.FieldStorage()
 
@@ -11,34 +12,29 @@ fileitem = form['filename']
 
 # Test if the file was uploaded
 if fileitem.filename:
-   fn = os.path.basename(fileitem.filename)
-   open('upload/' + fn, 'wb').write(fileitem.file.read())
+    fn = os.path.basename(fileitem.filename)
+    open('upload/' + fn, 'wb').write(fileitem.file.read())
+    message = '<p>The file "' + fn + '" was uploaded successfully</p>'
 
-   message = '<p>The file "' + fn + '" was uploaded successfully</p>'
-   
 else:
    message = 'No file was uploaded'
-   
+
 print("""\
 Content-Type: text/html\n
 <html>
   <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="http://tools.christopherkullenberg.se/style.css">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="http://tools.christopherkullenberg.se/style.css">
     <title>Results</title>
   </head>
 <body>
    <p>Processing...</p>
 """ + message)
 
-
-
 thefile = open("upload/" + fn, 'r', encoding="utf-8")
 tsv = csv.reader(thefile, delimiter='\t')
 next(tsv) #remove headers
 
-from gexf import Gexf
-from itertools import combinations
 
 
 gexf = Gexf("Citation Network", "File:" + fn + ".")
@@ -68,17 +64,10 @@ gexf_file = open("/home/chrisk/tools.christopherkullenberg.se/public_html/downlo
 gexf.write(gexf_file)
 print("</p>")
 
-print('<p>Created network file: <a href="http://tools.christopherkullenberg.se/download/citation' 
+print('<p>Created network file: <a href="http://tools.christopherkullenberg.se/download/citation'
 + fn + '.gexf">citation' + fn + '.gexf</a>')
 
 print('''
 </body>
 </html>
 ''')
-
-
-
-
-
-
-
