@@ -241,7 +241,7 @@ def printwoscop():
             <meta name="description" content="">
             <meta name="author" content="">
 
-            <title>Digitala metoder</title>
+            <title>Digitala metoder: Woscop</title>
 
                 <!-- Bootstrap core CSS -->
                 <link href="http://digitalametoder.science/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -280,7 +280,7 @@ def printkeywordstogexf():
                 <meta name="description" content="">
                 <meta name="author" content="">
 
-                <title>Digitala metoder</title>
+                <title>Digitala metoder: Keywords to Gexf</title>
 
 
   <h3>File conversion: Keyword co-occurrence network</h3>
@@ -288,11 +288,11 @@ def printkeywordstogexf():
      <p>Edges are drawn between keywords that co-occur within an article.</p>
      <p>Upload a tab-separated file (tsv) that has been exported from the Web
         of Science and get a gexf network file back. Gexf files can then be
-        opened and visualized with <a href="http://gephi.org">Gephi</a>.</p>
+        opened and visualized with <a href="https://gephi.org">Gephi</a>.</p>
 
 
        <form enctype="multipart/form-data"
-                         action="keywordtsvtogexf.py" method="post">
+                         action="keywordstogexf.py" method="post">
        <p><input type="file" name="filename" /><input type="submit" value="Upload" /></p>
        </form>
 

@@ -4,16 +4,12 @@
 '''Documentation for the Altmetric api: https://api.altmetric.com/'''
 
 import cgi
-import cgitb
 import sys
-import re
 import os
 import pandas as pd
-#import networkx as nx
 from werkzeug import secure_filename
 import time
 from printhtml import printaltmetric
-import math
 import requests
 import json
 sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8', buffering=1)
@@ -37,7 +33,7 @@ def openfile():
             wosdois = []
             open('upload/' + fn, 'wb').write(fileitem.file.read())
             fn = os.path.basename(fileitem.filename.replace(' ', '-'))
-            #fn = secure_filename(fn)
+            # fn = secure_filename(fn)
             dfwos = pd.read_csv('upload/' + fn, sep="\t")
             printaltmetric()
             for d in dfwos.iterrows():
@@ -47,7 +43,8 @@ def openfile():
                     wosdois.append(d[1][53])
             print("<p>The original file length: " + str(len(dfwos)) + "</p>")
             print("<p>Extracted DOIs: " + str(len(wosdois)) + "</p>")
-            print("<p>Now attempting to contact the Altmetric API... please be patient.</p>")
+            print('''<p>Now attempting to contact the Altmetric API...
+                  please be patient.</p>''')
             return(wosdois)
 
         elif fileitem2.filename:
@@ -62,9 +59,11 @@ def openfile():
                 else:
                     scopusdois.append(d[1][11])
 
-            print("<p>The original file length: " + str(len(dfscopus)) + "</p>")
+            print("<p>The original file length: " + str(len(dfscopus))
+                  + "</p>")
             print("<p>Extracted DOIs: " + str(len(scopusdois)) + "</p>")
-            print("<p>Now attempting to contact the Altmetric API... please be patient.</p>")
+            print('''<p>Now attempting to contact the Altmetric API...
+                  please be patient.</p>''')
             return(scopusdois)
 
         elif fileitem3.filename:
@@ -75,43 +74,39 @@ def openfile():
             listofdois = dois.readlines()
             printaltmetric()
             for line in listofdois:
-                plaintextdois.append(line[:-1]) # -2 removes \n
-                #print(line)
-            print("<p>Number of DOIs in file: " + str(len(plaintextdois)) + "</p>")
-            print("<p>Now attempting to contact the Altmetric API... please be patient.</p>")
-            #print(plaintextdois[0:10])
+                plaintextdois.append(line[:-1])  # -2 removes \n
+                # print(line)
+            print("<p>Number of DOIs in file: " + str(len(plaintextdois))
+                  + "</p>")
+            print('''<p>Now attempting to contact the Altmetric API...
+                  please be patient.</p>''')
+            # print(plaintextdois[0:10])
             return(plaintextdois)
 
         else:
             printaltmetric()
             print('<p>Ingen fil valdes.</p>')
     except UnicodeError:
-        print("<p>Filen har inte korrekt teckenkodning. Testa att spara om med Unicode / UTF-8.</p>")
-
-'''
-try:
-    callaltmetric(openfile())
-except KeyError:
-    printaltmetric()
-    sys.exit()
-'''
-
+        print('''<p>Filen har inte korrekt teckenkodning.
+              Testa att spara om med Unicode / UTF-8.</p>''')
 
 
 def builddf(filename):
-    df = pd.DataFrame(columns=["Title", "DOI", "URL", "AltmetricURL", "Tweets", "Wikipedia", "MSM", "Score"])
+    df = pd.DataFrame(columns=["Title", "DOI", "URL", "AltmetricURL",
+                      "Tweets", "Wikipedia", "MSM", "Score"])
     skipped = 0
     try:
-        for DOI in openfile()[0:10]:
+        for DOI in openfile()[0:150]:
             datadict = {}
-            webcontent = requests.get('https://api.altmetric.com/v1/doi/' + DOI + "?key=" + apikey)
-            #print(webcontent)
+            webcontent = requests.get('https://api.altmetric.com/v1/doi/' +
+                                      DOI + "?key=" + apikey)
+            #  print(webcontent)
             try:
                 jsonobject = webcontent.json()
             except json.JSONDecodeError:
                 skipped += 1
                 continue
-            #print(jsonobject)
+            #  print(jsonobject)
             try:
                 datadict['Title'] = jsonobject['title']
                 datadict['DOI'] = jsonobject['doi']
@@ -143,18 +138,19 @@ def builddf(filename):
     except KeyError:
         printaltmetric()
         sys.exit()
-    df.to_excel("/home/chrisk/digitalametoder.science/results/" + filename + ".xlsx")
-    print("<p>" + str(skipped) + " DOIs had no matches in the Altmetric database</p>")
-    print("<p>" + str(len(df)) + " Altmetric scores were written to file.</p>")
-    print('''<p>The file can be downloaded <a href="http://digitalametoder.science/results/''' + filename + '''.xlsx">here</a> and be opened with a spreadsheet application.</p>''')
-builddf(filename) # get timestamped filename
+    df.to_excel("/home/chrisk/digitalametoder.science/results/" +
+                filename + ".xlsx")
+    print("<p>" + str(skipped) +
+          " DOIs had no matches in the Altmetric database</p>")
+    print("<p>" + str(len(df)) +
+          " Altmetric scores were written to file.</p>")
+    print('''<p>The file can be downloaded
+          <a href="http://digitalametoder.science/results/''' + filename +
+          '''.xlsx">here</a> and be opened with a spreadsheet
+          application.</p>''')
+#  get timestamped filename
 
 
-
-
-
-
-
-
+builddf(filename)
 
 print("</body></html>")

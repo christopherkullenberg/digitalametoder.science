@@ -6,22 +6,23 @@ import csv
 from gexf import Gexf
 from itertools import combinations
 from printhtml import printkeywordstogexf
+import sys
 
 form = cgi.FieldStorage()
 
 # Get filename here.
-fileitem = form['filename']
+# fileitem = form['filename']
 
 # Test if the file was uploaded
 
 try:
-    if fileitem.filename:
-        fn = os.path.basename(fileitem.filename)
-        open('upload/' + fn, 'wb').write(fileitem.file.read())
-
+    fileitem = form['filename']
+    fn = os.path.basename(fileitem.filename)
+    open('upload/' + fn, 'wb').write(fileitem.file.read())
 except KeyError:
     printkeywordstogexf()
     print('<p>No file was uploaded</p>')
+    sys.exit()
 
 printkeywordstogexf()
 print('<p>The file "' + fn + '" was uploaded successfully</p>')
@@ -56,13 +57,13 @@ for enumer, edge in enumerate(edgelist):
 
 # Write file wrapped in <p> for pretty printing
 print("<p>")
-directory = "/home/chrisk/tools.christopherkullenberg.se/public_html/download/"
-gexf_file = open(directory + fn + ".gexf", "wb")
+directory = "/home/chrisk/digitalametoder.science/results/"
+gexf_file = open(directory + fn[:-4] + ".gexf", "wb")
 gexf.write(gexf_file)
 dldir = "http://digitalametoder.science/results/"
 print("<p>")
-print('<p>Created network file: <a href="' + dldir + fn + '.gexf">' + fn
-      + '.gexf</a>')
+print('<p>Created network file: <a href="' + dldir + fn[:-4] + '.gexf">' +
+      fn[:-4] + '.gexf</a>')
 
 print('''
 </body>
