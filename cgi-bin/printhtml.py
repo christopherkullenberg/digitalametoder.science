@@ -252,6 +252,12 @@ def printwoscop():
               </head>
 
               <body>
+
+              <p>This tool takes a Web of Science tsv file (Mac, UTF-8) and
+              a Scopus csv file and merges them, removing duplicates.</p>
+
+              <p>The source code for this tool can be found <a href="https://github.com/christopherkullenberg/digitalametoder.science/blob/master/cgi-bin/woscopweb.py">here</a>.</p>
+
               <div id="container">
               <main>
            <form enctype="multipart/form-data"
@@ -289,6 +295,8 @@ def printkeywordstogexf():
      <p>Upload a tab-separated file (tsv) that has been exported from the Web
         of Science and get a gexf network file back. Gexf files can then be
         opened and visualized with <a href="https://gephi.org">Gephi</a>.</p>
+
+        <p>The source code for this application can be found <a href="https://github.com/christopherkullenberg/digitalametoder.science/blob/master/cgi-bin/keywordstogexf.py">here</a></p>
 
 
        <form enctype="multipart/form-data"
