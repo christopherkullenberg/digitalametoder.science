@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
-
-'''Documentation for the Altmetric api: https://api.altmetric.com/'''
+'''
+Documentation for the Altmetric api: https://api.altmetric.com/
+Example json: https://api.altmetric.com/v1/doi/10.1371/journal.pone.0147152
+'''
 
 import cgi
 import sys
@@ -9,6 +11,7 @@ import os
 import pandas as pd
 from werkzeug import secure_filename
 import time
+import datetime
 from printhtml import printaltmetric
 import requests
 import json
@@ -92,7 +95,7 @@ def openfile():
 
 
 def builddf(filename):
-    df = pd.DataFrame(columns=["Title", "DOI", "URL", "AltmetricURL",
+    df = pd.DataFrame(columns=["Title", "Date", "DOI", "URL", "AltmetricURL",
                       "Tweets", "Wikipedia", "MSM", "Score"])
     skipped = 0
     try:
@@ -109,6 +112,10 @@ def builddf(filename):
             #  print(jsonobject)
             try:
                 datadict['Title'] = jsonobject['title']
+                try:
+                    datadict['Date'] = datetime.datetime.fromtimestamp(jsonobject['published_on'])
+                except KeyError:
+                    datadict['Date'] = 0
                 datadict['DOI'] = jsonobject['doi']
                 datadict['Score'] = jsonobject['score']
                 datadict['URL'] = "https://dx.doi.org/" + jsonobject['doi']
@@ -126,9 +133,10 @@ def builddf(filename):
                 except KeyError:
                     datadict['MSM'] = 0
                 try:
-                    datadict['Videos'] = jsonobject['cited_by_videos_coun']
+                    datadict['Videos'] = jsonobject['cited_by_videos_count']
                 except KeyError:
                     datadict['Videos'] = 0
+
 
                 df = df.append(datadict, ignore_index=True)
 
