@@ -5,11 +5,11 @@ This is a repository of all the code used to build
 
 ## Installation
 
-To run site on a web server, please configure Apache to run Python cgi scripts in the `cgi-bin` directory. Also, make sure you have all Python dependencies installed (I will make a list soon). 
+To run site on a web server, please configure Apache to run Python cgi scripts in the `cgi-bin` directory. Also, make sure you have all Python dependencies installed (I will make a list soon).
 
 This frontend is based on the [3 Col Portfolio Bootstrap template](https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio) by Startbootstrap, Blackrock Digital LLC, created by David Miller.
 
-The backend is based on [Pelican][http://getpelican.com/] static web site generator. 
+The backend is based on [Pelican](http://getpelican.com/) static web site generator. 
 
 ## Install Pelican
 
