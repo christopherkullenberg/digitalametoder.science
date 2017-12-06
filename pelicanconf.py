@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Christopher Kullenberg & Peter M. Dahlgren'
 SITENAME = 'Digitala metoder'
-SITEURL = 'digitalametoder.science'
+SITEURL = 'http://digitalametoder.science'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Stockholm'
