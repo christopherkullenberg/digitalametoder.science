@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Digitala metoder</title>
+	<meta name="description" content="">
+	<meta name="author" content="Christopher Kullenberg & Peter M. Dahlgren">
+	<!-- HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+		<script src="file:///C:/inetpub/sites/pelican/output/theme/html5.js"></script>
+	<![endif]-->
+	<link href="file:///C:/inetpub/sites/pelican/output/theme/bootstrap.min.css" rel="stylesheet">
+	<link href="file:///C:/inetpub/sites/pelican/output/theme/3-col-portfolio.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="file:///C:/inetpub/sites/pelican/output/index.html">Digitala metoder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+					<li class="nav-item" ><a class="nav-link" href="file:///C:/inetpub/sites/pelican/output/category/internet.html">Internet</a></li>
+					<li class="nav-item" ><a class="nav-link" href="file:///C:/inetpub/sites/pelican/output/category/om.html">Om</a></li>
+					<li class="nav-item" ><a class="nav-link" href="file:///C:/inetpub/sites/pelican/output/category/vetenskap.html">Vetenskap</a></li>
+					<li class="nav-item" class="active"><a class="nav-link" href="file:///C:/inetpub/sites/pelican/output/category/workshop.html">Workshop</a></li>
+				<li class="nav-item"><a class="nav-link" href="file:///C:/inetpub/sites/pelican/output/archives.html">Arkiv</a></li>
+				<li class="nav-item"><a class="nav-link" href="file:///C:/inetpub/sites/pelican/output/tags.html">Taggar</a></li>
+			</ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+	<div class='article'>
+		<div class="page-header"><h1>Norrköping Workshop</h1></div>
+		<div><h2>Useful links and external resources.</h2>
+<ul>
+<li><a href="http://www.roundabout.se/scientometrics/nkpg/">Gustaf's page</a> (additional data)</li>
+<li><a href="http://webofknowledge.com">Web of Science scientometric database</a></li>
+<li><a href="http://scopus.com">Scopus</a> scientometric database</li>
+<li>Altmetric <a href="https://www.altmetric.com/blog/scoreanddonut/">documentation</a> on score calculation</li>
+</ul>
+<h2>Valuation practice 1: Citations vs. Altmetrics</h2>
+<p>There are many value meters in the assesment of scientific publications. The most common two are citations and altmetrics. Here are instructions for how to calculate and visualise both value meters.</p>
+<p><a href="/cgi-bin/altmetric.py">Launch tool</a></p>
+<h2>QualCite practice: "Measuring welfare" dataset.</h2>
+<p>This is the methological source material and digital method
+toolbox used for the article <a href="http://valuationstudies.liu.se/Issues/articles/default.asp?DOI=10.3384/VS.2001-5992.17517">Measuring Welfare Beyond GDP</a> by Kullenberg and Nelhans.</p>
+<ol>
+<li>A visual and hyperlinked <strong>overview</strong> of the dataset can be found
+<a href="https://scientometrics.flov.gu.se/happiness/map/index.html" target="_blank">here</a>.  <ul>
+<li>Graphviz source code can be found <a href="https://scientometrics.flov.gu.se/happiness/map/lycka.dot">here</a> (which also can be opened in Gephi).</li>
+<li>A Gephi file can be found <a href="http://digitalametoder.science/data/lycka.gephi">here</a></li>
+<li>and a <code>.gexf</code> file <a href="http://digitalametoder.science/data/lycka.gexf">here</a>.</p></li>
+</ul>
+</li>
+<li>The <strong>source</strong> documents (zip, 147Mb) can be found <a href="https://scientometrics.flov.gu.se/happiness/measuringwelfare.zip" target="_blank">here</a></li>
+<li>
+<p><em>'Search</em>* Remisser (<a href="https://github.com/christopherkullenberg/digitalametoder.science/blob/master/cgi-bin/searchremisser.py">source code for search engine</a>)</p>
+<p><form action="cgi-bin/searchremisser.py" method="post">
+Fulltext search: <input type="text" name="like_search_word"> <input type="submit" value="Sök" /></p>
+<p>Method:
+<input type="radio" name="mode" value="like" checked /> Like (recommended)
+<input type="radio" name="mode" value="match" /> Match
+<input type="radio" name="mode" value="regexp" /> Regexp</p>
+<p>Order:
+<input type="radio" name="order" value="Stigande" checked /> Ascending
+<input type="radio" name="order" value="Fallande" /> Descending</p>
+</form></p>
+</li>
+</ol>
+<h2>Valuation practice 2: "Valuation of Valuation Studies Journal"</h2>
+<p>Under construction.</p>
+<p>This excercise extracts all the articles and their cited articles
+from the Journal of Valuation Studies (source code for the scraper
+can be found <a href="https://github.com/christopherkullenberg/ValuationStudiesScraper">here</a>)
+. Then we run these through scholarly citation databases as well as Altmetrics</p>
+<p><strong>Data</strong></p>
+<p>The datafiles below can be run through the <a href="http://digitalametoder.science/cgi-bin/altmetric.py">Altmetric</a> tool.</p>
+<ul>
+<li><a href="/data/VSdoi.txt">Valuation Studies, all DOIs, plain text file</a></li>
+<li><a href="/data/VSreferencesDOIS.txt">Valuation Studies, all reference list DOIs (cited references) except self references to journal, plain text file</a></li>
+<li><a href="/data/VSselfreferencesDOIs.txt">Valuation Studies, all references to own journal, DOIs, plain text file</a></li>
+</ul></div>
+		<div class="well small">Skriven av Christopher Kullenberg den 10 november 2017</div>
+	</div>
+    </div>
+
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">&copy; Christopher Kullenberg & Peter M. Dahlgren. Källkod på <a href="https://github.com/christopherkullenberg/digitalametoder.science">GitHub</a>.</p>
+      </div>
+    </footer>
+    <script src="file:///C:/inetpub/sites/pelican/output/theme/jquery.min.js"></script>
+    <script src="file:///C:/inetpub/sites/pelican/output/theme/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
