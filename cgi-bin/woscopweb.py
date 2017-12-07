@@ -2,7 +2,6 @@
 import sys
 import cgi
 import os
-# import cgitb
 import csv
 from printhtml import printwoscop
 from werkzeug import secure_filename
@@ -59,19 +58,27 @@ wosdata = csv.reader(wostsv, delimiter='\t')
 scopuscount = 0
 woscount = 0
 
-recordlist = [] # Holds the extracted data from the loops
-therecords = {} # Takes the duplicate check string as key and the rest of the data as value
+#  Holds the extracted data from the loops
+recordlist = []
+#  Takes the duplicate check string as key and the rest of the data as value
+therecords = {}
 
-# Loops to extract the duplicate check string and the desired fields in the data.
+#  Loops to extract the duplicate check string and  desired fields in the data.
 for s in scopusdata:
-    scopuscount += 1 # Just to count
-    # print(s[0]) #print whatever you want to add. See headers in the csv file
-    stitlelowered = s[1].lower() # just making lower cases
-    ssplitted = stitlelowered.split() # split up the words in the title
-    sfirstsevenwords = ssplitted[0:6] # add only the first seven words to avoid dual language titles
-    sjoined = ''.join(sfirstsevenwords) # join back again.
-    stitlenonspecialchar = re.sub(r'[^A-Za-z0-9]+',r'',sjoined) # remove everything except words and numbers
-    recordlist.append([stitlenonspecialchar, s[0], s[2], s[1], s[2], s[3], s[4]]) # put everything you want in a list
+    scopuscount += 1
+    #  print(s[0]) #print whatever you want to add. See headers in the csv file
+    #  just making lower cases
+    stitlelowered = s[1].lower()
+    #  split up the words in the title
+    ssplitted = stitlelowered.split()
+    #  add only the first seven words to avoid dual language titles
+    sfirstsevenwords = ssplitted[0:6]
+    #  join back again.
+    sjoined = ''.join(sfirstsevenwords)
+    #  remove everything except words and numbers
+    stitlenospecialch = re.sub(r'[^A-Za-z0-9] + ',r'', sjoined)
+    # put everything you want in a list
+    recordlist.append([stitlenospecialch, s[0], s[2], s[1], s[2], s[3], s[4]])
 
 for w in wosdata:
     woscount += 1
@@ -81,14 +88,15 @@ for w in wosdata:
     splitted = titlelowered.split()
     firstsevenwords = splitted[0:6]
     joined = ''.join(firstsevenwords)
-    titlenonspecialchar = re.sub(r'[^A-Za-z0-9]+', r'', joined)
-    recordlist.append([titlenonspecialchar, w[1], w[44], w[8], w[9], w[45], w[46]])
+    titlenospecialch = re.sub(r'[^A-Za-z0-9]+', r'', joined)
+    recordlist.append([titlenospecialch, w[1], w[44], w[8], w[9],
+                      w[45], w[46]])
 
-# Takes the duplicate check string as a key in the dictionary and the rest as value
+#  Takes the dupl check string as a key in the dict and the rest as value
 for r in recordlist:
     therecords.update({r[0]: [r[1], r[2], r[3], r[4], r[5], r[6]]})
 
-# This removes duplicates by adding only if the duplicate checker does NOT exist in the result dict.
+#  This rm dupl by adding only if dupl checker NOT exist in the result dict.
 result = {}
 for key, value in therecords.items():
         if key not in list(result.values()):
@@ -97,21 +105,28 @@ for key, value in therecords.items():
 # Open and write to a new csv.
 savedir = '/home/chrisk/digitalametoder.science/results/'
 with open(savedir + fn + fn2 + ".csv", 'w', encoding="utf-8") as csvfile:
-    fieldnames = ['Author', 'Year', 'Title', 'Journal', 'Volume', 'Issue'] # add here whatever you need
+    #  add here whatever you need
+    fieldnames = ['Author', 'Year', 'Title', 'Journal', 'Volume', 'Issue']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quotechar='"')
     writer.writeheader()
     for key, value in sorted(result.items()):
-        #print(value[0])
-        writer.writerow({'Author': value[0], 'Year': value[1], 'Title': value[2],
-        'Journal': value[3], 'Volume': value[4], 'Issue': value[5]}) # Then add here also
-numberofduplicates = ((int(scopuscount) - 1) + (int(woscount) - 1)) - int(len(therecords))
-# Print some control information
+        #  print(value[0])
+        writer.writerow({'Author': value[0], 'Year': value[1],
+                        'Title': value[2], 'Journal': value[3],
+                         'Volume': value[4], 'Issue': value[5]})
+numberofduplicates = ((int(scopuscount) - 1) +
+                      (int(woscount) - 1)) - int(len(therecords))
 
+#  Print some control information
 printwoscop()
-print("<p>There were originally " + str(scopuscount - 1) + " Scopus records and " + str(woscount - 1) + " WoS records.</p>")
-print("<p>" + (str(numberofduplicates)) + " duplicates were excluded, leaving " + str(len(therecords)) + " records.</p>")
-print("<p>Writing to file " + str(len(result)) + " records.</p><br><p>CSV file written:</p> ")
-print('<p><a href="http://digitalametoder.science/results/' + fn + fn2 + '.csv">' + fn + fn2 + ".csv")
+print("<p>There were originally " + str(scopuscount - 1) +
+      " Scopus records and " + str(woscount - 1) + " WoS records.</p>")
+print("<p>" + (str(numberofduplicates)) + " duplicates excluded, leaving " +
+      str(len(therecords)) + " records.</p>")
+print("<p>Writing to file " + str(len(result)) +
+      " records.</p><br><p>CSV file written:</p> ")
+print('<p><a href="http://digitalametoder.science/results/' + fn + fn2 +
+      '.csv">' + fn + fn2 + ".csv")
 
 print('''
 </body>

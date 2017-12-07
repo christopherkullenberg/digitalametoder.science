@@ -23,8 +23,8 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 					<li class="nav-item" ><a class="nav-link" href="http://digitalametoder.science/category/internet.html">Internet</a></li>
-					<li class="nav-item" class="active"><a class="nav-link" href="http://digitalametoder.science/category/om.html">Om</a></li>
-					<li class="nav-item" ><a class="nav-link" href="http://digitalametoder.science/category/vetenskap.html">Vetenskap</a></li>
+					<li class="nav-item" ><a class="nav-link" href="http://digitalametoder.science/category/om.html">Om</a></li>
+					<li class="nav-item" class="active"><a class="nav-link" href="http://digitalametoder.science/category/vetenskap.html">Vetenskap</a></li>
 					<li class="nav-item" ><a class="nav-link" href="http://digitalametoder.science/category/workshop.html">Workshop</a></li>
 				<li class="nav-item"><a class="nav-link" href="http://digitalametoder.science/archives.html">Arkiv</a></li>
 				<li class="nav-item"><a class="nav-link" href="http://digitalametoder.science/tags.html">Taggar</a></li>
@@ -35,17 +35,26 @@
 
     <div class="container">
 	<div class='article'>
-		<div class="page-header"><h1>Om</h1></div>
-		<div><p>Denna sida drivs av</p>
+		<div class="page-header"><h1>Bibliometri</h1></div>
+		<div><h3>Cite.py</h3>
+<p>This tool takes Web of Science data and creates an easy to read table that can be sorted on citations and more. It also creates keyword- and author citation networks in handy <code>gexf</code> files that can be opened in <a href="https://gephi.org">Gephi</a>.</p>
+<p><a href="citepy.html">Launch Citepy</a></p>
+<h3>Altmetric analyzer</h3>
+<p>This tool takes Web of Science, Scopus or a list of DOI numbers
+and then calls the <a href="https://altmetric.com">Altmetric</a>
+API to retrieve Altmetric score, citations from social media and
+a range of other sources. Exports an xlsx and csv files for
+further analysis.</p>
+<p><a href="/cgi-bin/altmetric.py">Launch Altmetric analyzer</a></p>
+<h3>Woscop - Merge Web of Science and Scopus datasets.</h2></h3>
+<p>Under construction.</p>
+<p><a href="/cgi-bin/woscopweb.py">Launch Wosco</a></p>
+<p>Network constructor: Create various networks from scientific database literature.</p>
 <ul>
-<li><a href="http://christopherkullenberg.se/">Christopher Kullenberg</a> (christopher.kullenberg SNABEL-A gu.se)</li>
-<li><a href="http://peterdahlgren.com/">Peter M. Dahlgren</a></li>
-</ul>
-<h2>Källkod</h2>
-<p><a href="https://github.com/christopherkullenberg/digitalametoder.science">https://github.com/christopherkullenberg/digitalametoder.science</a></p>
-<h2>Upphovsrätt</h2>
-<p>Allt innehåll är open source och fritt att använda hur som helst om inget annat anges.</p></div>
-		<div class="well small">Skriven av Christopher Kullenberg den 28 October 2017</div>
+<li><a href="/cgi-bin/keywordstogexf.py">Web of Science keywords to gexf network file</a>: under deployment, still buggy.</li>
+<li>Web of Science citations to gexf network file (coming soon)</li>
+</ul></div>
+		<div class="well small">Skriven av Christopher Kullenberg den 07 December 2017</div>
 	</div>
     </div>
 
