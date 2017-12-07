@@ -11,15 +11,20 @@ This frontend is based on the [3 Col Portfolio Bootstrap template](https://githu
 
 The backend is based on [Pelican](http://getpelican.com/) static web site generator. 
 
-## Install Pelican
+## Install web site
 
-1. Install [pelican](http://docs.getpelican.com/en/stable/quickstart.html): `pip install pelican markdown`
-2. Create directory for web site:
-	```r
-	mkdir digitalametoder.science
-	cd digitalametoder.science
+1. Install [Pelican](http://docs.getpelican.com/en/stable/quickstart.html):
+	```bash
+	pip install pelican markdown
 	```
-3. Create project: `pelican-quickstart`
+2. Clone web site:
+	```bash
+	git clone git@github.com:christopherkullenberg/digitalametoder.science.git
+	```
+3. Generate static web site from content:
+	```bash
+	pelican content
+	```
 
 ## Create content
 
@@ -44,9 +49,3 @@ Det finns många sätt att hämta och analysera data från Twitter. På denna si
 
 TAGS är ett tillägg till Google [...]
 ```
-
-## Generate web site
-
-To generate HTML web pages, type `pelican content`.
-
-The content is stored in the the `/output` directory.
