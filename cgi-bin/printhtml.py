@@ -308,3 +308,37 @@ def printkeywordstogexf():
      </main>
    </div>
     ''')
+
+def printinstagramparser():
+        print("content-type:text/html; charset=utf-8\r\n\r\n")
+        print()
+        print('''
+            <!DOCTYPE html>
+            <html lang="sv">
+
+              <head>
+
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                <meta name="description" content="">
+                <meta name="author" content="">
+
+                <title>Instagram - Konvertera data</title>
+
+
+
+        <p>Källkoden finns här <a href="https://github.com/christopherkullenberg/digitalametoder.science/blob/master/cgi-bin/instagramjsontospreadsheet.py">here</a></p>
+
+        <p> Läser en json-fil från instagram-scraper som innehåller både comments och location-data.
+        Returnerar Excel och CSV-filer. Observera att det endast funkar (än så länge) om du har ställt in
+        instagram-scraper på att samla både comments och location.</p>
+
+       <form enctype="multipart/form-data"
+                         action="instagramjsontospreadsheet.py" method="post">
+       <p><input type="file" name="filename" /><input type="submit" value="Ladda upp" /></p>
+       </form>
+
+
+     </main>
+   </div>
+    ''')
