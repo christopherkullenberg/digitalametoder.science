@@ -25,24 +25,44 @@ program som kräver att man har programmeringsspråket Python installerat på
 sin dator. Om man har Linux eller Mac så finns detta språk redan installerat,
 men om man har Windows så måste man [ladda ned](https://www.python.org/) och installera.
 
-Har man sedan Mac måste man [installera pip](https://stackoverflow.com/questions/17271319/how-do-i-install-pip-on-macos-or-os-x)
- vilket man enkelt gör med kommandot `sudo easy_install pip`. I Linux gör man
- på lite olika sätt beroende på distribution, men kan säkert Linuxanvändare
+Har man sedan Mac måste man även [installera pip](https://stackoverflow.com/questions/17271319/how-do-i-install-pip-on-macos-or-os-x)
+ vilket man enkelt gör med kommandot `sudo easy_install pip` i programmet Terminal.
+ I Linux gör man
+ på lite olika sätt beroende på distribution, men det kan säkert Linuxanvändare
  klura ut. Instruktioner för Windows kan man [hitta här](https://stackoverflow.com/questions/4750806/how-do-i-install-pip-on-windows).
 
- När man har installerat pip skriver man bara `pip install instagram-scraper` (på vissa
-   system måste man lägga till `sudo` först).
+ När man har installerat pip skriver man bara `pip install instagram-scraper` i
+ Terminal (på vissa system måste man lägga till `sudo` först).
 
+När man har installerat instagram-scraper så kan man använda datorns Terminal
+(Mac / Linux) eller Kommandotolk (Windows) för att anropa instagram-scraper.
 
+För att hämta så mycket data som möjligt skriver man:
+
+`instagram-scraper skatteverket --media-metadata --include-location --comments`
+
+I exemplet hämtar jag data från kontot `@skatteverket`. Men det funkar på samma
+sätt för alla öppna konton.
+
+Det tar ganska lång tid att hämta många instagram-poster. Ibland får man även ett
+litet felmeddelande som frågar:
+
+`(A)bort, (I)gnore, (R)etry or retry (F)orever?`
+
+Då trycker man bara `F` och `enter`.
+
+När hämtningen är klar har man en drös med bildfiler och en fil som heter (i det här
+  fallet) `skatteverket.json`. Det är denna fil som innehåller all intressant metadata.
 
 
 ## Omvandla data
 
-Ett preliminärt verktyg för att konvertera .json-filen från instagram-scraper
+Ett preliminärt verktyg för att konvertera .json-filen (i exemplet ovan
+  `skatteverket.json`) från instagram-scraper
 till Excel och CSV finns [här](https://digitalametoder.science/cgi-bin/instagramjsontospreadsheet.py).
 Rapportera gärna buggar till christopher punkt kullenberg snabela gu punkt se.
 **Observera** att det endast funkar (än så länge) om du har ställt in
-instagram-scraper på att samla både comments och location.
+instagram-scraper på att samla både comments och location, som i exemplet ovan.
 
 
 ## Analysera data
