@@ -57,12 +57,19 @@ När hämtningen är klar har man en drös med bildfiler och en fil som heter (i
 
 ## Omvandla data
 
+### Kalkylark
 Ett preliminärt verktyg för att konvertera .json-filen (i exemplet ovan
   `skatteverket.json`) från instagram-scraper
 till Excel och CSV finns [här](https://digitalametoder.science/cgi-bin/instagramjsontospreadsheet.py).
 Rapportera gärna buggar till christopher punkt kullenberg snabela gu punkt se.
 **Observera** att det endast funkar (än så länge) om du har ställt in
 instagram-scraper på att samla både comments och location, som i exemplet ovan.
+
+### Nätverk
+
+* För att skapa ett riktat nätverk (directed network) utifrån varje enskild
+postning, använd [detta verktyg](https://digitalametoder.science/cgi-bin/instagrampostnetwork.py).
+
 
 
 ## Analysera data
