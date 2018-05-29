@@ -377,3 +377,40 @@ def printinstagrampost():
     </main>
     </div>
     ''')
+
+def printluftdata():
+    print("content-type:text/html; charset=utf-8\r\n\r\n")
+    print()
+    print('''
+        <!DOCTYPE html>
+        <html lang="sv">
+
+          <head>
+
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="description" content="">
+            <meta name="author" content="">
+
+            <title>Luftdata</title>
+
+
+
+    <p>Källkoden till detta verktyg finns <a href="https://github.com/christopherkullenberg/digitalametoder.science/blob/master/cgi-bin/luftdataworkshop.py">här</a></p>
+
+    <p>1. För in uppgifter om sensor-id, adress (inkl. postnummer!), telefonnummer, namn etc.
+    enligt följande mall (<a href="https://digitalametoder.science/content/sensorrapport.xlsx">Excelfil</a>):</p>
+    <img src="https://digitalametoder.science/images/exempel.png" />
+
+    <p>2. Ladda upp filen så får du tillbaka samma fil med status för sensorerna:</p>
+    <img src="https://digitalametoder.science/images/exempel2.png" />
+
+    <form enctype="multipart/form-data"
+                     action="luftdataworkshop.py" method="post">
+    <p><input type="file" name="filename" /><input type="submit" value="Ladda upp" /></p>
+    </form>
+
+
+    </main>
+    </div>
+    ''')
