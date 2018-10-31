@@ -27,7 +27,7 @@ def printrtnetwork():
      <main>
         <h1>Skapa RT-nätverk</h1>
         <p>För instruktioner, se <a href="https://youtu.be/Dfz9e0KOzCU">denna video</a></p>
-	<p><b>OBS: filnamnen får inte innehålla specialtecken</b>. Godkänt filnamn är ex. <code>fil.csv</code>. Välj gärna ett unikt och specifikt filnamn, ex. <code>christophersdata.csv</code></p>
+	<p><b>OBS: filnamnen får inte innehålla specialtecken eller <code>åäö</code></b>. Godkänt filnamn är ex. <code>fil.csv</code>. Välj gärna ett unikt och specifikt filnamn, ex. <code>christophersdata.csv</code></p>
         <p>Exportera till csv fil i Google Calc/TAGS och ladda upp:</p>
         <form enctype="multipart/form-data"
                          action="rtnetwork.py" method="post">
@@ -80,7 +80,7 @@ def printmentionsnetwork():
      <main>
         <h1>Skapa Mentions-nätverk</h1>
         <p>För instruktioner, se <a href="https://youtu.be/yeBxoT7uTdQ">denna video</a></p>
-	<p><b>OBS: filnamnen får inte innehålla specialtecken</b>. Godkänt filnamn är ex. <code>fil.csv</code>. Välj gärna ett unikt och specifikt filnamn, ex. <code>christophersdata.csv</code></p>
+	<p><b>OBS: filnamnen får inte innehålla specialtecken eller <code>åäö</code></b>. Godkänt filnamn är ex. <code>fil.csv</code>. Välj gärna ett unikt och specifikt filnamn, ex. <code>christophersdata.csv</code></p>
         <p>Exportera till csv fil i Google Calc/TAGS och ladda upp:</p>
         <form enctype="multipart/form-data"
                          action="mentionsnetwork.py" method="post">
@@ -133,7 +133,7 @@ def printtimemessages():
     <div id="container">
      <main>
         <h1>Analysera meddelandens tidsstämplar</h1>
-	<p><b>OBS: filnamnen får inte innehålla specialtecken</b>.<br> Godkänt filnamn är ex. <code>fil.csv</code>.
+	<p><b>OBS: filnamnen får inte innehålla specialtecken eller <code>åäö</code></b>.<br> Godkänt filnamn är ex. <code>fil.csv</code>.
     <br>Välj gärna ett unikt och specifikt filnamn, ex. <code>christophersdata.csv</code></p>
         <h3>A. Twitter/TAGS</h3>
         <p>Exportera till csv-fil i Google Calc/TAGS och ladda upp:</p>

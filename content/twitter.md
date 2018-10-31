@@ -16,6 +16,8 @@ TAGS är ett tillägg till Google Documents som kan användas gratis [från denn
 
 ## Omvandla data
 
+Samtliga verktyg nedan tar emot en .csv-fil från TAGS. I Google Sheets kan man välja att exportera till "kommaseparerade värden", vilket är samma sak som en .csv-fil.
+
 - För att skapa ett Retweetnätverk från TAGS-data, använd <a href="http://digitalametoder.science/cgi-bin/rtnetwork.py">detta verktyg</a> och kolla gärna på <a href="https://www.youtube.com/embed/Dfz9e0KOzCU">denna instruktionsfilm</a>.
 - För att skapa ett Mentionsnätverk från TAGS-data, använd <a href="http://digitalametoder.science/cgi-bin/mentionsnetwork.py">detta verktyg</a> och kolla gärna på <a href="https://www.youtube.com/embed/Dfz9e0KOzCU">denna instruktionsfilm</a>.
 - För att skapa en tidslinje över TAGS eller Netvizz-data, använd <a href="http://digitalametoder.science/cgi-bin/timemessages.py">detta verktyg</a>.

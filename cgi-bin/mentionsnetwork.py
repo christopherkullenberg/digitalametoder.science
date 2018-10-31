@@ -30,7 +30,7 @@ def openfile():
             G = nx.DiGraph()
             for tweet in df.iterrows():
                 #print("<br><br>source: " + str(tweet[1][1]) + "<br>")
-                match = re.findall("(?<=@).*?(?=[\s|\:])", tweet[1][2], re.IGNORECASE)
+                match = re.findall("(?<=@).*?(?=[\s|\:|\.])", tweet[1][2], re.IGNORECASE)
                 if match:
                     for m in match:
                         #print("Target: " + m)
@@ -47,7 +47,7 @@ def openfile():
             G = nx.DiGraph()
             for tweet in df.iterrows():
                 #print("<br><br>Source: " + str(tweet[1][3]) + "<br>")
-                match = re.findall("(?<=@).*?(?=[\s|\:])", tweet[1][6], re.IGNORECASE)
+                match = re.findall("(?<=@).*?(?=[\s|\:|\.])", tweet[1][6], re.IGNORECASE)
                 if match:
                     for m in match:
                         #print("Target: " + m + "<br>")
