@@ -9,6 +9,7 @@ import os
 import time
 from nltk.corpus import stopwords
 from nltk import word_tokenize
+import random
 
 
 # Fix input and output from apache
@@ -33,9 +34,16 @@ tknzr = word_tokenize(text_content)
 print("Content-type:text/html; charset=utf-8\r\n\r\n")
 print()
 
-for t in tknzr:
-    if t not in stopwords.words('swedish'):
-        print(t)
+randomfilename = str(random.getrandbits(32))
+
+with open("/home/chrisk/digitalametoder.science/results/" + randomfilename + ".txt", 'w', encoding="utf8") as outfile:
+    for t in tknzr:
+        if t not in stopwords.words('swedish'):
+            t8 = t.encode('utf-8')
+            # print(t)
+            outfile.write(t)
+
+print('''Filen kan laddas ned <a href="http://digitalametoder.science/results/''' + randomfilename + '''.txt">här</a> (högerklicka och välj "spara som")  och sedan öppnas med spara som .txt.''')
 
 
 

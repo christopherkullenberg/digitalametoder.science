@@ -38,7 +38,8 @@ def openfile():
                 #print("--------<br>")
             filename = str(time.time())
             nx.write_gexf(G, "/home/chrisk/digitalametoder.science/results/" + filename + ".gexf")
-            print('''Nätverksfilen för RT-network kan laddas ned <a href="http://digitalametoder.science/results/''' + filename + '''.gexf">här</a> (högerklicka och välj "spara som")  och sedan öppnas med Gephi.''')
+            print('''<h1>GREAT SUCCESS! Det funkade!</h1>''')
+            print('''Nätverksfilen för Mentions-network kan laddas ned <a href="http://digitalametoder.science/results/''' + filename + '''.gexf">här</a> (högerklicka och välj "spara som")  och sedan öppnas med Gephi.''')
         elif fileitem2.filename:
             open('upload/' + fn2, 'wb').write(fileitem2.file.read())
             fn2 = os.path.basename(fileitem2.filename.replace(' ', '-'))
@@ -54,12 +55,15 @@ def openfile():
                         G.add_edge(tweet[1][3], m)
             filename = str(time.time())
             nx.write_gexf(G, "/home/chrisk/digitalametoder.science/results/" + filename + ".gexf")
-            print('''Nätverksfilen för RT-network kan laddas ned <a href="http://digitalametoder.science/results/''' + filename + '''.gexf">här</a> (högerklicka och välj "spara som")  och sedan öppnas med Gephi.''')
+            print('''<h1>GREAT SUCCESS! Det funkade!</h1>''')
+            print('''Nätverksfilen för Mentions-network kan laddas ned <a href="http://digitalametoder.science/results/''' + filename + '''.gexf">här</a> (högerklicka och välj "spara som")  och sedan öppnas med Gephi.''')
         else:
             printmentionsnetwork()
             print('<p>Ingen fil valdes.</p>')
     except UnicodeError:
         print("<p>Filen har inte korrekt teckenkodning. Testa att spara om med Unicode / UTF-8.</p>")
+    except IndexError:
+        print("<p>Filen har inte korrekt antal rader och kolumner. Testa att spara ned från TAGS igen</p>")
 
 try:
     openfile()
