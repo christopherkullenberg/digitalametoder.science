@@ -36,38 +36,38 @@
     </nav>
 
     <div class="container">
-<div class="page-header"><h1>Digitala metoder <small>Vetenskap</small></h1></div>
-<div class="row">
-	<div class="col-lg-4 col-sm-6 portfolio-item">
-		<div class="card h-100">
-			<a href="https://digitalametoder.science/svt-play.html"><img class="card-img-top" src="https://digitalametoder.science/../images/svt-play.png" alt=""></a>
-			<div class="card-body">
-			<h4 class="card-title"><a href="https://digitalametoder.science/svt-play.html">Ladda ned videor från SVT Play, TV4 Play och UR Play</a></h4>
-			<p class="card-text"><p>Ladda ned videoklipp från SVT Play till mp4-format med hjälp webbläsartilägg till Chrome, samt Python-tillägget svtplay-dl.</p></p>
-			</div>
-		</div>
-	</div>
-	<div class="col-lg-4 col-sm-6 portfolio-item">
-		<div class="card h-100">
-			<a href="https://digitalametoder.science/bibliometrics.html"><img class="card-img-top" src="https://digitalametoder.science/../images/bibliometrics.png" alt=""></a>
-			<div class="card-body">
-			<h4 class="card-title"><a href="https://digitalametoder.science/bibliometrics.html">Bibliometri</a></h4>
-			<p class="card-text"><p>Collection of tools that can be used for bibliometrics/scientometrics.</p></p>
-			</div>
-		</div>
-	</div>
-	<div class="col-lg-4 col-sm-6 portfolio-item">
-		<div class="card h-100">
-			<a href="https://digitalametoder.science/citepy.html"><img class="card-img-top" src="https://digitalametoder.science/../images/citepy.png" alt=""></a>
-			<div class="card-body">
-			<h4 class="card-title"><a href="https://digitalametoder.science/citepy.html">Citepy</a></h4>
-			<p class="card-text"><p>Web of Science.</p></p>
-			</div>
-		</div>
-	</div>
-</div>
+	<div class='article'>
+		<div class="page-header"><h1>Ladda ned videor från SVT Play, TV4 Play och UR Play</h1></div>
+		<div><p>SVT Play låter inte användare ladda ned deras videoklipp, vilket gör det svårt för forskningsyften. Det finns dock några sätt runt problemet.</p>
+<h2>Privatkopiera för Chrome och Firefox</h2>
+<p><a href="https://stefansundin.github.io/privatkopiera/">Privatkopiera</a> är ett tillägg för Chrome och Firefox som låter dig ladda ned videoklipp från en mängd webbplatser:</p>
+<ul>
+<li>svtplay.se (även direktsändningar)</li>
+<li>svt.se</li>
+<li>oppetarkiv.se</li>
+<li>sverigesradio.se</li>
+<li>urplay.se</li>
+<li>urskola.se</li>
+<li>tv4.se</li>
+<li>tv4play.se (ej premium/direktsändningar)</li>
+<li>tv.nrk.no</li>
+<li>radio.nrk.no</li>
+</ul>
+<h2>Python-paketet <code>svtplay-dl</code></h2>
+<p>Ett annat alternativ är att använda Python-paketet <a href="https://svtplay-dl.se/install/">svtplay-dl</a></p>
+<p>Du installerar det enklast via Linux (Ubuntus pakethanterare <code>apt-get</code> i det här fallet):</p>
+<div class="highlight"><pre><span></span>$ sudo apt-get install svtplay-dl
+</pre></div>
 
 
+<p>Därefter är det bara att köra kommandot följt av webbadressen till videoklippet:</p>
+<div class="highlight"><pre><span></span>$ svtplay-dl https://www.svtplay.se/video/19051331/svenska-nyheter/svenska-nyheter-sasong-2-avsnitt-1
+</pre></div>
+
+
+<p>Det finns också ett Python-paket som heter <code>youtube-dl</code> som fungerar för YouTube-videor.</p></div>
+		<div class="well small">Skriven av Peter M. Dahlgren den 18 november 2018</div>
+	</div>
     </div>
 
     <footer class="py-5 bg-dark">
