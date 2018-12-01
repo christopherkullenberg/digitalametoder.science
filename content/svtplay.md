@@ -3,7 +3,7 @@ Date: 2018-11-18
 Category: Vetenskap
 Authors: Peter M. Dahlgren
 Slug: svt-play
-Summary: Ladda ned videoklipp från SVT Play till mp4-format med hjälp webbläsartilägg till Chrome, samt Python-tillägget svtplay-dl.
+Summary: Ladda ned videoklipp från SVT Play till mp4-format med hjälp av webbläsartilägg till Chrome, samt Python-tillägget svtplay-dl.
 
 SVT Play låter inte användare ladda ned deras videoklipp, vilket gör det svårt för forskningsyften. Det finns dock några sätt runt problemet.
 
