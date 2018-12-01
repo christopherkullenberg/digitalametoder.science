@@ -1,6 +1,7 @@
 Title: Ladda ned videor från SVT Play, TV4 Play och UR Play
 Date: 2018-11-18
-Category: Vetenskap
+Category: Internet
+Tags: SVT Play
 Authors: Peter M. Dahlgren
 Slug: svt-play
 Summary: Ladda ned videoklipp från SVT Play till mp4-format med hjälp av webbläsartilägg till Chrome, samt Python-tillägget svtplay-dl.

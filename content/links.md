@@ -1,6 +1,7 @@
 Title: Länkar
 Date: 2017-11-01
 Category: Internet
+Tags: Gephi, Python
 Authors: Christopher Kullenberg
 Slug: links
 Summary: Länkar till verktyg, kunskapsbanker och databaser.

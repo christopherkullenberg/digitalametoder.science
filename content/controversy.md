@@ -1,6 +1,7 @@
 Title: Analysera kontroverser i onlinemiljöer
 Date: 2017-11-02
 Category: Internet
+Tags: Gephi
 Authors: Christopher Kullenberg
 Slug: controversy
 Summary: Kartlägg vetenskapliga kontroverser i onlinemiljöer.

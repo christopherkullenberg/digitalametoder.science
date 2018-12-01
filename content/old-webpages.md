@@ -1,6 +1,7 @@
 Title: Hitta gamla webbsidor och nyhetssidor
 Date: 2018-03-10
 Category: Internet
+Tags: massmedier, Google, Wayback Machine
 Authors: Peter M. Dahlgren
 Slug: old-webpages
 Summary: Hitta gamla webbsidor eller nyhetssidor som tagits bort.

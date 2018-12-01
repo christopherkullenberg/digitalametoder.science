@@ -1,6 +1,7 @@
 Title: Norrköping Workshop
 Date: 2017-11-10
 Category: Workshop
+Tags: bibliometri, Gephi
 Authors: Christopher Kullenberg
 Slug: nkpg
 Summary: 

@@ -1,7 +1,7 @@
 Title: Instagram
 Date: 2018-02-27
-Category: Internet
-Tags: sociala medier
+Category: Sociala medier
+Tags: Instagram
 Authors: Christopher Kullenberg
 Slug: Instagram
 Summary: Instruktioner och verktyg för att hämta, processa och visualisera data från Instagram.

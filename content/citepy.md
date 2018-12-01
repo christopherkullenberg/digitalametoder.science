@@ -1,6 +1,7 @@
 Title: Citepy
 Date: 2017-11-11
 Category: Vetenskap
+Tags: bibliometri, Python
 Authors: Christopher Kullenberg
 Slug: citepy
 Summary: Web of Science.

@@ -1,7 +1,7 @@
 Title: Twitterdata
 Date: 2017-12-05
-Category: Internet
-Tags: sociala medier
+Category: Sociala medier
+Tags: Twitter
 Authors: Christopher Kullenberg
 Slug: twitter
 Summary: Instruktioner och verktyg för att hämta, processa och visualisera data från Twitter.
